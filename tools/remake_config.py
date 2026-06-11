@@ -126,6 +126,14 @@ def macro_text_for(key: str, value_after_semicolon: str) -> str:
     return f"/cast {key}"
 
 
+def bindpad_macro_name(section: str, key: str) -> str:
+    if section == "General":
+        return key
+    if " - " in section:
+        section = section.rsplit(" - ", 1)[1]
+    return f"{section} - {key}"
+
+
 def parse_and_generate(lines: list[str], suffix: str):
     pools: dict[str, list[tuple[str, str]]] = defaultdict(lambda: make_pool(suffix))
     used: dict[str, int] = defaultdict(int)
@@ -167,14 +175,10 @@ def parse_and_generate(lines: list[str], suffix: str):
         after_semicolon = value.split(";", 1)[1] if ";" in value else ""
         updated.append(f"{key}={ggl_bind};{after_semicolon}")
 
-        macro_name = key
-        if current_section != "General":
-            macro_name = f"{current_section} - {key}"
-
         bindpad_entries.append(
             {
                 "section": current_section,
-                "name": macro_name,
+                "name": bindpad_macro_name(current_section, key),
                 "bind": wow_bind,
                 "macro": macro_text_for(key, after_semicolon),
             }

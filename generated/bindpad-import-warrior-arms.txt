@@ -131,11 +131,11 @@
 
 #character
 
-[Warrior - Arms - START Secondary Rotation]
+[Arms - START Secondary Rotation]
 @bind CTRL-Q
 /cast START Secondary Rotation
 
-[Warrior - Arms - SwapWeapon]
+[Arms - SwapWeapon]
 @bind CTRL-R
 /stopcasting
 /equipslot [noworn:shield] 16 one-main-hand
@@ -154,65 +154,65 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 
 [3->4] meta slots
 
-[Warrior - Arms - Battle Shout]
+[Arms - Battle Shout]
 @bind CTRL-S
 /startattack
 /cast Battle Shout
 
-[Warrior - Arms - Berserker Roar | Berserker Shout | Berserker Rage]
+[Arms - Berserker Roar | Berserker Shout | Berserker Rage]
 @bind CTRL-T
 /cast Berserker Roar
 /cast Berserker Shout
 /cast Berserker Rage
 
-[Warrior - Arms - Charge]
+[Arms - Charge]
 @bind CTRL-U
 /startattack
 /cast [@mouseover,harm][]Charge
 
-[Warrior - Arms - Charge Arena1]
+[Arms - Charge Arena1]
 @bind CTRL-V
 /cast [@arena1]Charge
 
-[Warrior - Arms - Charge Arena2]
+[Arms - Charge Arena2]
 @bind CTRL-W
 /cast [@arena2]Charge
 
-[Warrior - Arms - Charge Arena3]
+[Arms - Charge Arena3]
 @bind CTRL-X
 /cast [@arena3]Charge
 
-[Warrior - Arms - Charge Arena4]
+[Arms - Charge Arena4]
 @bind CTRL-Y
 /cast [@arena4]Charge
 
-[Warrior - Arms - Charge Arena5]
+[Arms - Charge Arena5]
 @bind CTRL-Z
 /cast [@arena5]Charge
 
-[Warrior - Arms - Execute]
+[Arms - Execute]
 @bind ALT-1
 /cast Execute
 
-[Warrior - Arms - Hamstring]
+[Arms - Hamstring]
 @bind ALT-2
 /cast Hamstring
 
-[Warrior - Arms - Heroic Throw]
+[Arms - Heroic Throw]
 @bind ALT-3
 /cast Heroic Throw
 
-[Warrior - Arms - Interrupt]
+[Arms - Interrupt]
 @bind ALT-4
 /stopcasting
 /cast [@mouseover,harm][]Pummel
 
-[Warrior - Arms - Interrupt Focus]
+[Arms - Interrupt Focus]
 @bind ALT-5
 /stopcasting
 /cast [@focus]Pummel
 
-[Warrior - Arms - Interrupt Arena1]
+[Arms - Interrupt Arena1]
 @bind ALT-6
 /stopcasting
 /cast [@arena1]Pummel
@@ -220,7 +220,7 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arena1]Titanic Throw
 /cast [@arena1]Heroic Throw
 
-[Warrior - Arms - Interrupt Arena2]
+[Arms - Interrupt Arena2]
 @bind ALT-7
 /stopcasting
 /cast [@arena2]Pummel
@@ -228,7 +228,7 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arena2]Titanic Throw
 /cast [@arena2]Heroic Throw
 
-[Warrior - Arms - Interrupt Arena3]
+[Arms - Interrupt Arena3]
 @bind ALT-8
 /stopcasting
 /cast [@arena3]Pummel
@@ -236,7 +236,7 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arena3]Titanic Throw
 /cast [@arena3]Heroic Throw
 
-[Warrior - Arms - Interrupt Arena4]
+[Arms - Interrupt Arena4]
 @bind ALT-9
 /stopcasting
 /cast [@arena4]Pummel
@@ -244,7 +244,7 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arena4]Titanic Throw
 /cast [@arena4]Heroic Throw
 
-[Warrior - Arms - Interrupt Arena5]
+[Arms - Interrupt Arena5]
 @bind ALT-0
 /stopcasting
 /cast [@arena5]Pummel
@@ -252,25 +252,25 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arena5]Titanic Throw
 /cast [@arena5]Heroic Throw
 
-[Warrior - Arms - Shield Block]
+[Arms - Shield Block]
 @bind ALT-A
 /startattack
 /cast Shield Block
 
-[Warrior - Arms - Shield Slam]
+[Arms - Shield Slam]
 @bind ALT-B
 /cast Shield Slam
 
-[Warrior - Arms - Slam]
+[Arms - Slam]
 @bind ALT-C
 /cast Slam
 
-[Warrior - Arms - Taunt]
+[Arms - Taunt]
 @bind ALT-D
 /cast [@mouseover,harm][]Oppressor
 /cast [@mouseover,harm][]Taunt
 
-[Warrior - Arms - Taunt Pets]
+[Arms - Taunt Pets]
 @bind ALT-E
 /stopcasting
 /cast [@arenapet1,harm]Oppressor
@@ -284,1207 +284,1207 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@arenapet4,harm]Taunt
 /cast [@arenapet5,harm]Taunt
 
-[Warrior - Arms - Taunt Unit1]
+[Arms - Taunt Unit1]
 @bind ALT-F
 /stopcasting
 /cast [@raidpet1,harm][@raid1,harm][@partypet1,harm][@party1,harm][@arenapet1,harm][@arena1]Oppressor
 /cast [@raidpet1,harm][@raid1,harm][@partypet1,harm][@party1,harm][@arenapet1,harm][@arena1]Taunt
 
-[Warrior - Arms - Taunt Unit2]
+[Arms - Taunt Unit2]
 @bind ALT-G
 /stopcasting
 /cast [@raidpet2,harm][@raid2,harm][@partypet2,harm][@party2,harm][@arenapet2,harm][@arena2]Oppressor
 /cast [@raidpet2,harm][@raid2,harm][@partypet2,harm][@party2,harm][@arenapet2,harm][@arena2]Taunt
 
-[Warrior - Arms - Taunt Unit3]
+[Arms - Taunt Unit3]
 @bind ALT-H
 /stopcasting
 /cast [@raidpet3,harm][@raid3,harm][@partypet3,harm][@party3,harm][@arenapet3,harm][@arena3]Oppressor
 /cast [@raidpet3,harm][@raid3,harm][@partypet3,harm][@party3,harm][@arenapet3,harm][@arena3]Taunt
 
-[Warrior - Arms - Taunt Unit4]
+[Arms - Taunt Unit4]
 @bind ALT-I
 /stopcasting
 /cast [@raidpet4,harm][@raid4,harm][@partypet4,harm][@party4,harm][@arenapet4,harm][@arena4]Oppressor
 /cast [@raidpet4,harm][@raid4,harm][@partypet4,harm][@party4,harm][@arenapet4,harm][@arena4]Taunt
 
-[Warrior - Arms - Taunt Unit5]
+[Arms - Taunt Unit5]
 @bind ALT-J
 /stopcasting
 /cast [@raidpet5,harm][@raid5,harm][@pet,harm][@arenapet5,harm][@arena5]Oppressor
 /cast [@raidpet5,harm][@raid5,harm][@pet,harm][@arenapet5,harm][@arena5]Taunt
 
-[Warrior - Arms - Impending Victory | Victory Rush]
+[Arms - Impending Victory | Victory Rush]
 @bind ALT-K
 /cast Impending Victory
 /cast Victory Rush
 
-[Warrior - Arms - Whirlwind]
+[Arms - Whirlwind]
 @bind ALT-L
 /cast Whirlwind
 
-[Warrior - Arms - Battle Stance]
+[Arms - Battle Stance]
 @bind ALT-M
 /cast Battle Stance
 
-[Warrior - Arms - Defensive Stance]
+[Arms - Defensive Stance]
 @bind ALT-N
 /cast Defensive Stance
 
-[Warrior - Arms - Intervene]
+[Arms - Intervene]
 @bind ALT-O
 /stopcasting
 /cast [@mouseover,help][@focus,help][]Intervene
 
-[Warrior - Arms - Intervene Member1]
+[Arms - Intervene Member1]
 @bind ALT-P
 /run GetLOS(UnitExists('raid1') and 'raid1' or 'party1')
 /cast [@raid1,exists][@party1,exists]Intervene
 
-[Warrior - Arms - Intervene Member2]
+[Arms - Intervene Member2]
 @bind ALT-Q
 /run GetLOS(UnitExists('raid2') and 'raid2' or 'party2')
 /cast [@raid2,exists][@party2,exists]Intervene
 
-[Warrior - Arms - Intervene Member3]
+[Arms - Intervene Member3]
 @bind ALT-R
 /run GetLOS(UnitExists('raid3') and 'raid3' or 'party3')
 /cast [@raid3,exists][@party3,exists]Intervene
 
-[Warrior - Arms - Intervene Member4]
+[Arms - Intervene Member4]
 @bind ALT-S
 /run GetLOS(UnitExists('raid4') and 'raid4' or 'party4')
 /cast [@raid4,exists][@party4,exists]Intervene
 
-[Warrior - Arms - Intervene Member5]
+[Arms - Intervene Member5]
 @bind ALT-T
 /run GetLOS(UnitExists('raid5') and 'raid5' or 'player')
 /cast [@raid5,exists][@player,exists]Intervene
 
-[Warrior - Arms - Heroic Leap]
+[Arms - Heroic Leap]
 @bind ALT-U
 /cast Heroic Leap
 
-[Warrior - Arms - Storm Bolt]
+[Arms - Storm Bolt]
 @bind ALT-V
 /stopcasting
 /cast [@mouseover,harm][]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Focus]
+[Arms - Storm Bolt Focus]
 @bind ALT-W
 /stopcasting
 /cast [@focus]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Arena1]
+[Arms - Storm Bolt Arena1]
 @bind ALT-X
 /stopcasting
 /cast [@arena1]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Arena2]
+[Arms - Storm Bolt Arena2]
 @bind ALT-Y
 /stopcasting
 /cast [@arena2]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Arena3]
+[Arms - Storm Bolt Arena3]
 @bind ALT-Z
 /stopcasting
 /cast [@arena3]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Arena4]
+[Arms - Storm Bolt Arena4]
 @bind CTRL-ALT-1
 /stopcasting
 /cast [@arena4]Storm Bolt
 
-[Warrior - Arms - Storm Bolt Arena5]
+[Arms - Storm Bolt Arena5]
 @bind CTRL-ALT-2
 /stopcasting
 /cast [@arena5]Storm Bolt
 
-[Warrior - Arms - Intimidating Shout]
+[Arms - Intimidating Shout]
 @bind CTRL-ALT-3
 /stopattack
 /cast [@mouseover,harm][]Intimidating Shout
 
-[Warrior - Arms - Intimidating Shout Arena1]
+[Arms - Intimidating Shout Arena1]
 @bind CTRL-ALT-4
 /cast [@arena1]Intimidating Shout
 
-[Warrior - Arms - Intimidating Shout Arena2]
+[Arms - Intimidating Shout Arena2]
 @bind CTRL-ALT-5
 /cast [@arena2]Intimidating Shout
 
-[Warrior - Arms - Intimidating Shout Arena3]
+[Arms - Intimidating Shout Arena3]
 @bind CTRL-ALT-6
 /cast [@arena3]Intimidating Shout
 
-[Warrior - Arms - Intimidating Shout Arena4]
+[Arms - Intimidating Shout Arena4]
 @bind CTRL-ALT-7
 /cast [@arena4]Intimidating Shout
 
-[Warrior - Arms - Intimidating Shout Arena5]
+[Arms - Intimidating Shout Arena5]
 @bind CTRL-ALT-8
 /cast [@arena5]Intimidating Shout
 
-[Warrior - Arms - Thunder Clap]
+[Arms - Thunder Clap]
 @bind CTRL-ALT-9
 /cast Thunder Clap
 
-[Warrior - Arms - Spell Reflection]
+[Arms - Spell Reflection]
 @bind CTRL-ALT-0
 /startattack
 /stopcasting
 /cast Spell Reflection
 
-[Warrior - Arms - Rallying Cry]
+[Arms - Rallying Cry]
 @bind CTRL-ALT-A
 /startattack
 /cast Rallying Cry
 
-[Warrior - Arms - Shockwave]
+[Arms - Shockwave]
 @bind CTRL-ALT-B
 /cast Shockwave
 
-[Warrior - Arms - Bitter Immunity]
+[Arms - Bitter Immunity]
 @bind CTRL-ALT-C
 /cast Bitter Immunity
 
-[Warrior - Arms - Wrecking Throw | Shattering Throw]
+[Arms - Wrecking Throw | Shattering Throw]
 @bind CTRL-ALT-D
 /cast Wrecking Throw
 /cast Shattering Throw
 
-[Warrior - Arms - Piercing Howl]
+[Arms - Piercing Howl]
 @bind CTRL-ALT-E
 /cast Piercing Howl
 
-[Warrior - Arms - Thunderous Roar]
+[Arms - Thunderous Roar]
 @bind CTRL-ALT-F
 /cast Thunderous Roar
 
-[Warrior - Arms - Avatar]
+[Arms - Avatar]
 @bind CTRL-ALT-G
 /startattack
 /cast Avatar
 
-[Warrior - Arms - Champion's Spear]
+[Arms - Champion's Spear]
 @bind CTRL-ALT-H
 /cast [combat,@player][]Champion's Spear
 
-[Warrior - Arms - Sweeping Strikes]
+[Arms - Sweeping Strikes]
 @bind CTRL-ALT-I
 /cast Sweeping Strikes
 
-[Warrior - Arms - Cleave]
+[Arms - Cleave]
 @bind CTRL-ALT-J
 /cast Cleave
 
-[Warrior - Arms - Demolish]
+[Arms - Demolish]
 @bind CTRL-ALT-K
 /cast Demolish
 
-[Warrior - Arms - Die by the Sword]
+[Arms - Die by the Sword]
 @bind CTRL-ALT-L
 /cast Die by the Sword
 
-[Warrior - Arms - Ignore Pain]
+[Arms - Ignore Pain]
 @bind CTRL-ALT-M
 /startattack
 /cast Ignore Pain
 
-[Warrior - Arms - Mortal Strike]
+[Arms - Mortal Strike]
 @bind CTRL-ALT-N
 /cast Mortal Strike
 
-[Warrior - Arms - Overpower]
+[Arms - Overpower]
 @bind CTRL-ALT-O
 /cast Overpower
 
-[Warrior - Arms - Bladestorm | Ravager]
+[Arms - Bladestorm | Ravager]
 @bind CTRL-ALT-P
 /cast Bladestorm
 /cast [combat,@player][]Ravager
 
-[Warrior - Arms - Rend]
+[Arms - Rend]
 @bind CTRL-ALT-Q
 /cast Rend
 
-[Warrior - Arms - Rend Arena1]
+[Arms - Rend Arena1]
 @bind CTRL-ALT-R
 /cast [@arena1]Rend
 
-[Warrior - Arms - Rend Arena2]
+[Arms - Rend Arena2]
 @bind CTRL-ALT-S
 /cast [@arena2]Rend
 
-[Warrior - Arms - Rend Arena3]
+[Arms - Rend Arena3]
 @bind CTRL-ALT-T
 /cast [@arena3]Rend
 
-[Warrior - Arms - Rend Arena4]
+[Arms - Rend Arena4]
 @bind CTRL-ALT-U
 /cast [@arena4]Rend
 
-[Warrior - Arms - Rend Arena5]
+[Arms - Rend Arena5]
 @bind CTRL-ALT-V
 /cast [@arena5]Rend
 
-[Warrior - Arms - Skullsplitter]
+[Arms - Skullsplitter]
 @bind CTRL-ALT-W
 /cast Skullsplitter
 
-[Warrior - Arms - Warbreaker | Colossus Smash]
+[Arms - Warbreaker | Colossus Smash]
 @bind CTRL-ALT-X
 /cast Warbreaker
 /cast Colossus Smash
 
-[Warrior - Arms - Disarm]
+[Arms - Disarm]
 @bind CTRL-ALT-Y
 /stopcasting
 /cast [@mouseover,harm][]Disarm
 
-[Warrior - Arms - Disarm Arena1]
+[Arms - Disarm Arena1]
 @bind CTRL-ALT-Z
 /stopcasting
 /cast [@arena1]Disarm
 
-[Warrior - Arms - Disarm Arena2]
+[Arms - Disarm Arena2]
 @bind CTRL-SHIFT-1
 /stopcasting
 /cast [@arena2]Disarm
 
-[Warrior - Arms - Disarm Arena3]
+[Arms - Disarm Arena3]
 @bind CTRL-SHIFT-2
 /stopcasting
 /cast [@arena3]Disarm
 
-[Warrior - Arms - Disarm Arena4]
+[Arms - Disarm Arena4]
 @bind CTRL-SHIFT-3
 /stopcasting
 /cast [@arena4]Disarm
 
-[Warrior - Arms - Disarm Arena5]
+[Arms - Disarm Arena5]
 @bind CTRL-SHIFT-4
 /stopcasting
 /cast [@arena5]Disarm
 
-[Warrior - Arms - Duel]
+[Arms - Duel]
 @bind CTRL-SHIFT-5
 /startattack
 /cast Duel
 
-[Warrior - Arms - Duel Arena1]
+[Arms - Duel Arena1]
 @bind CTRL-SHIFT-6
 /cast [@arena1]Duel
 
-[Warrior - Arms - Duel Arena2]
+[Arms - Duel Arena2]
 @bind CTRL-SHIFT-7
 /cast [@arena2]Duel
 
-[Warrior - Arms - Duel Arena3]
+[Arms - Duel Arena3]
 @bind CTRL-SHIFT-8
 /cast [@arena3]Duel
 
-[Warrior - Arms - Duel Arena4]
+[Arms - Duel Arena4]
 @bind CTRL-SHIFT-9
 /cast [@arena4]Duel
 
-[Warrior - Arms - Duel Arena5]
+[Arms - Duel Arena5]
 @bind CTRL-SHIFT-0
 /cast [@arena5]Duel
 
-[Warrior - Arms - Sharpen Blade]
+[Arms - Sharpen Blade]
 @bind CTRL-SHIFT-A
 /startattack
 /cast Sharpen Blade
 
-[Warrior - Arms - Human Racial]
+[Arms - Human Racial]
 @bind CTRL-SHIFT-B
 /cast Human Racial
 
-[Warrior - Arms - Stoneform]
+[Arms - Stoneform]
 @bind CTRL-SHIFT-C
 /cast Stoneform
 
-[Warrior - Arms - Shadowmeld]
+[Arms - Shadowmeld]
 @bind CTRL-SHIFT-D
 /cast Shadowmeld
 
-[Warrior - Arms - Escape Artist]
+[Arms - Escape Artist]
 @bind CTRL-SHIFT-E
 /cast Escape Artist
 
-[Warrior - Arms - Gift of the Naaru]
+[Arms - Gift of the Naaru]
 @bind CTRL-SHIFT-F
 /cast [@mouseover,help][@focus,help][]Gift of the Naaru
 
-[Warrior - Arms - Darkflight]
+[Arms - Darkflight]
 @bind CTRL-SHIFT-G
 /cast Darkflight
 
-[Warrior - Arms - Blood Fury]
+[Arms - Blood Fury]
 @bind CTRL-SHIFT-H
 /cast Blood Fury
 
-[Warrior - Arms - Will of the Forsaken]
+[Arms - Will of the Forsaken]
 @bind CTRL-SHIFT-I
 /cast Will of the Forsaken
 
-[Warrior - Arms - War Stomp]
+[Arms - War Stomp]
 @bind CTRL-SHIFT-J
 /cast War Stomp
 
-[Warrior - Arms - Berserking]
+[Arms - Berserking]
 @bind CTRL-SHIFT-K
 /cast Berserking
 
-[Warrior - Arms - Arcane Torrent]
+[Arms - Arcane Torrent]
 @bind CTRL-SHIFT-L
 /cast Arcane Torrent
 
-[Warrior - Arms - Rocket Jump]
+[Arms - Rocket Jump]
 @bind CTRL-SHIFT-M
 /cast Rocket Jump
 
-[Warrior - Arms - Rocket Barrage]
+[Arms - Rocket Barrage]
 @bind CTRL-SHIFT-N
 /cast Rocket Barrage
 
-[Warrior - Arms - Quaking Palm]
+[Arms - Quaking Palm]
 @bind CTRL-SHIFT-O
 /cast [@mouseover,harm][]Quaking Palm
 
-[Warrior - Arms - Spatial Rift]
+[Arms - Spatial Rift]
 @bind CTRL-SHIFT-P
 /cast Spatial Rift
 
-[Warrior - Arms - Light's Judgment]
+[Arms - Light's Judgment]
 @bind CTRL-SHIFT-Q
 /cast Light's Judgment
 
-[Warrior - Arms - Fireblood]
+[Arms - Fireblood]
 @bind CTRL-SHIFT-R
 /cast Fireblood
 
-[Warrior - Arms - Arcane Pulse]
+[Arms - Arcane Pulse]
 @bind CTRL-SHIFT-S
 /cast Arcane Pulse
 
-[Warrior - Arms - Bull Rush]
+[Arms - Bull Rush]
 @bind CTRL-SHIFT-T
 /cast Bull Rush
 
-[Warrior - Arms - Ancestral Call]
+[Arms - Ancestral Call]
 @bind CTRL-SHIFT-U
 /cast Ancestral Call
 
-[Warrior - Arms - Haymaker]
+[Arms - Haymaker]
 @bind CTRL-SHIFT-V
 /cast [@mouseover,harm][]Haymaker
 
-[Warrior - Arms - Regeneratin]
+[Arms - Regeneratin]
 @bind CTRL-SHIFT-W
 /cast Regeneratin
 
-[Warrior - Arms - Bag of Tricks]
+[Arms - Bag of Tricks]
 @bind CTRL-SHIFT-X
 /cast [nocombat]Rummage Your Bag;[combat,@mouseover,exists][combat]Bag of Tricks
 
-[Warrior - Arms - Hyper Organic Light Originator]
+[Arms - Hyper Organic Light Originator]
 @bind CTRL-SHIFT-Y
 /cast Hyper Organic Light Originator
 
-[Warrior - Arms - Azerite Surge]
+[Arms - Azerite Surge]
 @bind CTRL-SHIFT-Z
 /cast Azerite Surge
 
-[Warrior - Arms - Rotation]
+[Arms - Rotation]
 @bind ALT-SHIFT-1
 /cast Rotation
 
-[Warrior - Arms - Target Member1]
+[Arms - Target Member1]
 @bind ALT-SHIFT-2
 /focus [mod:ctrl]raidpet1; [mod:alt]party1; raid1
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member2]
+[Arms - Target Member2]
 @bind ALT-SHIFT-3
 /focus [mod:ctrl]raidpet2; [mod:alt]party2; raid2
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member3]
+[Arms - Target Member3]
 @bind ALT-SHIFT-4
 /focus [mod:ctrl]raidpet3; [mod:alt]party3; raid3
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member4]
+[Arms - Target Member4]
 @bind ALT-SHIFT-5
 /focus [mod:ctrl]raidpet4; [mod:alt]party4; raid4
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member5]
+[Arms - Target Member5]
 @bind ALT-SHIFT-6
 /focus [mod:ctrl]raidpet5; [mod:alt]player; raid5
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member6]
+[Arms - Target Member6]
 @bind ALT-SHIFT-7
 /focus [mod:ctrl]raidpet6; [mod:alt]focus; raid6
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member7]
+[Arms - Target Member7]
 @bind ALT-SHIFT-8
 /focus [mod:ctrl]raidpet7; [mod:alt]partypet1; raid7
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member8]
+[Arms - Target Member8]
 @bind ALT-SHIFT-9
 /focus [mod:ctrl]raidpet8; [mod:alt]partypet2; raid8
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member9]
+[Arms - Target Member9]
 @bind ALT-SHIFT-0
 /focus [mod:ctrl]raidpet9; [mod:alt]partypet3; raid9
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member10]
+[Arms - Target Member10]
 @bind ALT-SHIFT-A
 /focus [mod:ctrl]raidpet10; [mod:alt]partypet4; raid10
 
 Note: Don't use ALT CTRL to bind this key!
 
-[Warrior - Arms - Target Member11]
+[Arms - Target Member11]
 @bind ALT-SHIFT-B
 /focus [mod:ctrl]raidpet11; raid11
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member12]
+[Arms - Target Member12]
 @bind ALT-SHIFT-C
 /focus [mod:ctrl]raidpet12; raid12
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member13]
+[Arms - Target Member13]
 @bind ALT-SHIFT-D
 /focus [mod:ctrl]raidpet13; raid13
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member14]
+[Arms - Target Member14]
 @bind ALT-SHIFT-E
 /focus [mod:ctrl]raidpet14; raid14
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member15]
+[Arms - Target Member15]
 @bind ALT-SHIFT-F
 /focus [mod:ctrl]raidpet15; raid15
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member16]
+[Arms - Target Member16]
 @bind ALT-SHIFT-G
 /focus [mod:ctrl]raidpet16; raid16
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member17]
+[Arms - Target Member17]
 @bind ALT-SHIFT-H
 /focus [mod:ctrl]raidpet17; raid17
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member18]
+[Arms - Target Member18]
 @bind ALT-SHIFT-I
 /focus [mod:ctrl]raidpet18; raid18
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member19]
+[Arms - Target Member19]
 @bind ALT-SHIFT-J
 /focus [mod:ctrl]raidpet19; raid19
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member20]
+[Arms - Target Member20]
 @bind ALT-SHIFT-K
 /focus [mod:ctrl]raidpet20; raid20
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member21]
+[Arms - Target Member21]
 @bind ALT-SHIFT-L
 /focus [mod:ctrl]raidpet21; raid21
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member22]
+[Arms - Target Member22]
 @bind ALT-SHIFT-M
 /focus [mod:ctrl]raidpet22; raid22
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member23]
+[Arms - Target Member23]
 @bind ALT-SHIFT-N
 /focus [mod:ctrl]raidpet23; raid23
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member24]
+[Arms - Target Member24]
 @bind ALT-SHIFT-O
 /focus [mod:ctrl]raidpet24; raid24
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member25]
+[Arms - Target Member25]
 @bind ALT-SHIFT-P
 /focus [mod:ctrl]raidpet25; raid25
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member26]
+[Arms - Target Member26]
 @bind ALT-SHIFT-Q
 /focus [mod:ctrl]raidpet26; raid26
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member27]
+[Arms - Target Member27]
 @bind ALT-SHIFT-R
 /focus [mod:ctrl]raidpet27; raid27
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member28]
+[Arms - Target Member28]
 @bind ALT-SHIFT-S
 /focus [mod:ctrl]raidpet28; raid28
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member29]
+[Arms - Target Member29]
 @bind ALT-SHIFT-T
 /focus [mod:ctrl]raidpet29; raid29
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member30]
+[Arms - Target Member30]
 @bind ALT-SHIFT-U
 /focus [mod:ctrl]raidpet30; raid30
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member31]
+[Arms - Target Member31]
 @bind ALT-SHIFT-V
 /focus [mod:ctrl]raidpet31; raid31
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member32]
+[Arms - Target Member32]
 @bind ALT-SHIFT-W
 /focus [mod:ctrl]raidpet32; raid32
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member33]
+[Arms - Target Member33]
 @bind ALT-SHIFT-X
 /focus [mod:ctrl]raidpet33; raid33
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member34]
+[Arms - Target Member34]
 @bind ALT-SHIFT-Y
 /focus [mod:ctrl]raidpet34; raid34
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member35]
+[Arms - Target Member35]
 @bind ALT-SHIFT-Z
 /focus [mod:ctrl]raidpet35; raid35
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member36]
+[Arms - Target Member36]
 @bind CTRL-ALT-SHIFT-1
 /focus [mod:ctrl]raidpet36; raid36
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member37]
+[Arms - Target Member37]
 @bind CTRL-ALT-SHIFT-2
 /focus [mod:ctrl]raidpet37; raid37
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member38]
+[Arms - Target Member38]
 @bind CTRL-ALT-SHIFT-3
 /focus [mod:ctrl]raidpet38; raid38
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member39]
+[Arms - Target Member39]
 @bind CTRL-ALT-SHIFT-4
 /focus [mod:ctrl]raidpet39; raid39
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Target Member40]
+[Arms - Target Member40]
 @bind CTRL-ALT-SHIFT-5
 /focus [mod:ctrl]raidpet40; raid40
 
 Note: Don't use CTRL to bind this key!
 
-[Warrior - Arms - Secondary Rotation]
+[Arms - Secondary Rotation]
 @bind CTRL-ALT-SHIFT-6
 /cast Secondary Rotation
 
-[Warrior - Arms - Trinket Rotation]
+[Arms - Trinket Rotation]
 @bind CTRL-ALT-SHIFT-7
 /cast Trinket Rotation
 
-[Warrior - Arms - AntiFake CC]
+[Arms - AntiFake CC]
 @bind CTRL-ALT-SHIFT-8
 /cast AntiFake CC
 
-[Warrior - Arms - AntiFake CC Focus]
+[Arms - AntiFake CC Focus]
 @bind CTRL-ALT-SHIFT-9
 /cast AntiFake CC Focus
 
-[Warrior - Arms - AntiFake Interrupt]
+[Arms - AntiFake Interrupt]
 @bind CTRL-ALT-SHIFT-0
 /cast AntiFake Interrupt
 
-[Warrior - Arms - AntiFake Interrupt Focus]
+[Arms - AntiFake Interrupt Focus]
 @bind CTRL-ALT-SHIFT-A
 /cast AntiFake Interrupt Focus
 
-[Warrior - Arms - AntiFake CC2]
+[Arms - AntiFake CC2]
 @bind CTRL-ALT-SHIFT-B
 /cast AntiFake CC2
 
-[Warrior - Arms - AntiFake CC2 Focus]
+[Arms - AntiFake CC2 Focus]
 @bind CTRL-ALT-SHIFT-C
 /cast AntiFake CC2 Focus
 
-[Warrior - Arms - Potion]
+[Arms - Potion]
 @bind CTRL-ALT-SHIFT-D
 /cast Potion
 
-[Warrior - Arms - Universal1]
+[Arms - Universal1]
 @bind CTRL-ALT-SHIFT-E
 /cast Universal1
 
-[Warrior - Arms - Universal2]
+[Arms - Universal2]
 @bind CTRL-ALT-SHIFT-F
 /cast Universal2
 
-[Warrior - Arms - Universal3]
+[Arms - Universal3]
 @bind CTRL-ALT-SHIFT-G
 /cast Universal3
 
-[Warrior - Arms - Universal4]
+[Arms - Universal4]
 @bind CTRL-ALT-SHIFT-H
 /cast Universal4
 
-[Warrior - Arms - Universal5]
+[Arms - Universal5]
 @bind CTRL-ALT-SHIFT-I
 /cast Universal5
 
-[Warrior - Arms - Universal6]
+[Arms - Universal6]
 @bind CTRL-ALT-SHIFT-J
 /cast Universal6
 
-[Warrior - Arms - Universal7]
+[Arms - Universal7]
 @bind CTRL-ALT-SHIFT-K
 /cast Universal7
 
-[Warrior - Arms - Universal8]
+[Arms - Universal8]
 @bind CTRL-ALT-SHIFT-L
 /cast Universal8
 
-[Warrior - Arms - Universal9]
+[Arms - Universal9]
 @bind CTRL-ALT-SHIFT-M
 /cast Universal9
 
-[Warrior - Arms - Universal10]
+[Arms - Universal10]
 @bind CTRL-ALT-SHIFT-N
 /cast Universal10
 
-[Warrior - Arms - Universal1 Unit1]
+[Arms - Universal1 Unit1]
 @bind CTRL-ALT-SHIFT-O
 /cast Universal1 Unit1
 
-[Warrior - Arms - Universal1 Unit2]
+[Arms - Universal1 Unit2]
 @bind CTRL-ALT-SHIFT-P
 /cast Universal1 Unit2
 
-[Warrior - Arms - Universal1 Unit3]
+[Arms - Universal1 Unit3]
 @bind CTRL-ALT-SHIFT-Q
 /cast Universal1 Unit3
 
-[Warrior - Arms - Universal1 Unit4]
+[Arms - Universal1 Unit4]
 @bind CTRL-ALT-SHIFT-R
 /cast Universal1 Unit4
 
-[Warrior - Arms - Universal1 Unit5]
+[Arms - Universal1 Unit5]
 @bind CTRL-ALT-SHIFT-S
 /cast Universal1 Unit5
 
-[Warrior - Arms - Universal2 Unit1]
+[Arms - Universal2 Unit1]
 @bind CTRL-ALT-SHIFT-T
 /cast Universal2 Unit1
 
-[Warrior - Arms - Universal2 Unit2]
+[Arms - Universal2 Unit2]
 @bind CTRL-ALT-SHIFT-U
 /cast Universal2 Unit2
 
-[Warrior - Arms - Universal2 Unit3]
+[Arms - Universal2 Unit3]
 @bind CTRL-ALT-SHIFT-V
 /cast Universal2 Unit3
 
-[Warrior - Arms - Universal2 Unit4]
+[Arms - Universal2 Unit4]
 @bind CTRL-ALT-SHIFT-W
 /cast Universal2 Unit4
 
-[Warrior - Arms - Universal2 Unit5]
+[Arms - Universal2 Unit5]
 @bind CTRL-ALT-SHIFT-X
 /cast Universal2 Unit5
 
-[Warrior - Arms - Universal3 Unit1]
+[Arms - Universal3 Unit1]
 @bind CTRL-ALT-SHIFT-Y
 /cast Universal3 Unit1
 
-[Warrior - Arms - Universal3 Unit2]
+[Arms - Universal3 Unit2]
 @bind CTRL-ALT-SHIFT-Z
 /cast Universal3 Unit2
 
-[Warrior - Arms - Universal3 Unit3]
+[Arms - Universal3 Unit3]
 @bind CTRL-F1
 /cast Universal3 Unit3
 
-[Warrior - Arms - Universal3 Unit4]
+[Arms - Universal3 Unit4]
 @bind CTRL-F2
 /cast Universal3 Unit4
 
-[Warrior - Arms - Universal3 Unit5]
+[Arms - Universal3 Unit5]
 @bind CTRL-F3
 /cast Universal3 Unit5
 
-[Warrior - Arms - Universal4 Unit1]
+[Arms - Universal4 Unit1]
 @bind CTRL-F4
 /cast Universal4 Unit1
 
-[Warrior - Arms - Universal4 Unit2]
+[Arms - Universal4 Unit2]
 @bind CTRL-F5
 /cast Universal4 Unit2
 
-[Warrior - Arms - Universal4 Unit3]
+[Arms - Universal4 Unit3]
 @bind CTRL-F6
 /cast Universal4 Unit3
 
-[Warrior - Arms - Universal4 Unit4]
+[Arms - Universal4 Unit4]
 @bind CTRL-F7
 /cast Universal4 Unit4
 
-[Warrior - Arms - Universal4 Unit5]
+[Arms - Universal4 Unit5]
 @bind CTRL-F8
 /cast Universal4 Unit5
 
-[Warrior - Arms - Universal5 Unit1]
+[Arms - Universal5 Unit1]
 @bind CTRL-F9
 /cast Universal5 Unit1
 
-[Warrior - Arms - Universal5 Unit2]
+[Arms - Universal5 Unit2]
 @bind CTRL-F10
 /cast Universal5 Unit2
 
-[Warrior - Arms - Universal5 Unit3]
+[Arms - Universal5 Unit3]
 @bind CTRL-F11
 /cast Universal5 Unit3
 
-[Warrior - Arms - Universal5 Unit4]
+[Arms - Universal5 Unit4]
 @bind CTRL-F12
 /cast Universal5 Unit4
 
-[Warrior - Arms - Universal5 Unit5]
+[Arms - Universal5 Unit5]
 @bind ALT-F1
 /cast Universal5 Unit5
 
-[Warrior - Arms - Universal6 Unit1]
+[Arms - Universal6 Unit1]
 @bind ALT-F2
 /cast Universal6 Unit1
 
-[Warrior - Arms - Universal6 Unit2]
+[Arms - Universal6 Unit2]
 @bind ALT-F3
 /cast Universal6 Unit2
 
-[Warrior - Arms - Universal6 Unit3]
+[Arms - Universal6 Unit3]
 @bind ALT-F4
 /cast Universal6 Unit3
 
-[Warrior - Arms - Universal6 Unit4]
+[Arms - Universal6 Unit4]
 @bind ALT-F5
 /cast Universal6 Unit4
 
-[Warrior - Arms - Universal6 Unit5]
+[Arms - Universal6 Unit5]
 @bind ALT-F6
 /cast Universal6 Unit5
 
-[Warrior - Arms - Universal7 Unit1]
+[Arms - Universal7 Unit1]
 @bind ALT-F7
 /cast Universal7 Unit1
 
-[Warrior - Arms - Universal7 Unit2]
+[Arms - Universal7 Unit2]
 @bind ALT-F8
 /cast Universal7 Unit2
 
-[Warrior - Arms - Universal7 Unit3]
+[Arms - Universal7 Unit3]
 @bind ALT-F9
 /cast Universal7 Unit3
 
-[Warrior - Arms - Universal7 Unit4]
+[Arms - Universal7 Unit4]
 @bind ALT-F10
 /cast Universal7 Unit4
 
-[Warrior - Arms - Universal7 Unit5]
+[Arms - Universal7 Unit5]
 @bind ALT-F11
 /cast Universal7 Unit5
 
-[Warrior - Arms - Universal8 Unit1]
+[Arms - Universal8 Unit1]
 @bind ALT-F12
 /cast Universal8 Unit1
 
-[Warrior - Arms - Universal8 Unit2]
+[Arms - Universal8 Unit2]
 @bind CTRL-ALT-F1
 /cast Universal8 Unit2
 
-[Warrior - Arms - Universal8 Unit3]
+[Arms - Universal8 Unit3]
 @bind CTRL-ALT-F2
 /cast Universal8 Unit3
 
-[Warrior - Arms - Universal8 Unit4]
+[Arms - Universal8 Unit4]
 @bind CTRL-ALT-F3
 /cast Universal8 Unit4
 
-[Warrior - Arms - Universal8 Unit5]
+[Arms - Universal8 Unit5]
 @bind CTRL-ALT-F4
 /cast Universal8 Unit5
 
-[Warrior - Arms - Universal9 Unit1]
+[Arms - Universal9 Unit1]
 @bind CTRL-ALT-F5
 /cast Universal9 Unit1
 
-[Warrior - Arms - Universal9 Unit2]
+[Arms - Universal9 Unit2]
 @bind CTRL-ALT-F6
 /cast Universal9 Unit2
 
-[Warrior - Arms - Universal9 Unit3]
+[Arms - Universal9 Unit3]
 @bind CTRL-ALT-F7
 /cast Universal9 Unit3
 
-[Warrior - Arms - Universal9 Unit4]
+[Arms - Universal9 Unit4]
 @bind CTRL-ALT-F8
 /cast Universal9 Unit4
 
-[Warrior - Arms - Universal9 Unit5]
+[Arms - Universal9 Unit5]
 @bind CTRL-ALT-F9
 /cast Universal9 Unit5
 
-[Warrior - Arms - Universal10 Unit1]
+[Arms - Universal10 Unit1]
 @bind CTRL-ALT-F10
 /cast Universal10 Unit1
 
-[Warrior - Arms - Universal10 Unit2]
+[Arms - Universal10 Unit2]
 @bind CTRL-ALT-F11
 /cast Universal10 Unit2
 
-[Warrior - Arms - Universal10 Unit3]
+[Arms - Universal10 Unit3]
 @bind CTRL-ALT-F12
 /cast Universal10 Unit3
 
-[Warrior - Arms - Universal10 Unit4]
+[Arms - Universal10 Unit4]
 @bind CTRL-SHIFT-F1
 /cast Universal10 Unit4
 
-[Warrior - Arms - Universal10 Unit5]
+[Arms - Universal10 Unit5]
 @bind CTRL-SHIFT-F2
 /cast Universal10 Unit5
 
-[Warrior - Arms - Every Man for Himself]
+[Arms - Every Man for Himself]
 @bind CTRL-SHIFT-F3
 /cast Every Man for Himself
 
-[Warrior - Arms - Dark Flight]
+[Arms - Dark Flight]
 @bind CTRL-SHIFT-F4
 /cast Dark Flight
 
-[Warrior - Arms - Ravager]
+[Arms - Ravager]
 @bind CTRL-SHIFT-F5
 /cast Ravager
 
-[Warrior - Arms - Warbreaker]
+[Arms - Warbreaker]
 @bind CTRL-SHIFT-F6
 /cast Warbreaker
 
-[Warrior - Arms - Colossus Smash]
+[Arms - Colossus Smash]
 @bind CTRL-SHIFT-F7
 /cast Colossus Smash
 
-[Warrior - Arms - Test of Might]
+[Arms - Test of Might]
 @bind CTRL-SHIFT-F8
 /cast Test of Might
 
-[Warrior - Arms - Bladestorm]
+[Arms - Bladestorm]
 @bind CTRL-SHIFT-F9
 /cast Bladestorm
 
-[Warrior - Arms - Tideof Blood]
+[Arms - Tideof Blood]
 @bind CTRL-SHIFT-F10
 /cast Tideof Blood
 
-[Warrior - Arms - Battlelord]
+[Arms - Battlelord]
 @bind CTRL-SHIFT-F11
 /cast Battlelord
 
-[Warrior - Arms - Unhinged]
+[Arms - Unhinged]
 @bind CTRL-SHIFT-F12
 /cast Unhinged
 
-[Warrior - Arms - Fervorof Battle]
+[Arms - Fervorof Battle]
 @bind ALT-SHIFT-F1
 /cast Fervorof Battle
 
-[Warrior - Arms - Heroic Strike]
+[Arms - Heroic Strike]
 @bind ALT-SHIFT-F2
 /cast Heroic Strike
 
-[Warrior - Arms - Impending Victory]
+[Arms - Impending Victory]
 @bind ALT-SHIFT-F3
 /cast Impending Victory
 
-[Warrior - Arms - Wrecking Throw]
+[Arms - Wrecking Throw]
 @bind ALT-SHIFT-F4
 /cast Wrecking Throw
 
-[Warrior - Arms - Massacre]
+[Arms - Massacre]
 @bind ALT-SHIFT-F5
 /cast Massacre
 
-[Warrior - Arms - Sonic Boom]
+[Arms - Sonic Boom]
 @bind ALT-SHIFT-F6
 /cast Sonic Boom
 
-[Warrior - Arms - Bloodand Thunder]
+[Arms - Bloodand Thunder]
 @bind ALT-SHIFT-F7
 /cast Bloodand Thunder
 
-[Warrior - Arms - Blademasters Torment]
+[Arms - Blademasters Torment]
 @bind ALT-SHIFT-F8
 /cast Blademasters Torment
 
-[Warrior - Arms - Stormof Swords]
+[Arms - Stormof Swords]
 @bind ALT-SHIFT-F9
 /cast Stormof Swords
 
-[Warrior - Arms - Crushing Force]
+[Arms - Crushing Force]
 @bind ALT-SHIFT-F10
 /cast Crushing Force
 
-[Warrior - Arms - Warlords Torment]
+[Arms - Warlords Torment]
 @bind ALT-SHIFT-F11
 /cast Warlords Torment
 
-[Warrior - Arms - Bloodletting]
+[Arms - Bloodletting]
 @bind ALT-SHIFT-F12
 /cast Bloodletting
 
-[Warrior - Arms - Improved Slam]
+[Arms - Improved Slam]
 @bind CTRL-ALT-SHIFT-F1
 /cast Improved Slam
 
-[Warrior - Arms - Merciless Bonegrinder]
+[Arms - Merciless Bonegrinder]
 @bind CTRL-ALT-SHIFT-F2
 /cast Merciless Bonegrinder
 
-[Warrior - Arms - Strengthof Arms]
+[Arms - Strengthof Arms]
 @bind CTRL-ALT-SHIFT-F3
 /cast Strengthof Arms
 
-[Warrior - Arms - Executioners Precision]
+[Arms - Executioners Precision]
 @bind CTRL-ALT-SHIFT-F4
 /cast Executioners Precision
 
-[Warrior - Arms - Juggernaut]
+[Arms - Juggernaut]
 @bind CTRL-ALT-SHIFT-F5
 /cast Juggernaut
 
-[Warrior - Arms - Fierce Followthrough]
+[Arms - Fierce Followthrough]
 @bind CTRL-ALT-SHIFT-F6
 /cast Fierce Followthrough
 
-[Warrior - Arms - Slayers Dominance]
+[Arms - Slayers Dominance]
 @bind CTRL-ALT-SHIFT-F7
 /cast Slayers Dominance
 
-[Warrior - Arms - Pummel]
+[Arms - Pummel]
 @bind CTRL-ALT-SHIFT-F8
 /cast Pummel
 
-[Warrior - Arms - Seethe]
+[Arms - Seethe]
 @bind CTRL-ALT-SHIFT-F9
 /cast Seethe
 
-[Warrior - Arms - Overwatch]
+[Arms - Overwatch]
 @bind CTRL-ALT-SHIFT-F10
 /cast Overwatch
 
-[Warrior - Arms - Shattering Throw]
+[Arms - Shattering Throw]
 @bind CTRL-ALT-SHIFT-F11
 /cast Shattering Throw
 
-[Warrior - Arms - Enduring Rage]
+[Arms - Enduring Rage]
 @bind CTRL-ALT-SHIFT-F12
 /cast Enduring Rage
 
-[Warrior - Arms - Bloodrage]
+[Arms - Bloodrage]
 @bind CTRL-NUMPAD1
 /cast Bloodrage
 
-[Warrior - Arms - Death Wish]
+[Arms - Death Wish]
 @bind CTRL-NUMPAD2
 /cast Death Wish
 
-[Warrior - Arms - Demolition]
+[Arms - Demolition]
 @bind CTRL-NUMPAD3
 /cast Demolition
 
-[Warrior - Arms - War Banner]
+[Arms - War Banner]
 @bind CTRL-NUMPAD4
 /cast War Banner
 
-[Warrior - Arms - Dreadnaught]
+[Arms - Dreadnaught]
 @bind CTRL-NUMPAD5
 /cast Dreadnaught
 
-[Warrior - Arms - Anger Management]
+[Arms - Anger Management]
 @bind CTRL-NUMPAD6
 /cast Anger Management
 
-[Warrior - Arms - Improved Sweeping Strikes]
+[Arms - Improved Sweeping Strikes]
 @bind CTRL-NUMPAD7
 /cast Improved Sweeping Strikes
 
-[Warrior - Arms - Sharpened Blades]
+[Arms - Sharpened Blades]
 @bind CTRL-NUMPAD8
 /cast Sharpened Blades
 
-[Warrior - Arms - Berserker Rage]
+[Arms - Berserker Rage]
 @bind CTRL-NUMPAD9
 /cast Berserker Rage
 
-[Warrior - Arms - Victory Rush]
+[Arms - Victory Rush]
 @bind CTRL-NUMPAD0
 /cast Victory Rush
 
-[Warrior - Arms - Frozen Binds]
+[Arms - Frozen Binds]
 @bind ALT-NUMPAD1
 /cast Frozen Binds
 
-[Warrior - Arms - Sanguine]
+[Arms - Sanguine]
 @bind ALT-NUMPAD2
 /cast Sanguine
 
-[Warrior - Arms - Sated]
+[Arms - Sated]
 @bind ALT-NUMPAD3
 /cast Sated
 
-[Warrior - Arms - SBA]
+[Arms - SBA]
 @bind ALT-NUMPAD4
 /cast SBA
 
-[Warrior - Arms - Blessing of Protection]
+[Arms - Blessing of Protection]
 @bind ALT-NUMPAD5
 /cast Blessing of Protection
 
-[Warrior - Arms - Dark Pact]
+[Arms - Dark Pact]
 @bind ALT-NUMPAD6
 /cast Dark Pact
 
-[Warrior - Arms - Combustion]
+[Arms - Combustion]
 @bind ALT-NUMPAD7
 /cast Combustion
 
-[Warrior - Arms - Icy Veins]
+[Arms - Icy Veins]
 @bind ALT-NUMPAD8
 /cast Icy Veins
 
-[Warrior - Arms - Alter Time]
+[Arms - Alter Time]
 @bind ALT-NUMPAD9
 /cast Alter Time
 
-[Warrior - Arms - Arcane Power]
+[Arms - Arcane Power]
 @bind ALT-NUMPAD0
 /cast Arcane Power
 
-[Warrior - Arms - Divine Favor]
+[Arms - Divine Favor]
 @bind CTRL-ALT-NUMPAD1
 /cast Divine Favor
 
-[Warrior - Arms - Blessing of Freedom]
+[Arms - Blessing of Freedom]
 @bind CTRL-ALT-NUMPAD2
 /cast Blessing of Freedom
 
-[Warrior - Arms - Power Infusion]
+[Arms - Power Infusion]
 @bind CTRL-ALT-NUMPAD3
 /cast Power Infusion
 
-[Warrior - Arms - Survival Tactics]
+[Arms - Survival Tactics]
 @bind CTRL-ALT-NUMPAD4
 /cast Survival Tactics
 
-[Warrior - Arms - Cloak of Shadows]
+[Arms - Cloak of Shadows]
 @bind CTRL-ALT-NUMPAD5
 /cast Cloak of Shadows
 
-[Warrior - Arms - Reflect]
+[Arms - Reflect]
 @bind CTRL-ALT-NUMPAD6
 /cast Reflect
 
-[Warrior - Arms - Devouring Plague]
+[Arms - Devouring Plague]
 @bind CTRL-ALT-NUMPAD7
 /cast Devouring Plague
 
-[Warrior - Arms - Aspect of the Turtle]
+[Arms - Aspect of the Turtle]
 @bind CTRL-ALT-NUMPAD8
 /cast Aspect of the Turtle
 
-[Warrior - Arms - Divine Shield]
+[Arms - Divine Shield]
 @bind CTRL-ALT-NUMPAD9
 /cast Divine Shield
 
-[Warrior - Arms - Ice Block]
+[Arms - Ice Block]
 @bind CTRL-ALT-NUMPAD0
 /cast Ice Block
 
-[Warrior - Arms - Slaughterhouse]
+[Arms - Slaughterhouse]
 @bind CTRL-SHIFT-NUMPAD1
 /cast Slaughterhouse
 
-[Warrior - Arms - Death Sentence]
+[Arms - Death Sentence]
 @bind CTRL-SHIFT-NUMPAD2
 /cast Death Sentence
 
-[Warrior - Arms - Battle Trance]
+[Arms - Battle Trance]
 @bind CTRL-SHIFT-NUMPAD3
 /cast Battle Trance
 
-[Warrior - Arms - Barbarian]
+[Arms - Barbarian]
 @bind CTRL-SHIFT-NUMPAD4
 /cast Barbarian
