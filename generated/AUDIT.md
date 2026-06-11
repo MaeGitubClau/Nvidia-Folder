@@ -20,7 +20,8 @@ Status: **PASS**
 
 ## Check Counts
 
-- blank bindable GGL rows: 0
+- blank bindable GGL binds: 0
+- empty non-free GGL descriptions: 0
 - forbidden SHIFT-only GGL letter/number binds: 0
 - summary overflow sections: 0
 - missing BindPad names: 0
@@ -30,6 +31,15 @@ Status: **PASS**
 - forbidden SHIFT-only BindPad letter/number binds: 0
 - plain BindPad letter/number binds: 0
 - addon import escaped/truncated name collisions: 0
+
+## Blank-Description Examples
+
+| Row | GGL description | BindPad name | BindPad macro |
+|---|---|---:|---:|
+| Execute | `/cast Execute` | True | True |
+| Hamstring | `/cast Hamstring` | True | True |
+| Slam | `/cast Slam` | True | True |
+| Shield Slam | `/cast Shield Slam` | True | True |
 
 ## Arena Rows
 
@@ -56,4 +66,3 @@ Status: **PASS**
 ## Failures
 
 - None
-

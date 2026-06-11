@@ -173,14 +173,15 @@ def parse_and_generate(lines: list[str], suffix: str):
         used[current_section] += 1
 
         after_semicolon = value.split(";", 1)[1] if ";" in value else ""
-        updated.append(f"{key}={ggl_bind};{after_semicolon}")
+        config_description = after_semicolon if after_semicolon.strip() else f" /cast {key}"
+        updated.append(f"{key}={ggl_bind};{config_description}")
 
         bindpad_entries.append(
             {
                 "section": current_section,
                 "name": bindpad_macro_name(current_section, key),
                 "bind": wow_bind,
-                "macro": macro_text_for(key, after_semicolon),
+                "macro": macro_text_for(key, config_description),
             }
         )
         counts[current_section] += 1
