@@ -8,7 +8,6 @@ from pathlib import Path
 
 
 CLASS_SECTION_RE = re.compile(r"^[A-Za-z ]+ - [A-Za-z ]+$")
-SKIP_KEYS = {"Potion"}
 
 KEY_TO_SC = {
     "1": "2",
@@ -81,12 +80,12 @@ def is_bindable_section(section: str) -> bool:
     return section == "General" or bool(CLASS_SECTION_RE.match(section))
 
 
-def is_bindable_key(key: str, section: str) -> bool:
+def is_bindable_key(section: str, value: str) -> bool:
     if not is_bindable_section(section):
         return False
-    if key in SKIP_KEYS:
-        return False
-    if section != "General" and key.startswith("START"):
+
+    after_semicolon = value.split(";", 1)[1].strip() if ";" in value else ""
+    if after_semicolon.lower().startswith("make this key free"):
         return False
     return True
 
@@ -146,7 +145,7 @@ def parse_and_generate(lines: list[str], suffix: str):
         key = key.strip()
         value = value.strip()
 
-        if not is_bindable_key(key, current_section):
+        if not is_bindable_key(current_section, value):
             updated.append(stripped)
             continue
 

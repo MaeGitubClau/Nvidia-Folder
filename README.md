@@ -28,7 +28,7 @@ Key order per section:
 8. plain keys
 9. `F1-F12` fallbacks only after the letter/number pool is exhausted
 
-`START ...` rows and `Potion` rows are skipped because those are GGL control keys or special rows, not normal BindPad spell/macro actions.
+Rows are skipped only when their note starts with `Make this key FREE`, because those are control/free-key rows that should stay unbound.
 
 ## Install Edited GGL Config
 
