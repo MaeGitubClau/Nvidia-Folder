@@ -95,13 +95,13 @@ def make_pool(suffix: str) -> list[tuple[str, str]]:
     for wow_mod, ggl_mod in GGL_MODS:
         for key in PRIMARY_KEYS:
             bind = "-".join(part for part in [wow_mod, key] if part)
-            ggl = f"{ggl_mod}sc{KEY_TO_SC[key]}{suffix}"
+            ggl = f"{ggl_mod}{key}"
             pool.append((bind, ggl))
 
     for wow_mod, ggl_mod in GGL_MODS:
         for key in FALLBACK_KEYS:
             bind = "-".join(part for part in [wow_mod, key] if part)
-            ggl = f"{ggl_mod}sc{KEY_TO_SC[key]}{suffix}"
+            ggl = f"{ggl_mod}{key}"
             pool.append((bind, ggl))
     return pool
 
