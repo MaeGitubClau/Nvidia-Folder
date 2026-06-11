@@ -18,14 +18,15 @@ The generator remakes bindable rows in the GGL config using a deterministic key 
 
 Key order per section:
 
-1. `ALT-SHIFT` + `1-0`, then `A-Z`, then `F1-F12`
-2. `CTRL-SHIFT` + `1-0`, then `A-Z`, then `F1-F12`
-3. `ALT` + keys
-4. `CTRL` + keys
-5. `SHIFT` + keys
-6. `CTRL-ALT` + keys
-7. plain keys
-8. `CTRL-ALT-SHIFT` + keys
+1. `ALT-SHIFT` + `1-0`, then `A-Z`
+2. `CTRL-SHIFT` + `1-0`, then `A-Z`
+3. `CTRL-ALT-SHIFT` + `1-0`, then `A-Z`
+4. `ALT` + keys
+5. `CTRL` + keys
+6. `SHIFT` + keys
+7. `CTRL-ALT` + keys
+8. plain keys
+9. `F1-F12` fallbacks only after the letter/number pool is exhausted
 
 `START ...` rows and `Potion` rows are skipped because those are GGL control keys or special rows, not normal BindPad spell/macro actions.
 

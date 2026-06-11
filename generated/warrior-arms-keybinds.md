@@ -66,114 +66,114 @@ This is a readable index of the entries preloaded into the addon. Names are pref
 | Warrior - Arms - Intervene | `ALT-SHIFT-X` | `/stopcasting / /cast [@mouseover,help][@focus,help][]Intervene` |
 | Warrior - Arms - Intervene Member1 | `ALT-SHIFT-Y` | `/run GetLOS(UnitExists('raid1') and 'raid1' or 'party1') / /cast [@raid1,exists][@party1,exists]Intervene` |
 | Warrior - Arms - Intervene Member2 | `ALT-SHIFT-Z` | `/run GetLOS(UnitExists('raid2') and 'raid2' or 'party2') / /cast [@raid2,exists][@party2,exists]Intervene` |
-| Warrior - Arms - Intervene Member3 | `ALT-SHIFT-F1` | `/run GetLOS(UnitExists('raid3') and 'raid3' or 'party3') / /cast [@raid3,exists][@party3,exists]Intervene` |
-| Warrior - Arms - Intervene Member4 | `ALT-SHIFT-F2` | `/run GetLOS(UnitExists('raid4') and 'raid4' or 'party4') / /cast [@raid4,exists][@party4,exists]Intervene` |
-| Warrior - Arms - Intervene Member5 | `ALT-SHIFT-F3` | `/run GetLOS(UnitExists('raid5') and 'raid5' or 'player') / /cast [@raid5,exists][@player,exists]Intervene` |
-| Warrior - Arms - Heroic Leap | `ALT-SHIFT-F4` | `/cast Heroic Leap` |
-| Warrior - Arms - Storm Bolt | `ALT-SHIFT-F5` | `/stopcasting / /cast [@mouseover,harm][]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Focus | `ALT-SHIFT-F6` | `/stopcasting / /cast [@focus]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Arena1 | `ALT-SHIFT-F7` | `/stopcasting / /cast [@arena1]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Arena2 | `ALT-SHIFT-F8` | `/stopcasting / /cast [@arena2]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Arena3 | `ALT-SHIFT-F9` | `/stopcasting / /cast [@arena3]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Arena4 | `ALT-SHIFT-F10` | `/stopcasting / /cast [@arena4]Storm Bolt` |
-| Warrior - Arms - Storm Bolt Arena5 | `ALT-SHIFT-F11` | `/stopcasting / /cast [@arena5]Storm Bolt` |
-| Warrior - Arms - Intimidating Shout | `ALT-SHIFT-F12` | `/stopattack / /cast [@mouseover,harm][]Intimidating Shout` |
-| Warrior - Arms - Intimidating Shout Arena1 | `CTRL-SHIFT-1` | `/cast [@arena1]Intimidating Shout` |
-| Warrior - Arms - Intimidating Shout Arena2 | `CTRL-SHIFT-2` | `/cast [@arena2]Intimidating Shout` |
-| Warrior - Arms - Intimidating Shout Arena3 | `CTRL-SHIFT-3` | `/cast [@arena3]Intimidating Shout` |
-| Warrior - Arms - Intimidating Shout Arena4 | `CTRL-SHIFT-4` | `/cast [@arena4]Intimidating Shout` |
-| Warrior - Arms - Intimidating Shout Arena5 | `CTRL-SHIFT-5` | `/cast [@arena5]Intimidating Shout` |
-| Warrior - Arms - Thunder Clap | `CTRL-SHIFT-6` | `/cast Thunder Clap` |
-| Warrior - Arms - Spell Reflection | `CTRL-SHIFT-7` | `/startattack / /stopcasting / /cast Spell Reflection` |
-| Warrior - Arms - Rallying Cry | `CTRL-SHIFT-8` | `/startattack / /cast Rallying Cry` |
-| Warrior - Arms - Shockwave | `CTRL-SHIFT-9` | `/cast Shockwave` |
-| Warrior - Arms - Bitter Immunity | `CTRL-SHIFT-0` | `/cast Bitter Immunity` |
-| Warrior - Arms - Wrecking Throw / Shattering Throw | `CTRL-SHIFT-A` | `/cast Wrecking Throw / /cast Shattering Throw` |
-| Warrior - Arms - Piercing Howl | `CTRL-SHIFT-B` | `/cast Piercing Howl` |
-| Warrior - Arms - Thunderous Roar | `CTRL-SHIFT-C` | `/cast Thunderous Roar` |
-| Warrior - Arms - Avatar | `CTRL-SHIFT-D` | `/startattack / /cast Avatar` |
-| Warrior - Arms - Champion's Spear | `CTRL-SHIFT-E` | `/cast [combat,@player][]Champion's Spear` |
-| Warrior - Arms - Sweeping Strikes | `CTRL-SHIFT-F` | `/cast Sweeping Strikes` |
-| Warrior - Arms - Cleave | `CTRL-SHIFT-G` | `/cast Cleave` |
-| Warrior - Arms - Demolish | `CTRL-SHIFT-H` | `/cast Demolish` |
-| Warrior - Arms - Die by the Sword | `CTRL-SHIFT-I` | `/cast Die by the Sword` |
-| Warrior - Arms - Ignore Pain | `CTRL-SHIFT-J` | `/startattack / /cast Ignore Pain` |
-| Warrior - Arms - Mortal Strike | `CTRL-SHIFT-K` | `/cast Mortal Strike` |
-| Warrior - Arms - Overpower | `CTRL-SHIFT-L` | `/cast Overpower` |
-| Warrior - Arms - Bladestorm / Ravager | `CTRL-SHIFT-M` | `/cast Bladestorm / /cast [combat,@player][]Ravager` |
-| Warrior - Arms - Rend | `CTRL-SHIFT-N` | `/cast Rend` |
-| Warrior - Arms - Rend Arena1 | `CTRL-SHIFT-O` | `/cast [@arena1]Rend` |
-| Warrior - Arms - Rend Arena2 | `CTRL-SHIFT-P` | `/cast [@arena2]Rend` |
-| Warrior - Arms - Rend Arena3 | `CTRL-SHIFT-Q` | `/cast [@arena3]Rend` |
-| Warrior - Arms - Rend Arena4 | `CTRL-SHIFT-R` | `/cast [@arena4]Rend` |
-| Warrior - Arms - Rend Arena5 | `CTRL-SHIFT-S` | `/cast [@arena5]Rend` |
-| Warrior - Arms - Skullsplitter | `CTRL-SHIFT-T` | `/cast Skullsplitter` |
-| Warrior - Arms - Warbreaker / Colossus Smash | `CTRL-SHIFT-U` | `/cast Warbreaker / /cast Colossus Smash` |
-| Warrior - Arms - Disarm | `CTRL-SHIFT-V` | `/stopcasting / /cast [@mouseover,harm][]Disarm` |
-| Warrior - Arms - Disarm Arena1 | `CTRL-SHIFT-W` | `/stopcasting / /cast [@arena1]Disarm` |
-| Warrior - Arms - Disarm Arena2 | `CTRL-SHIFT-X` | `/stopcasting / /cast [@arena2]Disarm` |
-| Warrior - Arms - Disarm Arena3 | `CTRL-SHIFT-Y` | `/stopcasting / /cast [@arena3]Disarm` |
-| Warrior - Arms - Disarm Arena4 | `CTRL-SHIFT-Z` | `/stopcasting / /cast [@arena4]Disarm` |
-| Warrior - Arms - Disarm Arena5 | `CTRL-SHIFT-F1` | `/stopcasting / /cast [@arena5]Disarm` |
-| Warrior - Arms - Duel | `CTRL-SHIFT-F2` | `/startattack / /cast Duel` |
-| Warrior - Arms - Duel Arena1 | `CTRL-SHIFT-F3` | `/cast [@arena1]Duel` |
-| Warrior - Arms - Duel Arena2 | `CTRL-SHIFT-F4` | `/cast [@arena2]Duel` |
-| Warrior - Arms - Duel Arena3 | `CTRL-SHIFT-F5` | `/cast [@arena3]Duel` |
-| Warrior - Arms - Duel Arena4 | `CTRL-SHIFT-F6` | `/cast [@arena4]Duel` |
-| Warrior - Arms - Duel Arena5 | `CTRL-SHIFT-F7` | `/cast [@arena5]Duel` |
-| Warrior - Arms - Sharpen Blade | `CTRL-SHIFT-F8` | `/startattack / /cast Sharpen Blade` |
-| Warrior - Arms - Human Racial | `CTRL-SHIFT-F9` | `/cast Human Racial` |
-| Warrior - Arms - Stoneform | `CTRL-SHIFT-F10` | `/cast Stoneform` |
-| Warrior - Arms - Shadowmeld | `CTRL-SHIFT-F11` | `/cast Shadowmeld` |
-| Warrior - Arms - Escape Artist | `CTRL-SHIFT-F12` | `/cast Escape Artist` |
-| Warrior - Arms - Gift of the Naaru | `ALT-1` | `/cast [@mouseover,help][@focus,help][]Gift of the Naaru` |
-| Warrior - Arms - Darkflight | `ALT-2` | `/cast Darkflight` |
-| Warrior - Arms - Blood Fury | `ALT-3` | `/cast Blood Fury` |
-| Warrior - Arms - Will of the Forsaken | `ALT-4` | `/cast Will of the Forsaken` |
-| Warrior - Arms - War Stomp | `ALT-5` | `/cast War Stomp` |
-| Warrior - Arms - Berserking | `ALT-6` | `/cast Berserking` |
-| Warrior - Arms - Arcane Torrent | `ALT-7` | `/cast Arcane Torrent` |
-| Warrior - Arms - Rocket Jump | `ALT-8` | `/cast Rocket Jump` |
-| Warrior - Arms - Rocket Barrage | `ALT-9` | `/cast Rocket Barrage` |
-| Warrior - Arms - Quaking Palm | `ALT-0` | `/cast [@mouseover,harm][]Quaking Palm` |
-| Warrior - Arms - Spatial Rift | `ALT-A` | `/cast Spatial Rift` |
-| Warrior - Arms - Light's Judgment | `ALT-B` | `/cast Light's Judgment` |
-| Warrior - Arms - Fireblood | `ALT-C` | `/cast Fireblood` |
-| Warrior - Arms - Arcane Pulse | `ALT-D` | `/cast Arcane Pulse` |
-| Warrior - Arms - Bull Rush | `ALT-E` | `/cast Bull Rush` |
-| Warrior - Arms - Ancestral Call | `ALT-F` | `/cast Ancestral Call` |
-| Warrior - Arms - Haymaker | `ALT-G` | `/cast [@mouseover,harm][]Haymaker` |
-| Warrior - Arms - Regeneratin | `ALT-H` | `/cast Regeneratin` |
-| Warrior - Arms - Bag of Tricks | `ALT-I` | `/cast [nocombat]Rummage Your Bag;[combat,@mouseover,exists][combat]Bag of Tricks` |
-| Warrior - Arms - Hyper Organic Light Originator | `ALT-J` | `/cast Hyper Organic Light Originator` |
-| Warrior - Arms - Azerite Surge | `ALT-K` | `/cast Azerite Surge` |
-| Warrior - Arms - Rotation | `ALT-L` | `/cast Rotation` |
-| Warrior - Arms - Target Member1 | `ALT-M` | `/focus [mod:ctrl]raidpet1; [mod:alt]party1; raid1 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member2 | `ALT-N` | `/focus [mod:ctrl]raidpet2; [mod:alt]party2; raid2 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member3 | `ALT-O` | `/focus [mod:ctrl]raidpet3; [mod:alt]party3; raid3 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member4 | `ALT-P` | `/focus [mod:ctrl]raidpet4; [mod:alt]party4; raid4 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member5 | `ALT-Q` | `/focus [mod:ctrl]raidpet5; [mod:alt]player; raid5 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member6 | `ALT-R` | `/focus [mod:ctrl]raidpet6; [mod:alt]focus; raid6 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member7 | `ALT-S` | `/focus [mod:ctrl]raidpet7; [mod:alt]partypet1; raid7 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member8 | `ALT-T` | `/focus [mod:ctrl]raidpet8; [mod:alt]partypet2; raid8 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member9 | `ALT-U` | `/focus [mod:ctrl]raidpet9; [mod:alt]partypet3; raid9 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member10 | `ALT-V` | `/focus [mod:ctrl]raidpet10; [mod:alt]partypet4; raid10 / Note: Don't use ALT CTRL to bind this key!` |
-| Warrior - Arms - Target Member11 | `ALT-W` | `/focus [mod:ctrl]raidpet11; raid11 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member12 | `ALT-X` | `/focus [mod:ctrl]raidpet12; raid12 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member13 | `ALT-Y` | `/focus [mod:ctrl]raidpet13; raid13 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member14 | `ALT-Z` | `/focus [mod:ctrl]raidpet14; raid14 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member15 | `ALT-F1` | `/focus [mod:ctrl]raidpet15; raid15 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member16 | `ALT-F2` | `/focus [mod:ctrl]raidpet16; raid16 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member17 | `ALT-F3` | `/focus [mod:ctrl]raidpet17; raid17 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member18 | `ALT-F4` | `/focus [mod:ctrl]raidpet18; raid18 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member19 | `ALT-F5` | `/focus [mod:ctrl]raidpet19; raid19 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member20 | `ALT-F6` | `/focus [mod:ctrl]raidpet20; raid20 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member21 | `ALT-F7` | `/focus [mod:ctrl]raidpet21; raid21 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member22 | `ALT-F8` | `/focus [mod:ctrl]raidpet22; raid22 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member23 | `ALT-F9` | `/focus [mod:ctrl]raidpet23; raid23 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member24 | `ALT-F10` | `/focus [mod:ctrl]raidpet24; raid24 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member25 | `ALT-F11` | `/focus [mod:ctrl]raidpet25; raid25 / Note: Don't use CTRL to bind this key!` |
-| Warrior - Arms - Target Member26 | `ALT-F12` | `/focus [mod:ctrl]raidpet26; raid26 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Intervene Member3 | `CTRL-SHIFT-1` | `/run GetLOS(UnitExists('raid3') and 'raid3' or 'party3') / /cast [@raid3,exists][@party3,exists]Intervene` |
+| Warrior - Arms - Intervene Member4 | `CTRL-SHIFT-2` | `/run GetLOS(UnitExists('raid4') and 'raid4' or 'party4') / /cast [@raid4,exists][@party4,exists]Intervene` |
+| Warrior - Arms - Intervene Member5 | `CTRL-SHIFT-3` | `/run GetLOS(UnitExists('raid5') and 'raid5' or 'player') / /cast [@raid5,exists][@player,exists]Intervene` |
+| Warrior - Arms - Heroic Leap | `CTRL-SHIFT-4` | `/cast Heroic Leap` |
+| Warrior - Arms - Storm Bolt | `CTRL-SHIFT-5` | `/stopcasting / /cast [@mouseover,harm][]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Focus | `CTRL-SHIFT-6` | `/stopcasting / /cast [@focus]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Arena1 | `CTRL-SHIFT-7` | `/stopcasting / /cast [@arena1]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Arena2 | `CTRL-SHIFT-8` | `/stopcasting / /cast [@arena2]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Arena3 | `CTRL-SHIFT-9` | `/stopcasting / /cast [@arena3]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Arena4 | `CTRL-SHIFT-0` | `/stopcasting / /cast [@arena4]Storm Bolt` |
+| Warrior - Arms - Storm Bolt Arena5 | `CTRL-SHIFT-A` | `/stopcasting / /cast [@arena5]Storm Bolt` |
+| Warrior - Arms - Intimidating Shout | `CTRL-SHIFT-B` | `/stopattack / /cast [@mouseover,harm][]Intimidating Shout` |
+| Warrior - Arms - Intimidating Shout Arena1 | `CTRL-SHIFT-C` | `/cast [@arena1]Intimidating Shout` |
+| Warrior - Arms - Intimidating Shout Arena2 | `CTRL-SHIFT-D` | `/cast [@arena2]Intimidating Shout` |
+| Warrior - Arms - Intimidating Shout Arena3 | `CTRL-SHIFT-E` | `/cast [@arena3]Intimidating Shout` |
+| Warrior - Arms - Intimidating Shout Arena4 | `CTRL-SHIFT-F` | `/cast [@arena4]Intimidating Shout` |
+| Warrior - Arms - Intimidating Shout Arena5 | `CTRL-SHIFT-G` | `/cast [@arena5]Intimidating Shout` |
+| Warrior - Arms - Thunder Clap | `CTRL-SHIFT-H` | `/cast Thunder Clap` |
+| Warrior - Arms - Spell Reflection | `CTRL-SHIFT-I` | `/startattack / /stopcasting / /cast Spell Reflection` |
+| Warrior - Arms - Rallying Cry | `CTRL-SHIFT-J` | `/startattack / /cast Rallying Cry` |
+| Warrior - Arms - Shockwave | `CTRL-SHIFT-K` | `/cast Shockwave` |
+| Warrior - Arms - Bitter Immunity | `CTRL-SHIFT-L` | `/cast Bitter Immunity` |
+| Warrior - Arms - Wrecking Throw / Shattering Throw | `CTRL-SHIFT-M` | `/cast Wrecking Throw / /cast Shattering Throw` |
+| Warrior - Arms - Piercing Howl | `CTRL-SHIFT-N` | `/cast Piercing Howl` |
+| Warrior - Arms - Thunderous Roar | `CTRL-SHIFT-O` | `/cast Thunderous Roar` |
+| Warrior - Arms - Avatar | `CTRL-SHIFT-P` | `/startattack / /cast Avatar` |
+| Warrior - Arms - Champion's Spear | `CTRL-SHIFT-Q` | `/cast [combat,@player][]Champion's Spear` |
+| Warrior - Arms - Sweeping Strikes | `CTRL-SHIFT-R` | `/cast Sweeping Strikes` |
+| Warrior - Arms - Cleave | `CTRL-SHIFT-S` | `/cast Cleave` |
+| Warrior - Arms - Demolish | `CTRL-SHIFT-T` | `/cast Demolish` |
+| Warrior - Arms - Die by the Sword | `CTRL-SHIFT-U` | `/cast Die by the Sword` |
+| Warrior - Arms - Ignore Pain | `CTRL-SHIFT-V` | `/startattack / /cast Ignore Pain` |
+| Warrior - Arms - Mortal Strike | `CTRL-SHIFT-W` | `/cast Mortal Strike` |
+| Warrior - Arms - Overpower | `CTRL-SHIFT-X` | `/cast Overpower` |
+| Warrior - Arms - Bladestorm / Ravager | `CTRL-SHIFT-Y` | `/cast Bladestorm / /cast [combat,@player][]Ravager` |
+| Warrior - Arms - Rend | `CTRL-SHIFT-Z` | `/cast Rend` |
+| Warrior - Arms - Rend Arena1 | `CTRL-ALT-SHIFT-1` | `/cast [@arena1]Rend` |
+| Warrior - Arms - Rend Arena2 | `CTRL-ALT-SHIFT-2` | `/cast [@arena2]Rend` |
+| Warrior - Arms - Rend Arena3 | `CTRL-ALT-SHIFT-3` | `/cast [@arena3]Rend` |
+| Warrior - Arms - Rend Arena4 | `CTRL-ALT-SHIFT-4` | `/cast [@arena4]Rend` |
+| Warrior - Arms - Rend Arena5 | `CTRL-ALT-SHIFT-5` | `/cast [@arena5]Rend` |
+| Warrior - Arms - Skullsplitter | `CTRL-ALT-SHIFT-6` | `/cast Skullsplitter` |
+| Warrior - Arms - Warbreaker / Colossus Smash | `CTRL-ALT-SHIFT-7` | `/cast Warbreaker / /cast Colossus Smash` |
+| Warrior - Arms - Disarm | `CTRL-ALT-SHIFT-8` | `/stopcasting / /cast [@mouseover,harm][]Disarm` |
+| Warrior - Arms - Disarm Arena1 | `CTRL-ALT-SHIFT-9` | `/stopcasting / /cast [@arena1]Disarm` |
+| Warrior - Arms - Disarm Arena2 | `CTRL-ALT-SHIFT-0` | `/stopcasting / /cast [@arena2]Disarm` |
+| Warrior - Arms - Disarm Arena3 | `CTRL-ALT-SHIFT-A` | `/stopcasting / /cast [@arena3]Disarm` |
+| Warrior - Arms - Disarm Arena4 | `CTRL-ALT-SHIFT-B` | `/stopcasting / /cast [@arena4]Disarm` |
+| Warrior - Arms - Disarm Arena5 | `CTRL-ALT-SHIFT-C` | `/stopcasting / /cast [@arena5]Disarm` |
+| Warrior - Arms - Duel | `CTRL-ALT-SHIFT-D` | `/startattack / /cast Duel` |
+| Warrior - Arms - Duel Arena1 | `CTRL-ALT-SHIFT-E` | `/cast [@arena1]Duel` |
+| Warrior - Arms - Duel Arena2 | `CTRL-ALT-SHIFT-F` | `/cast [@arena2]Duel` |
+| Warrior - Arms - Duel Arena3 | `CTRL-ALT-SHIFT-G` | `/cast [@arena3]Duel` |
+| Warrior - Arms - Duel Arena4 | `CTRL-ALT-SHIFT-H` | `/cast [@arena4]Duel` |
+| Warrior - Arms - Duel Arena5 | `CTRL-ALT-SHIFT-I` | `/cast [@arena5]Duel` |
+| Warrior - Arms - Sharpen Blade | `CTRL-ALT-SHIFT-J` | `/startattack / /cast Sharpen Blade` |
+| Warrior - Arms - Human Racial | `CTRL-ALT-SHIFT-K` | `/cast Human Racial` |
+| Warrior - Arms - Stoneform | `CTRL-ALT-SHIFT-L` | `/cast Stoneform` |
+| Warrior - Arms - Shadowmeld | `CTRL-ALT-SHIFT-M` | `/cast Shadowmeld` |
+| Warrior - Arms - Escape Artist | `CTRL-ALT-SHIFT-N` | `/cast Escape Artist` |
+| Warrior - Arms - Gift of the Naaru | `CTRL-ALT-SHIFT-O` | `/cast [@mouseover,help][@focus,help][]Gift of the Naaru` |
+| Warrior - Arms - Darkflight | `CTRL-ALT-SHIFT-P` | `/cast Darkflight` |
+| Warrior - Arms - Blood Fury | `CTRL-ALT-SHIFT-Q` | `/cast Blood Fury` |
+| Warrior - Arms - Will of the Forsaken | `CTRL-ALT-SHIFT-R` | `/cast Will of the Forsaken` |
+| Warrior - Arms - War Stomp | `CTRL-ALT-SHIFT-S` | `/cast War Stomp` |
+| Warrior - Arms - Berserking | `CTRL-ALT-SHIFT-T` | `/cast Berserking` |
+| Warrior - Arms - Arcane Torrent | `CTRL-ALT-SHIFT-U` | `/cast Arcane Torrent` |
+| Warrior - Arms - Rocket Jump | `CTRL-ALT-SHIFT-V` | `/cast Rocket Jump` |
+| Warrior - Arms - Rocket Barrage | `CTRL-ALT-SHIFT-W` | `/cast Rocket Barrage` |
+| Warrior - Arms - Quaking Palm | `CTRL-ALT-SHIFT-X` | `/cast [@mouseover,harm][]Quaking Palm` |
+| Warrior - Arms - Spatial Rift | `CTRL-ALT-SHIFT-Y` | `/cast Spatial Rift` |
+| Warrior - Arms - Light's Judgment | `CTRL-ALT-SHIFT-Z` | `/cast Light's Judgment` |
+| Warrior - Arms - Fireblood | `ALT-1` | `/cast Fireblood` |
+| Warrior - Arms - Arcane Pulse | `ALT-2` | `/cast Arcane Pulse` |
+| Warrior - Arms - Bull Rush | `ALT-3` | `/cast Bull Rush` |
+| Warrior - Arms - Ancestral Call | `ALT-4` | `/cast Ancestral Call` |
+| Warrior - Arms - Haymaker | `ALT-5` | `/cast [@mouseover,harm][]Haymaker` |
+| Warrior - Arms - Regeneratin | `ALT-6` | `/cast Regeneratin` |
+| Warrior - Arms - Bag of Tricks | `ALT-7` | `/cast [nocombat]Rummage Your Bag;[combat,@mouseover,exists][combat]Bag of Tricks` |
+| Warrior - Arms - Hyper Organic Light Originator | `ALT-8` | `/cast Hyper Organic Light Originator` |
+| Warrior - Arms - Azerite Surge | `ALT-9` | `/cast Azerite Surge` |
+| Warrior - Arms - Rotation | `ALT-0` | `/cast Rotation` |
+| Warrior - Arms - Target Member1 | `ALT-A` | `/focus [mod:ctrl]raidpet1; [mod:alt]party1; raid1 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member2 | `ALT-B` | `/focus [mod:ctrl]raidpet2; [mod:alt]party2; raid2 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member3 | `ALT-C` | `/focus [mod:ctrl]raidpet3; [mod:alt]party3; raid3 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member4 | `ALT-D` | `/focus [mod:ctrl]raidpet4; [mod:alt]party4; raid4 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member5 | `ALT-E` | `/focus [mod:ctrl]raidpet5; [mod:alt]player; raid5 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member6 | `ALT-F` | `/focus [mod:ctrl]raidpet6; [mod:alt]focus; raid6 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member7 | `ALT-G` | `/focus [mod:ctrl]raidpet7; [mod:alt]partypet1; raid7 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member8 | `ALT-H` | `/focus [mod:ctrl]raidpet8; [mod:alt]partypet2; raid8 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member9 | `ALT-I` | `/focus [mod:ctrl]raidpet9; [mod:alt]partypet3; raid9 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member10 | `ALT-J` | `/focus [mod:ctrl]raidpet10; [mod:alt]partypet4; raid10 / Note: Don't use ALT CTRL to bind this key!` |
+| Warrior - Arms - Target Member11 | `ALT-K` | `/focus [mod:ctrl]raidpet11; raid11 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member12 | `ALT-L` | `/focus [mod:ctrl]raidpet12; raid12 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member13 | `ALT-M` | `/focus [mod:ctrl]raidpet13; raid13 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member14 | `ALT-N` | `/focus [mod:ctrl]raidpet14; raid14 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member15 | `ALT-O` | `/focus [mod:ctrl]raidpet15; raid15 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member16 | `ALT-P` | `/focus [mod:ctrl]raidpet16; raid16 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member17 | `ALT-Q` | `/focus [mod:ctrl]raidpet17; raid17 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member18 | `ALT-R` | `/focus [mod:ctrl]raidpet18; raid18 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member19 | `ALT-S` | `/focus [mod:ctrl]raidpet19; raid19 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member20 | `ALT-T` | `/focus [mod:ctrl]raidpet20; raid20 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member21 | `ALT-U` | `/focus [mod:ctrl]raidpet21; raid21 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member22 | `ALT-V` | `/focus [mod:ctrl]raidpet22; raid22 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member23 | `ALT-W` | `/focus [mod:ctrl]raidpet23; raid23 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member24 | `ALT-X` | `/focus [mod:ctrl]raidpet24; raid24 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member25 | `ALT-Y` | `/focus [mod:ctrl]raidpet25; raid25 / Note: Don't use CTRL to bind this key!` |
+| Warrior - Arms - Target Member26 | `ALT-Z` | `/focus [mod:ctrl]raidpet26; raid26 / Note: Don't use CTRL to bind this key!` |
 | Warrior - Arms - Target Member27 | `CTRL-1` | `/focus [mod:ctrl]raidpet27; raid27 / Note: Don't use CTRL to bind this key!` |
 | Warrior - Arms - Target Member28 | `CTRL-2` | `/focus [mod:ctrl]raidpet28; raid28 / Note: Don't use CTRL to bind this key!` |
 | Warrior - Arms - Target Member29 | `CTRL-3` | `/focus [mod:ctrl]raidpet29; raid29 / Note: Don't use CTRL to bind this key!` |
@@ -210,117 +210,117 @@ This is a readable index of the entries preloaded into the addon. Names are pref
 | Warrior - Arms - Universal1 Unit2 | `CTRL-X` | `/cast Universal1 Unit2` |
 | Warrior - Arms - Universal1 Unit3 | `CTRL-Y` | `/cast Universal1 Unit3` |
 | Warrior - Arms - Universal1 Unit4 | `CTRL-Z` | `/cast Universal1 Unit4` |
-| Warrior - Arms - Universal1 Unit5 | `CTRL-F1` | `/cast Universal1 Unit5` |
-| Warrior - Arms - Universal2 Unit1 | `CTRL-F2` | `/cast Universal2 Unit1` |
-| Warrior - Arms - Universal2 Unit2 | `CTRL-F3` | `/cast Universal2 Unit2` |
-| Warrior - Arms - Universal2 Unit3 | `CTRL-F4` | `/cast Universal2 Unit3` |
-| Warrior - Arms - Universal2 Unit4 | `CTRL-F5` | `/cast Universal2 Unit4` |
-| Warrior - Arms - Universal2 Unit5 | `CTRL-F6` | `/cast Universal2 Unit5` |
-| Warrior - Arms - Universal3 Unit1 | `CTRL-F7` | `/cast Universal3 Unit1` |
-| Warrior - Arms - Universal3 Unit2 | `CTRL-F8` | `/cast Universal3 Unit2` |
-| Warrior - Arms - Universal3 Unit3 | `CTRL-F9` | `/cast Universal3 Unit3` |
-| Warrior - Arms - Universal3 Unit4 | `CTRL-F10` | `/cast Universal3 Unit4` |
-| Warrior - Arms - Universal3 Unit5 | `CTRL-F11` | `/cast Universal3 Unit5` |
-| Warrior - Arms - Universal4 Unit1 | `CTRL-F12` | `/cast Universal4 Unit1` |
-| Warrior - Arms - Universal4 Unit2 | `SHIFT-1` | `/cast Universal4 Unit2` |
-| Warrior - Arms - Universal4 Unit3 | `SHIFT-2` | `/cast Universal4 Unit3` |
-| Warrior - Arms - Universal4 Unit4 | `SHIFT-3` | `/cast Universal4 Unit4` |
-| Warrior - Arms - Universal4 Unit5 | `SHIFT-4` | `/cast Universal4 Unit5` |
-| Warrior - Arms - Universal5 Unit1 | `SHIFT-5` | `/cast Universal5 Unit1` |
-| Warrior - Arms - Universal5 Unit2 | `SHIFT-6` | `/cast Universal5 Unit2` |
-| Warrior - Arms - Universal5 Unit3 | `SHIFT-7` | `/cast Universal5 Unit3` |
-| Warrior - Arms - Universal5 Unit4 | `SHIFT-8` | `/cast Universal5 Unit4` |
-| Warrior - Arms - Universal5 Unit5 | `SHIFT-9` | `/cast Universal5 Unit5` |
-| Warrior - Arms - Universal6 Unit1 | `SHIFT-0` | `/cast Universal6 Unit1` |
-| Warrior - Arms - Universal6 Unit2 | `SHIFT-A` | `/cast Universal6 Unit2` |
-| Warrior - Arms - Universal6 Unit3 | `SHIFT-B` | `/cast Universal6 Unit3` |
-| Warrior - Arms - Universal6 Unit4 | `SHIFT-C` | `/cast Universal6 Unit4` |
-| Warrior - Arms - Universal6 Unit5 | `SHIFT-D` | `/cast Universal6 Unit5` |
-| Warrior - Arms - Universal7 Unit1 | `SHIFT-E` | `/cast Universal7 Unit1` |
-| Warrior - Arms - Universal7 Unit2 | `SHIFT-F` | `/cast Universal7 Unit2` |
-| Warrior - Arms - Universal7 Unit3 | `SHIFT-G` | `/cast Universal7 Unit3` |
-| Warrior - Arms - Universal7 Unit4 | `SHIFT-H` | `/cast Universal7 Unit4` |
-| Warrior - Arms - Universal7 Unit5 | `SHIFT-I` | `/cast Universal7 Unit5` |
-| Warrior - Arms - Universal8 Unit1 | `SHIFT-J` | `/cast Universal8 Unit1` |
-| Warrior - Arms - Universal8 Unit2 | `SHIFT-K` | `/cast Universal8 Unit2` |
-| Warrior - Arms - Universal8 Unit3 | `SHIFT-L` | `/cast Universal8 Unit3` |
-| Warrior - Arms - Universal8 Unit4 | `SHIFT-M` | `/cast Universal8 Unit4` |
-| Warrior - Arms - Universal8 Unit5 | `SHIFT-N` | `/cast Universal8 Unit5` |
-| Warrior - Arms - Universal9 Unit1 | `SHIFT-O` | `/cast Universal9 Unit1` |
-| Warrior - Arms - Universal9 Unit2 | `SHIFT-P` | `/cast Universal9 Unit2` |
-| Warrior - Arms - Universal9 Unit3 | `SHIFT-Q` | `/cast Universal9 Unit3` |
-| Warrior - Arms - Universal9 Unit4 | `SHIFT-R` | `/cast Universal9 Unit4` |
-| Warrior - Arms - Universal9 Unit5 | `SHIFT-S` | `/cast Universal9 Unit5` |
-| Warrior - Arms - Universal10 Unit1 | `SHIFT-T` | `/cast Universal10 Unit1` |
-| Warrior - Arms - Universal10 Unit2 | `SHIFT-U` | `/cast Universal10 Unit2` |
-| Warrior - Arms - Universal10 Unit3 | `SHIFT-V` | `/cast Universal10 Unit3` |
-| Warrior - Arms - Universal10 Unit4 | `SHIFT-W` | `/cast Universal10 Unit4` |
-| Warrior - Arms - Universal10 Unit5 | `SHIFT-X` | `/cast Universal10 Unit5` |
-| Warrior - Arms - Every Man for Himself | `SHIFT-Y` | `/cast Every Man for Himself` |
-| Warrior - Arms - Dark Flight | `SHIFT-Z` | `/cast Dark Flight` |
-| Warrior - Arms - Ravager | `SHIFT-F1` | `/cast Ravager` |
-| Warrior - Arms - Warbreaker | `SHIFT-F2` | `/cast Warbreaker` |
-| Warrior - Arms - Colossus Smash | `SHIFT-F3` | `/cast Colossus Smash` |
-| Warrior - Arms - Test of Might | `SHIFT-F4` | `/cast Test of Might` |
-| Warrior - Arms - Bladestorm | `SHIFT-F5` | `/cast Bladestorm` |
-| Warrior - Arms - Tideof Blood | `SHIFT-F6` | `/cast Tideof Blood` |
-| Warrior - Arms - Battlelord | `SHIFT-F7` | `/cast Battlelord` |
-| Warrior - Arms - Unhinged | `SHIFT-F8` | `/cast Unhinged` |
-| Warrior - Arms - Fervorof Battle | `SHIFT-F9` | `/cast Fervorof Battle` |
-| Warrior - Arms - Heroic Strike | `SHIFT-F10` | `/cast Heroic Strike` |
-| Warrior - Arms - Impending Victory | `SHIFT-F11` | `/cast Impending Victory` |
-| Warrior - Arms - Wrecking Throw | `SHIFT-F12` | `/cast Wrecking Throw` |
-| Warrior - Arms - Massacre | `CTRL-ALT-1` | `/cast Massacre` |
-| Warrior - Arms - Sonic Boom | `CTRL-ALT-2` | `/cast Sonic Boom` |
-| Warrior - Arms - Bloodand Thunder | `CTRL-ALT-3` | `/cast Bloodand Thunder` |
-| Warrior - Arms - Blademasters Torment | `CTRL-ALT-4` | `/cast Blademasters Torment` |
-| Warrior - Arms - Stormof Swords | `CTRL-ALT-5` | `/cast Stormof Swords` |
-| Warrior - Arms - Crushing Force | `CTRL-ALT-6` | `/cast Crushing Force` |
-| Warrior - Arms - Warlords Torment | `CTRL-ALT-7` | `/cast Warlords Torment` |
-| Warrior - Arms - Bloodletting | `CTRL-ALT-8` | `/cast Bloodletting` |
-| Warrior - Arms - Improved Slam | `CTRL-ALT-9` | `/cast Improved Slam` |
-| Warrior - Arms - Merciless Bonegrinder | `CTRL-ALT-0` | `/cast Merciless Bonegrinder` |
-| Warrior - Arms - Strengthof Arms | `CTRL-ALT-A` | `/cast Strengthof Arms` |
-| Warrior - Arms - Executioners Precision | `CTRL-ALT-B` | `/cast Executioners Precision` |
-| Warrior - Arms - Juggernaut | `CTRL-ALT-C` | `/cast Juggernaut` |
-| Warrior - Arms - Fierce Followthrough | `CTRL-ALT-D` | `/cast Fierce Followthrough` |
-| Warrior - Arms - Slayers Dominance | `CTRL-ALT-E` | `/cast Slayers Dominance` |
-| Warrior - Arms - Pummel | `CTRL-ALT-F` | `/cast Pummel` |
-| Warrior - Arms - Seethe | `CTRL-ALT-G` | `/cast Seethe` |
-| Warrior - Arms - Overwatch | `CTRL-ALT-H` | `/cast Overwatch` |
-| Warrior - Arms - Shattering Throw | `CTRL-ALT-I` | `/cast Shattering Throw` |
-| Warrior - Arms - Enduring Rage | `CTRL-ALT-J` | `/cast Enduring Rage` |
-| Warrior - Arms - Bloodrage | `CTRL-ALT-K` | `/cast Bloodrage` |
-| Warrior - Arms - Death Wish | `CTRL-ALT-L` | `/cast Death Wish` |
-| Warrior - Arms - Demolition | `CTRL-ALT-M` | `/cast Demolition` |
-| Warrior - Arms - War Banner | `CTRL-ALT-N` | `/cast War Banner` |
-| Warrior - Arms - Dreadnaught | `CTRL-ALT-O` | `/cast Dreadnaught` |
-| Warrior - Arms - Anger Management | `CTRL-ALT-P` | `/cast Anger Management` |
-| Warrior - Arms - Improved Sweeping Strikes | `CTRL-ALT-Q` | `/cast Improved Sweeping Strikes` |
-| Warrior - Arms - Sharpened Blades | `CTRL-ALT-R` | `/cast Sharpened Blades` |
-| Warrior - Arms - Berserker Rage | `CTRL-ALT-S` | `/cast Berserker Rage` |
-| Warrior - Arms - Victory Rush | `CTRL-ALT-T` | `/cast Victory Rush` |
-| Warrior - Arms - Frozen Binds | `CTRL-ALT-U` | `/cast Frozen Binds` |
-| Warrior - Arms - Sanguine | `CTRL-ALT-V` | `/cast Sanguine` |
-| Warrior - Arms - Sated | `CTRL-ALT-W` | `/cast Sated` |
-| Warrior - Arms - SBA | `CTRL-ALT-X` | `/cast SBA` |
-| Warrior - Arms - Blessing of Protection | `CTRL-ALT-Y` | `/cast Blessing of Protection` |
-| Warrior - Arms - Dark Pact | `CTRL-ALT-Z` | `/cast Dark Pact` |
-| Warrior - Arms - Combustion | `CTRL-ALT-F1` | `/cast Combustion` |
-| Warrior - Arms - Icy Veins | `CTRL-ALT-F2` | `/cast Icy Veins` |
-| Warrior - Arms - Alter Time | `CTRL-ALT-F3` | `/cast Alter Time` |
-| Warrior - Arms - Arcane Power | `CTRL-ALT-F4` | `/cast Arcane Power` |
-| Warrior - Arms - Divine Favor | `CTRL-ALT-F5` | `/cast Divine Favor` |
-| Warrior - Arms - Blessing of Freedom | `CTRL-ALT-F6` | `/cast Blessing of Freedom` |
-| Warrior - Arms - Power Infusion | `CTRL-ALT-F7` | `/cast Power Infusion` |
-| Warrior - Arms - Survival Tactics | `CTRL-ALT-F8` | `/cast Survival Tactics` |
-| Warrior - Arms - Cloak of Shadows | `CTRL-ALT-F9` | `/cast Cloak of Shadows` |
-| Warrior - Arms - Reflect | `CTRL-ALT-F10` | `/cast Reflect` |
-| Warrior - Arms - Devouring Plague | `CTRL-ALT-F11` | `/cast Devouring Plague` |
-| Warrior - Arms - Aspect of the Turtle | `CTRL-ALT-F12` | `/cast Aspect of the Turtle` |
-| Warrior - Arms - Divine Shield | `1` | `/cast Divine Shield` |
-| Warrior - Arms - Ice Block | `2` | `/cast Ice Block` |
-| Warrior - Arms - Slaughterhouse | `3` | `/cast Slaughterhouse` |
-| Warrior - Arms - Death Sentence | `4` | `/cast Death Sentence` |
-| Warrior - Arms - Battle Trance | `5` | `/cast Battle Trance` |
-| Warrior - Arms - Barbarian | `6` | `/cast Barbarian` |
+| Warrior - Arms - Universal1 Unit5 | `SHIFT-1` | `/cast Universal1 Unit5` |
+| Warrior - Arms - Universal2 Unit1 | `SHIFT-2` | `/cast Universal2 Unit1` |
+| Warrior - Arms - Universal2 Unit2 | `SHIFT-3` | `/cast Universal2 Unit2` |
+| Warrior - Arms - Universal2 Unit3 | `SHIFT-4` | `/cast Universal2 Unit3` |
+| Warrior - Arms - Universal2 Unit4 | `SHIFT-5` | `/cast Universal2 Unit4` |
+| Warrior - Arms - Universal2 Unit5 | `SHIFT-6` | `/cast Universal2 Unit5` |
+| Warrior - Arms - Universal3 Unit1 | `SHIFT-7` | `/cast Universal3 Unit1` |
+| Warrior - Arms - Universal3 Unit2 | `SHIFT-8` | `/cast Universal3 Unit2` |
+| Warrior - Arms - Universal3 Unit3 | `SHIFT-9` | `/cast Universal3 Unit3` |
+| Warrior - Arms - Universal3 Unit4 | `SHIFT-0` | `/cast Universal3 Unit4` |
+| Warrior - Arms - Universal3 Unit5 | `SHIFT-A` | `/cast Universal3 Unit5` |
+| Warrior - Arms - Universal4 Unit1 | `SHIFT-B` | `/cast Universal4 Unit1` |
+| Warrior - Arms - Universal4 Unit2 | `SHIFT-C` | `/cast Universal4 Unit2` |
+| Warrior - Arms - Universal4 Unit3 | `SHIFT-D` | `/cast Universal4 Unit3` |
+| Warrior - Arms - Universal4 Unit4 | `SHIFT-E` | `/cast Universal4 Unit4` |
+| Warrior - Arms - Universal4 Unit5 | `SHIFT-F` | `/cast Universal4 Unit5` |
+| Warrior - Arms - Universal5 Unit1 | `SHIFT-G` | `/cast Universal5 Unit1` |
+| Warrior - Arms - Universal5 Unit2 | `SHIFT-H` | `/cast Universal5 Unit2` |
+| Warrior - Arms - Universal5 Unit3 | `SHIFT-I` | `/cast Universal5 Unit3` |
+| Warrior - Arms - Universal5 Unit4 | `SHIFT-J` | `/cast Universal5 Unit4` |
+| Warrior - Arms - Universal5 Unit5 | `SHIFT-K` | `/cast Universal5 Unit5` |
+| Warrior - Arms - Universal6 Unit1 | `SHIFT-L` | `/cast Universal6 Unit1` |
+| Warrior - Arms - Universal6 Unit2 | `SHIFT-M` | `/cast Universal6 Unit2` |
+| Warrior - Arms - Universal6 Unit3 | `SHIFT-N` | `/cast Universal6 Unit3` |
+| Warrior - Arms - Universal6 Unit4 | `SHIFT-O` | `/cast Universal6 Unit4` |
+| Warrior - Arms - Universal6 Unit5 | `SHIFT-P` | `/cast Universal6 Unit5` |
+| Warrior - Arms - Universal7 Unit1 | `SHIFT-Q` | `/cast Universal7 Unit1` |
+| Warrior - Arms - Universal7 Unit2 | `SHIFT-R` | `/cast Universal7 Unit2` |
+| Warrior - Arms - Universal7 Unit3 | `SHIFT-S` | `/cast Universal7 Unit3` |
+| Warrior - Arms - Universal7 Unit4 | `SHIFT-T` | `/cast Universal7 Unit4` |
+| Warrior - Arms - Universal7 Unit5 | `SHIFT-U` | `/cast Universal7 Unit5` |
+| Warrior - Arms - Universal8 Unit1 | `SHIFT-V` | `/cast Universal8 Unit1` |
+| Warrior - Arms - Universal8 Unit2 | `SHIFT-W` | `/cast Universal8 Unit2` |
+| Warrior - Arms - Universal8 Unit3 | `SHIFT-X` | `/cast Universal8 Unit3` |
+| Warrior - Arms - Universal8 Unit4 | `SHIFT-Y` | `/cast Universal8 Unit4` |
+| Warrior - Arms - Universal8 Unit5 | `SHIFT-Z` | `/cast Universal8 Unit5` |
+| Warrior - Arms - Universal9 Unit1 | `CTRL-ALT-1` | `/cast Universal9 Unit1` |
+| Warrior - Arms - Universal9 Unit2 | `CTRL-ALT-2` | `/cast Universal9 Unit2` |
+| Warrior - Arms - Universal9 Unit3 | `CTRL-ALT-3` | `/cast Universal9 Unit3` |
+| Warrior - Arms - Universal9 Unit4 | `CTRL-ALT-4` | `/cast Universal9 Unit4` |
+| Warrior - Arms - Universal9 Unit5 | `CTRL-ALT-5` | `/cast Universal9 Unit5` |
+| Warrior - Arms - Universal10 Unit1 | `CTRL-ALT-6` | `/cast Universal10 Unit1` |
+| Warrior - Arms - Universal10 Unit2 | `CTRL-ALT-7` | `/cast Universal10 Unit2` |
+| Warrior - Arms - Universal10 Unit3 | `CTRL-ALT-8` | `/cast Universal10 Unit3` |
+| Warrior - Arms - Universal10 Unit4 | `CTRL-ALT-9` | `/cast Universal10 Unit4` |
+| Warrior - Arms - Universal10 Unit5 | `CTRL-ALT-0` | `/cast Universal10 Unit5` |
+| Warrior - Arms - Every Man for Himself | `CTRL-ALT-A` | `/cast Every Man for Himself` |
+| Warrior - Arms - Dark Flight | `CTRL-ALT-B` | `/cast Dark Flight` |
+| Warrior - Arms - Ravager | `CTRL-ALT-C` | `/cast Ravager` |
+| Warrior - Arms - Warbreaker | `CTRL-ALT-D` | `/cast Warbreaker` |
+| Warrior - Arms - Colossus Smash | `CTRL-ALT-E` | `/cast Colossus Smash` |
+| Warrior - Arms - Test of Might | `CTRL-ALT-F` | `/cast Test of Might` |
+| Warrior - Arms - Bladestorm | `CTRL-ALT-G` | `/cast Bladestorm` |
+| Warrior - Arms - Tideof Blood | `CTRL-ALT-H` | `/cast Tideof Blood` |
+| Warrior - Arms - Battlelord | `CTRL-ALT-I` | `/cast Battlelord` |
+| Warrior - Arms - Unhinged | `CTRL-ALT-J` | `/cast Unhinged` |
+| Warrior - Arms - Fervorof Battle | `CTRL-ALT-K` | `/cast Fervorof Battle` |
+| Warrior - Arms - Heroic Strike | `CTRL-ALT-L` | `/cast Heroic Strike` |
+| Warrior - Arms - Impending Victory | `CTRL-ALT-M` | `/cast Impending Victory` |
+| Warrior - Arms - Wrecking Throw | `CTRL-ALT-N` | `/cast Wrecking Throw` |
+| Warrior - Arms - Massacre | `CTRL-ALT-O` | `/cast Massacre` |
+| Warrior - Arms - Sonic Boom | `CTRL-ALT-P` | `/cast Sonic Boom` |
+| Warrior - Arms - Bloodand Thunder | `CTRL-ALT-Q` | `/cast Bloodand Thunder` |
+| Warrior - Arms - Blademasters Torment | `CTRL-ALT-R` | `/cast Blademasters Torment` |
+| Warrior - Arms - Stormof Swords | `CTRL-ALT-S` | `/cast Stormof Swords` |
+| Warrior - Arms - Crushing Force | `CTRL-ALT-T` | `/cast Crushing Force` |
+| Warrior - Arms - Warlords Torment | `CTRL-ALT-U` | `/cast Warlords Torment` |
+| Warrior - Arms - Bloodletting | `CTRL-ALT-V` | `/cast Bloodletting` |
+| Warrior - Arms - Improved Slam | `CTRL-ALT-W` | `/cast Improved Slam` |
+| Warrior - Arms - Merciless Bonegrinder | `CTRL-ALT-X` | `/cast Merciless Bonegrinder` |
+| Warrior - Arms - Strengthof Arms | `CTRL-ALT-Y` | `/cast Strengthof Arms` |
+| Warrior - Arms - Executioners Precision | `CTRL-ALT-Z` | `/cast Executioners Precision` |
+| Warrior - Arms - Juggernaut | `1` | `/cast Juggernaut` |
+| Warrior - Arms - Fierce Followthrough | `2` | `/cast Fierce Followthrough` |
+| Warrior - Arms - Slayers Dominance | `3` | `/cast Slayers Dominance` |
+| Warrior - Arms - Pummel | `4` | `/cast Pummel` |
+| Warrior - Arms - Seethe | `5` | `/cast Seethe` |
+| Warrior - Arms - Overwatch | `6` | `/cast Overwatch` |
+| Warrior - Arms - Shattering Throw | `7` | `/cast Shattering Throw` |
+| Warrior - Arms - Enduring Rage | `8` | `/cast Enduring Rage` |
+| Warrior - Arms - Bloodrage | `9` | `/cast Bloodrage` |
+| Warrior - Arms - Death Wish | `0` | `/cast Death Wish` |
+| Warrior - Arms - Demolition | `A` | `/cast Demolition` |
+| Warrior - Arms - War Banner | `B` | `/cast War Banner` |
+| Warrior - Arms - Dreadnaught | `C` | `/cast Dreadnaught` |
+| Warrior - Arms - Anger Management | `D` | `/cast Anger Management` |
+| Warrior - Arms - Improved Sweeping Strikes | `E` | `/cast Improved Sweeping Strikes` |
+| Warrior - Arms - Sharpened Blades | `F` | `/cast Sharpened Blades` |
+| Warrior - Arms - Berserker Rage | `G` | `/cast Berserker Rage` |
+| Warrior - Arms - Victory Rush | `H` | `/cast Victory Rush` |
+| Warrior - Arms - Frozen Binds | `I` | `/cast Frozen Binds` |
+| Warrior - Arms - Sanguine | `J` | `/cast Sanguine` |
+| Warrior - Arms - Sated | `K` | `/cast Sated` |
+| Warrior - Arms - SBA | `L` | `/cast SBA` |
+| Warrior - Arms - Blessing of Protection | `M` | `/cast Blessing of Protection` |
+| Warrior - Arms - Dark Pact | `N` | `/cast Dark Pact` |
+| Warrior - Arms - Combustion | `O` | `/cast Combustion` |
+| Warrior - Arms - Icy Veins | `P` | `/cast Icy Veins` |
+| Warrior - Arms - Alter Time | `Q` | `/cast Alter Time` |
+| Warrior - Arms - Arcane Power | `R` | `/cast Arcane Power` |
+| Warrior - Arms - Divine Favor | `S` | `/cast Divine Favor` |
+| Warrior - Arms - Blessing of Freedom | `T` | `/cast Blessing of Freedom` |
+| Warrior - Arms - Power Infusion | `U` | `/cast Power Infusion` |
+| Warrior - Arms - Survival Tactics | `V` | `/cast Survival Tactics` |
+| Warrior - Arms - Cloak of Shadows | `W` | `/cast Cloak of Shadows` |
+| Warrior - Arms - Reflect | `X` | `/cast Reflect` |
+| Warrior - Arms - Devouring Plague | `Y` | `/cast Devouring Plague` |
+| Warrior - Arms - Aspect of the Turtle | `Z` | `/cast Aspect of the Turtle` |
+| Warrior - Arms - Divine Shield | `ALT-SHIFT-F1` | `/cast Divine Shield` |
+| Warrior - Arms - Ice Block | `ALT-SHIFT-F2` | `/cast Ice Block` |
+| Warrior - Arms - Slaughterhouse | `ALT-SHIFT-F3` | `/cast Slaughterhouse` |
+| Warrior - Arms - Death Sentence | `ALT-SHIFT-F4` | `/cast Death Sentence` |
+| Warrior - Arms - Battle Trance | `ALT-SHIFT-F5` | `/cast Battle Trance` |
+| Warrior - Arms - Barbarian | `ALT-SHIFT-F6` | `/cast Barbarian` |

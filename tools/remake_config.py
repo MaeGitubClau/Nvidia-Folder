@@ -64,17 +64,17 @@ KEY_TO_SC = {
 GGL_MODS = [
     ("ALT-SHIFT", "!+"),
     ("CTRL-SHIFT", "^+"),
+    ("CTRL-ALT-SHIFT", "^!+"),
     ("ALT", "!"),
     ("CTRL", "^"),
     ("SHIFT", "+"),
     ("CTRL-ALT", "^!"),
     ("", ""),
-    ("CTRL-ALT-SHIFT", "^!+"),
 ]
 
-BASE_KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-BASE_KEYS += list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-BASE_KEYS += [f"F{i}" for i in range(1, 13)]
+PRIMARY_KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+PRIMARY_KEYS += list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+FALLBACK_KEYS = [f"F{i}" for i in range(1, 13)]
 
 
 def is_bindable_section(section: str) -> bool:
@@ -94,7 +94,13 @@ def is_bindable_key(key: str, section: str) -> bool:
 def make_pool(suffix: str) -> list[tuple[str, str]]:
     pool: list[tuple[str, str]] = []
     for wow_mod, ggl_mod in GGL_MODS:
-        for key in BASE_KEYS:
+        for key in PRIMARY_KEYS:
+            bind = "-".join(part for part in [wow_mod, key] if part)
+            ggl = f"{ggl_mod}sc{KEY_TO_SC[key]}{suffix}"
+            pool.append((bind, ggl))
+
+    for wow_mod, ggl_mod in GGL_MODS:
+        for key in FALLBACK_KEYS:
             bind = "-".join(part for part in [wow_mod, key] if part)
             ggl = f"{ggl_mod}sc{KEY_TO_SC[key]}{suffix}"
             pool.append((bind, ggl))
