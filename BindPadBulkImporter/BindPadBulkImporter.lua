@@ -322,6 +322,58 @@ local function IsBindPadAction(action)
     return type(action) == "string" and action:match("^CLICK%s+BindPadMacro:")
 end
 
+local function ClearBindPadMacroBindings()
+    if not GetNumBindings or not GetBinding or not SetBinding then
+        return 0
+    end
+
+    local cleared = 0
+    local total = GetNumBindings()
+    for i = 1, total do
+        local command, key1, key2 = GetBinding(i)
+        if IsBindPadAction(command) then
+            if key1 and SetBinding(key1, nil) then
+                cleared = cleared + 1
+            end
+            if key2 and SetBinding(key2, nil) then
+                cleared = cleared + 1
+            end
+        end
+    end
+    return cleared
+end
+
+local function ClearBindPadTab(tab)
+    local cleared = 0
+    for key, value in pairs(tab) do
+        if key ~= "numSlot" then
+            tab[key] = nil
+            if type(value) == "table" then
+                cleared = cleared + 1
+            end
+        end
+    end
+    tab.numSlot = 49
+    return cleared
+end
+
+local function ClearBindPad()
+    if InCombatLockdown and InCombatLockdown() then
+        Print("leave combat before clearing BindPad.")
+        return
+    end
+
+    local generalTab, characterTab = EnsureBindPadTables()
+    local clearedEntries = ClearBindPadTab(generalTab) + ClearBindPadTab(characterTab)
+    local clearedBinds = ClearBindPadMacroBindings()
+
+    if clearedBinds > 0 and SaveBindings then
+        SaveBindings(GetCurrentBindingSet and GetCurrentBindingSet() or 1)
+    end
+
+    Print("cleared " .. clearedEntries .. " BindPad entries and " .. clearedBinds .. " BindPad keybinds for this character/profile. Reload UI before importing again.")
+end
+
 local function ImportToBindPad(entries)
     if InCombatLockdown and InCombatLockdown() then
         Print("leave combat before importing.")
@@ -428,6 +480,20 @@ local function GetEditorText()
     return importerFrame and importerFrame.editBox:GetText() or ""
 end
 
+StaticPopupDialogs["BINDPAD_BULK_IMPORTER_CLEAR"] = {
+    text = "Clear current General and character BindPad entries, plus BindPad macro keybinds?",
+    button1 = "Clear BindPad",
+    button2 = CANCEL,
+    OnAccept = ClearBindPad,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+}
+
+local function RequestClearBindPad()
+    StaticPopup_Show("BINDPAD_BULK_IMPORTER_CLEAR")
+end
+
 local function ImportWith(mode)
     local entries = ParseMacros(GetEditorText())
     if #entries == 0 then
@@ -501,7 +567,7 @@ local function CreateImporterFrame()
     button("Check", 16, function() ImportWith("check") end)
     button("Build Review", 140, function() ImportWith("review") end)
     button("Import BindPad", 264, function() ImportWith("bindpad") end)
-    button("Import WoW", 388, function() ImportWith("wow") end)
+    button("Clear BindPad", 388, RequestClearBindPad)
     button("Close", 512, function() frame:Hide() end)
 
     return frame
