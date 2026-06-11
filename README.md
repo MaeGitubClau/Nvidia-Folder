@@ -10,6 +10,8 @@ This package contains:
 - `generated/bindpad-import-warrior-arms.txt` - review text for General + Warrior Arms.
 - `generated/bindpad-import-all.txt` - review text for every generated section.
 - `BindPadBulkImporter/` - WoW addon preloaded with General + Warrior Arms.
+- `Run-Nvidia-Folder-Installer.bat` - double-click Windows installer.
+- `tools/install_nvidia_folder.ps1` - installer script used by the launcher.
 - `tools/remake_config.py` - generator used to rebuild the files.
 
 ## What Changed
@@ -41,6 +43,21 @@ Rows are skipped only when their note starts with `Make this key FREE`, because 
 6. Open GGL and verify the binds are visible.
 
 Use `Config.remade.ini` for the actual program. The UTF-8 file is only for easier reading.
+
+## One-Click Windows Installer
+
+1. Close WoW and GGL.
+2. Double-click:
+
+   ```text
+   Run-Nvidia-Folder-Installer.bat
+   ```
+
+3. If Windows asks about PowerShell, allow it to run.
+4. Paste your WoW `_retail_` folder path if it is not found automatically.
+5. Paste your real GGL `Config.ini` path when asked.
+
+The installer backs up `WTF/Account`, backs up/replaces the old `BindPadBulkImporter`, installs the new safe one, backs up your old GGL `Config.ini`, then installs `generated/Config.remade.ini`.
 
 ## Install BindPad Addon
 
