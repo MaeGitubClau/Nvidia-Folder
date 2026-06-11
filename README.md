@@ -1,4 +1,4 @@
-# GGL BindPad Autobinder
+# Nvidia Folder BindPad Autobinder
 
 Generated on 2026-06-11 from the supplied GGL `Config.ini`.
 
