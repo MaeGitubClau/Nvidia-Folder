@@ -1,0 +1,10 @@
+## Interface: 120005
+## Title: BindPad Bulk Importer
+## Notes: Paste/review macros and hotkeys, then import them into WoW macros or BindPad.
+## Author: Clawd
+## Version: 0.5.0
+## OptionalDeps: BindPad
+## SavedVariables: BindPadBulkImporterDB
+
+ImportData.lua
+BindPadBulkImporter.lua
