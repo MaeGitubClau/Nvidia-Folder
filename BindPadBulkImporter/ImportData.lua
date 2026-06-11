@@ -367,689 +367,689 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /cast [@mouseover,harm][]Disarm
 
 [DISARM A1]
-@bind ALT-SHIFT-F1
+@bind CTRL-ALT-SHIFT-1
 /stopcasting
 /cast [@arena1]Disarm
 
 [DISARM A2]
-@bind ALT-SHIFT-F2
+@bind CTRL-ALT-SHIFT-2
 /stopcasting
 /cast [@arena2]Disarm
 
 [DISARM A3]
-@bind ALT-SHIFT-F3
+@bind CTRL-ALT-SHIFT-3
 /stopcasting
 /cast [@arena3]Disarm
 
 [DISARM A4]
-@bind ALT-SHIFT-F4
+@bind CTRL-ALT-SHIFT-4
 /stopcasting
 /cast [@arena4]Disarm
 
 [DISARM A5]
-@bind ALT-SHIFT-F5
+@bind CTRL-ALT-SHIFT-5
 /stopcasting
 /cast [@arena5]Disarm
 
 [DUEL]
-@bind ALT-SHIFT-F6
+@bind CTRL-ALT-SHIFT-6
 /startattack
 /cast Duel
 
 [DUEL A1]
-@bind ALT-SHIFT-F7
+@bind CTRL-ALT-SHIFT-7
 /cast [@arena1]Duel
 
 [DUEL A2]
-@bind ALT-SHIFT-F8
+@bind CTRL-ALT-SHIFT-8
 /cast [@arena2]Duel
 
 [DUEL A3]
-@bind ALT-SHIFT-F9
+@bind CTRL-ALT-SHIFT-9
 /cast [@arena3]Duel
 
 [DUEL A4]
-@bind ALT-SHIFT-F10
+@bind CTRL-ALT-SHIFT-0
 /cast [@arena4]Duel
 
 [DUEL A5]
-@bind ALT-SHIFT-F11
+@bind CTRL-ALT-SHIFT-A
 /cast [@arena5]Duel
 
 [SHARP BLADE]
-@bind ALT-SHIFT-F12
+@bind CTRL-ALT-SHIFT-B
 /startattack
 /cast Sharpen Blade
 
 [ROTATION]
-@bind ALT-SHIFT-F13
+@bind CTRL-ALT-SHIFT-C
 /cast Rotation
 
 [SECON ROTAT]
-@bind ALT-SHIFT-F14
+@bind CTRL-ALT-SHIFT-D
 /cast Secondary Rotation
 
 [TRINK ROTAT]
-@bind ALT-SHIFT-F15
+@bind CTRL-ALT-SHIFT-E
 /cast Trinket Rotation
 
 [ANTIF CC]
-@bind ALT-SHIFT-F16
+@bind CTRL-ALT-SHIFT-F
 /cast AntiFake CC
 
 [ANTIF CC FOC]
-@bind ALT-SHIFT-F17
+@bind CTRL-ALT-SHIFT-G
 /cast AntiFake CC Focus
 
 [ANTIF INTER]
-@bind ALT-SHIFT-F18
+@bind CTRL-ALT-SHIFT-H
 /cast AntiFake Interrupt
 
 [ANTIF INTER FOC]
-@bind ALT-SHIFT-F19
+@bind CTRL-ALT-SHIFT-I
 /cast AntiFake Interrupt Focus
 
 [ANTIF CC2]
-@bind ALT-SHIFT-F20
+@bind CTRL-ALT-SHIFT-J
 /cast AntiFake CC2
 
 [ANTIF CC2 FOC]
-@bind ALT-SHIFT-F21
+@bind CTRL-ALT-SHIFT-K
 /cast AntiFake CC2 Focus
 
 [POTION]
-@bind ALT-SHIFT-F22
+@bind CTRL-ALT-SHIFT-L
 /cast Potion
 
 [UNIVERSA]
-@bind ALT-SHIFT-F23
+@bind CTRL-ALT-SHIFT-M
 /cast Universal1
 
 [UNIVERSA2]
-@bind ALT-SHIFT-F24
+@bind CTRL-ALT-SHIFT-N
 /cast Universal2
 
 [UNIVERSA3]
-@bind CTRL-SHIFT-F1
+@bind CTRL-ALT-SHIFT-O
 /cast Universal3
 
 [UNIVERSA4]
-@bind CTRL-SHIFT-F2
+@bind CTRL-ALT-SHIFT-P
 /cast Universal4
 
 [UNIVERSA5]
-@bind CTRL-SHIFT-F3
+@bind CTRL-ALT-SHIFT-Q
 /cast Universal5
 
 [UNIVERSA6]
-@bind CTRL-SHIFT-F4
+@bind CTRL-ALT-SHIFT-R
 /cast Universal6
 
 [UNIVERSA7]
-@bind CTRL-SHIFT-F5
+@bind CTRL-ALT-SHIFT-S
 /cast Universal7
 
 [UNIVERSA8]
-@bind CTRL-SHIFT-F6
+@bind CTRL-ALT-SHIFT-T
 /cast Universal8
 
 [UNIVERSA9]
-@bind CTRL-SHIFT-F7
+@bind CTRL-ALT-SHIFT-U
 /cast Universal9
 
 [UNIVERSA10]
-@bind CTRL-SHIFT-F8
+@bind CTRL-ALT-SHIFT-V
 /cast Universal10
 
 [UNIVERSA U1]
-@bind CTRL-SHIFT-F9
+@bind CTRL-ALT-SHIFT-W
 /cast Universal1 Unit1
 
 [UNIVERSA U2]
-@bind CTRL-SHIFT-F10
+@bind CTRL-ALT-SHIFT-X
 /cast Universal1 Unit2
 
 [UNIVERSA U3]
-@bind CTRL-SHIFT-F11
+@bind CTRL-ALT-SHIFT-Y
 /cast Universal1 Unit3
 
 [UNIVERSA U4]
-@bind CTRL-SHIFT-F12
+@bind CTRL-ALT-SHIFT-Z
 /cast Universal1 Unit4
 
 [UNIVERSA U5]
-@bind CTRL-SHIFT-F13
+@bind ALT-SHIFT-F1
 /cast Universal1 Unit5
 
 [UNIVERSA U12]
-@bind CTRL-SHIFT-F14
+@bind ALT-SHIFT-F2
 /cast Universal2 Unit1
 
 [UNIVERSA U22]
-@bind CTRL-SHIFT-F15
+@bind ALT-SHIFT-F3
 /cast Universal2 Unit2
 
 [UNIVERSA U32]
-@bind CTRL-SHIFT-F16
+@bind ALT-SHIFT-F4
 /cast Universal2 Unit3
 
 [UNIVERSA U42]
-@bind CTRL-SHIFT-F17
+@bind ALT-SHIFT-F5
 /cast Universal2 Unit4
 
 [UNIVERSA U52]
-@bind CTRL-SHIFT-F18
+@bind ALT-SHIFT-F6
 /cast Universal2 Unit5
 
 [UNIVERSA U13]
-@bind CTRL-SHIFT-F19
+@bind ALT-SHIFT-F7
 /cast Universal3 Unit1
 
 [UNIVERSA U23]
-@bind CTRL-SHIFT-F20
+@bind ALT-SHIFT-F8
 /cast Universal3 Unit2
 
 [UNIVERSA U33]
-@bind CTRL-SHIFT-F21
+@bind ALT-SHIFT-F9
 /cast Universal3 Unit3
 
 [UNIVERSA U43]
-@bind CTRL-SHIFT-F22
+@bind ALT-SHIFT-F10
 /cast Universal3 Unit4
 
 [UNIVERSA U53]
-@bind CTRL-SHIFT-F23
+@bind ALT-SHIFT-F11
 /cast Universal3 Unit5
 
 [UNIVERSA U14]
-@bind CTRL-SHIFT-F24
+@bind ALT-SHIFT-F12
 /cast Universal4 Unit1
 
 [UNIVERSA U24]
-@bind ALT-SHIFT-NUMPAD1
+@bind ALT-SHIFT-F13
 /cast Universal4 Unit2
 
 [UNIVERSA U34]
-@bind ALT-SHIFT-NUMPAD2
+@bind ALT-SHIFT-F14
 /cast Universal4 Unit3
 
 [UNIVERSA U44]
-@bind ALT-SHIFT-NUMPAD3
+@bind ALT-SHIFT-F15
 /cast Universal4 Unit4
 
 [UNIVERSA U54]
-@bind ALT-SHIFT-NUMPAD4
+@bind ALT-SHIFT-F16
 /cast Universal4 Unit5
 
 [UNIVERSA U15]
-@bind ALT-SHIFT-NUMPAD5
+@bind ALT-SHIFT-F17
 /cast Universal5 Unit1
 
 [UNIVERSA U25]
-@bind ALT-SHIFT-NUMPAD6
+@bind ALT-SHIFT-F18
 /cast Universal5 Unit2
 
 [UNIVERSA U35]
-@bind ALT-SHIFT-NUMPAD7
+@bind ALT-SHIFT-F19
 /cast Universal5 Unit3
 
 [UNIVERSA U45]
-@bind ALT-SHIFT-NUMPAD8
+@bind ALT-SHIFT-F20
 /cast Universal5 Unit4
 
 [UNIVERSA U55]
-@bind ALT-SHIFT-NUMPAD9
+@bind ALT-SHIFT-F21
 /cast Universal5 Unit5
 
 [UNIVERSA U16]
-@bind ALT-SHIFT-NUMPAD0
+@bind ALT-SHIFT-F22
 /cast Universal6 Unit1
 
 [UNIVERSA U26]
-@bind ALT-SHIFT-NUMPADPLUS
+@bind ALT-SHIFT-F23
 /cast Universal6 Unit2
 
 [UNIVERSA U36]
-@bind ALT-SHIFT-NUMPADMINUS
+@bind ALT-SHIFT-F24
 /cast Universal6 Unit3
 
 [UNIVERSA U46]
-@bind ALT-SHIFT-NUMPADMULTIPLY
+@bind CTRL-SHIFT-F1
 /cast Universal6 Unit4
 
 [UNIVERSA U56]
-@bind ALT-SHIFT-NUMPADDIVIDE
+@bind CTRL-SHIFT-F2
 /cast Universal6 Unit5
 
 [UNIVERSA U17]
-@bind ALT-SHIFT-NUMPADDECIMAL
+@bind CTRL-SHIFT-F3
 /cast Universal7 Unit1
 
 [UNIVERSA U27]
-@bind CTRL-SHIFT-NUMPAD1
+@bind CTRL-SHIFT-F4
 /cast Universal7 Unit2
 
 [UNIVERSA U37]
-@bind CTRL-SHIFT-NUMPAD2
+@bind CTRL-SHIFT-F5
 /cast Universal7 Unit3
 
 [UNIVERSA U47]
-@bind CTRL-SHIFT-NUMPAD3
+@bind CTRL-SHIFT-F6
 /cast Universal7 Unit4
 
 [UNIVERSA U57]
-@bind CTRL-SHIFT-NUMPAD4
+@bind CTRL-SHIFT-F7
 /cast Universal7 Unit5
 
 [UNIVERSA U18]
-@bind CTRL-SHIFT-NUMPAD5
+@bind CTRL-SHIFT-F8
 /cast Universal8 Unit1
 
 [UNIVERSA U28]
-@bind CTRL-SHIFT-NUMPAD6
+@bind CTRL-SHIFT-F9
 /cast Universal8 Unit2
 
 [UNIVERSA U38]
-@bind CTRL-SHIFT-NUMPAD7
+@bind CTRL-SHIFT-F10
 /cast Universal8 Unit3
 
 [UNIVERSA U48]
-@bind CTRL-SHIFT-NUMPAD8
+@bind CTRL-SHIFT-F11
 /cast Universal8 Unit4
 
 [UNIVERSA U58]
-@bind CTRL-SHIFT-NUMPAD9
+@bind CTRL-SHIFT-F12
 /cast Universal8 Unit5
 
 [UNIVERSA U19]
-@bind CTRL-SHIFT-NUMPAD0
+@bind CTRL-SHIFT-F13
 /cast Universal9 Unit1
 
 [UNIVERSA U29]
-@bind CTRL-SHIFT-NUMPADPLUS
+@bind CTRL-SHIFT-F14
 /cast Universal9 Unit2
 
 [UNIVERSA U39]
-@bind CTRL-SHIFT-NUMPADMINUS
+@bind CTRL-SHIFT-F15
 /cast Universal9 Unit3
 
 [UNIVERSA U49]
-@bind CTRL-SHIFT-NUMPADMULTIPLY
+@bind CTRL-SHIFT-F16
 /cast Universal9 Unit4
 
 [UNIVERSA U59]
-@bind CTRL-SHIFT-NUMPADDIVIDE
+@bind CTRL-SHIFT-F17
 /cast Universal9 Unit5
 
 [UNIVERSA U110]
-@bind CTRL-SHIFT-NUMPADDECIMAL
+@bind CTRL-SHIFT-F18
 /cast Universal10 Unit1
 
 [UNIVERSA U210]
-@bind ALT-SHIFT-INSERT
+@bind CTRL-SHIFT-F19
 /cast Universal10 Unit2
 
 [UNIVERSA U310]
-@bind ALT-SHIFT-DELETE
+@bind CTRL-SHIFT-F20
 /cast Universal10 Unit3
 
 [UNIVERSA U410]
-@bind ALT-SHIFT-HOME
+@bind CTRL-SHIFT-F21
 /cast Universal10 Unit4
 
 [UNIVERSA U510]
-@bind ALT-SHIFT-END
+@bind CTRL-SHIFT-F22
 /cast Universal10 Unit5
 
 [EVERY MAN]
-@bind ALT-SHIFT-PAGEUP
+@bind CTRL-SHIFT-F23
 /cast Every Man for Himself
 
 [DARK FLIGH]
-@bind ALT-SHIFT-PAGEDOWN
+@bind CTRL-SHIFT-F24
 /cast Dark Flight
 
 [RAVAGER]
-@bind ALT-SHIFT-UP
+@bind CTRL-ALT-SHIFT-F1
 /cast Ravager
 
 [WARBREAK]
-@bind ALT-SHIFT-DOWN
+@bind CTRL-ALT-SHIFT-F2
 /cast Warbreaker
 
 [COLOSSUS]
-@bind ALT-SHIFT-LEFT
+@bind CTRL-ALT-SHIFT-F3
 /cast Colossus Smash
 
 [TEST OF]
-@bind ALT-SHIFT-RIGHT
+@bind CTRL-ALT-SHIFT-F4
 /cast Test of Might
 
 [BLADESTO]
-@bind ALT-SHIFT-TAB
+@bind CTRL-ALT-SHIFT-F5
 /cast Bladestorm
 
 [TIDEO BLOOD]
-@bind ALT-SHIFT-SPACE
+@bind CTRL-ALT-SHIFT-F6
 /cast Tideof Blood
 
 [BATTLELO]
-@bind ALT-SHIFT-ENTER
+@bind CTRL-ALT-SHIFT-F7
 /cast Battlelord
 
 [UNHINGED]
-@bind ALT-SHIFT-BACKSPACE
+@bind CTRL-ALT-SHIFT-F8
 /cast Unhinged
 
 [FERVO BATTL]
-@bind ALT-SHIFT-CAPSLOCK
+@bind CTRL-ALT-SHIFT-F9
 /cast Fervorof Battle
 
 [HEROI STRIK]
-@bind ALT-SHIFT-MINUS
+@bind CTRL-ALT-SHIFT-F10
 /cast Heroic Strike
 
 [IMPEN VICTO2]
-@bind ALT-SHIFT-EQUALS
+@bind CTRL-ALT-SHIFT-F11
 /cast Impending Victory
 
 [WRECK THROW2]
-@bind ALT-SHIFT-LBRACKET
+@bind CTRL-ALT-SHIFT-F12
 /cast Wrecking Throw
 
 [MASSACRE]
-@bind ALT-SHIFT-RBRACKET
+@bind CTRL-ALT-SHIFT-F13
 /cast Massacre
 
 [SONIC BOOM]
-@bind ALT-SHIFT-BACKSLASH
+@bind CTRL-ALT-SHIFT-F14
 /cast Sonic Boom
 
 [BLOOD THUND]
-@bind ALT-SHIFT-SEMICOLON
+@bind CTRL-ALT-SHIFT-F15
 /cast Bloodand Thunder
 
 [BLADE TORME]
-@bind ALT-SHIFT-APOSTROPHE
+@bind CTRL-ALT-SHIFT-F16
 /cast Blademasters Torment
 
 [STORM SWORD]
-@bind ALT-SHIFT-COMMA
+@bind CTRL-ALT-SHIFT-F17
 /cast Stormof Swords
 
 [CRUSH FORCE]
-@bind ALT-SHIFT-PERIOD
+@bind CTRL-ALT-SHIFT-F18
 /cast Crushing Force
 
 [WARLO TORME]
-@bind ALT-SHIFT-SLASH
+@bind CTRL-ALT-SHIFT-F19
 /cast Warlords Torment
 
 [BLOODLET]
-@bind ALT-SHIFT-GRAVE
+@bind CTRL-ALT-SHIFT-F20
 /cast Bloodletting
 
 [IMPRO SLAM]
-@bind CTRL-SHIFT-INSERT
+@bind CTRL-ALT-SHIFT-F21
 /cast Improved Slam
 
 [MERCI BONEG]
-@bind CTRL-SHIFT-DELETE
+@bind CTRL-ALT-SHIFT-F22
 /cast Merciless Bonegrinder
 
 [STREN ARMS]
-@bind CTRL-SHIFT-HOME
+@bind CTRL-ALT-SHIFT-F23
 /cast Strengthof Arms
 
 [EXECU PRECI]
-@bind CTRL-SHIFT-END
+@bind CTRL-ALT-SHIFT-F24
 /cast Executioners Precision
 
 [JUGGERNA]
-@bind CTRL-SHIFT-PAGEUP
+@bind ALT-SHIFT-NUMPAD1
 /cast Juggernaut
 
 [FIERC FOLLO]
-@bind CTRL-SHIFT-PAGEDOWN
+@bind ALT-SHIFT-NUMPAD2
 /cast Fierce Followthrough
 
 [SLAYE DOMIN]
-@bind CTRL-SHIFT-UP
+@bind ALT-SHIFT-NUMPAD3
 /cast Slayers Dominance
 
 [PUMMEL]
-@bind CTRL-SHIFT-DOWN
+@bind ALT-SHIFT-NUMPAD4
 /cast Pummel
 
 [SEETHE]
-@bind CTRL-SHIFT-LEFT
+@bind ALT-SHIFT-NUMPAD5
 /cast Seethe
 
 [OVERWATC]
-@bind CTRL-SHIFT-RIGHT
+@bind ALT-SHIFT-NUMPAD6
 /cast Overwatch
 
 [SHATT THROW]
-@bind CTRL-SHIFT-TAB
+@bind ALT-SHIFT-NUMPAD7
 /cast Shattering Throw
 
 [ENDUR RAGE]
-@bind CTRL-SHIFT-SPACE
+@bind ALT-SHIFT-NUMPAD8
 /cast Enduring Rage
 
 [BLOODRAG]
-@bind CTRL-SHIFT-ENTER
+@bind ALT-SHIFT-NUMPAD9
 /cast Bloodrage
 
 [DEATH WISH]
-@bind CTRL-SHIFT-BACKSPACE
+@bind ALT-SHIFT-NUMPAD0
 /cast Death Wish
 
 [DEMOLITI]
-@bind CTRL-SHIFT-CAPSLOCK
+@bind ALT-SHIFT-NUMPADPLUS
 /cast Demolition
 
 [WAR BANNE]
-@bind CTRL-SHIFT-MINUS
+@bind ALT-SHIFT-NUMPADMINUS
 /cast War Banner
 
 [DREADNAU]
-@bind CTRL-SHIFT-EQUALS
+@bind ALT-SHIFT-NUMPADMULTIPLY
 /cast Dreadnaught
 
 [ANGER MANAG]
-@bind CTRL-SHIFT-LBRACKET
+@bind ALT-SHIFT-NUMPADDIVIDE
 /cast Anger Management
 
 [IMPRO SWEEP]
-@bind CTRL-SHIFT-RBRACKET
+@bind ALT-SHIFT-NUMPADDECIMAL
 /cast Improved Sweeping Strikes
 
 [SHARP BLADE2]
-@bind CTRL-SHIFT-BACKSLASH
+@bind CTRL-SHIFT-NUMPAD1
 /cast Sharpened Blades
 
 [BERSE RAGE]
-@bind CTRL-SHIFT-SEMICOLON
+@bind CTRL-SHIFT-NUMPAD2
 /cast Berserker Rage
 
 [VICTO RUSH]
-@bind CTRL-SHIFT-APOSTROPHE
+@bind CTRL-SHIFT-NUMPAD3
 /cast Victory Rush
 
 [FROZE BINDS]
-@bind CTRL-SHIFT-COMMA
+@bind CTRL-SHIFT-NUMPAD4
 /cast Frozen Binds
 
 [SANGUINE]
-@bind CTRL-SHIFT-PERIOD
+@bind CTRL-SHIFT-NUMPAD5
 /cast Sanguine
 
 [SATED]
-@bind CTRL-SHIFT-SLASH
+@bind CTRL-SHIFT-NUMPAD6
 /cast Sated
 
 [SBA]
-@bind CTRL-SHIFT-GRAVE
+@bind CTRL-SHIFT-NUMPAD7
 /cast SBA
 
 [BLESS OF]
-@bind ALT-SHIFT-BUTTON3
+@bind CTRL-SHIFT-NUMPAD8
 /cast Blessing of Protection
 
 [DARK PACT]
-@bind ALT-SHIFT-BUTTON4
+@bind CTRL-SHIFT-NUMPAD9
 /cast Dark Pact
 
 [COMBUSTI]
-@bind ALT-SHIFT-BUTTON5
+@bind CTRL-SHIFT-NUMPAD0
 /cast Combustion
 
 [ICY VEINS]
-@bind ALT-SHIFT-BUTTON6
+@bind CTRL-SHIFT-NUMPADPLUS
 /cast Icy Veins
 
 [ALTER TIME]
-@bind ALT-SHIFT-BUTTON7
+@bind CTRL-SHIFT-NUMPADMINUS
 /cast Alter Time
 
 [ARCAN POWER]
-@bind ALT-SHIFT-BUTTON8
+@bind CTRL-SHIFT-NUMPADMULTIPLY
 /cast Arcane Power
 
 [DIVIN FAVOR]
-@bind ALT-SHIFT-BUTTON9
+@bind CTRL-SHIFT-NUMPADDIVIDE
 /cast Divine Favor
 
 [BLESS OF2]
-@bind ALT-SHIFT-BUTTON10
+@bind CTRL-SHIFT-NUMPADDECIMAL
 /cast Blessing of Freedom
 
 [POWER INFUS]
-@bind ALT-SHIFT-BUTTON11
+@bind CTRL-ALT-SHIFT-NUMPAD1
 /cast Power Infusion
 
 [SURVI TACTI]
-@bind ALT-SHIFT-BUTTON12
+@bind CTRL-ALT-SHIFT-NUMPAD2
 /cast Survival Tactics
 
 [CLOAK OF]
-@bind ALT-SHIFT-BUTTON13
+@bind CTRL-ALT-SHIFT-NUMPAD3
 /cast Cloak of Shadows
 
 [REFLECT2]
-@bind ALT-SHIFT-BUTTON14
+@bind CTRL-ALT-SHIFT-NUMPAD4
 /cast Reflect
 
 [DEVOU PLAGU]
-@bind ALT-SHIFT-BUTTON15
+@bind CTRL-ALT-SHIFT-NUMPAD5
 /cast Devouring Plague
 
 [ASPEC OF]
-@bind ALT-SHIFT-BUTTON16
+@bind CTRL-ALT-SHIFT-NUMPAD6
 /cast Aspect of the Turtle
 
 [DIVIN SHIEL]
-@bind ALT-SHIFT-BUTTON17
+@bind CTRL-ALT-SHIFT-NUMPAD7
 /cast Divine Shield
 
 [ICE BLOCK]
-@bind ALT-SHIFT-BUTTON18
+@bind CTRL-ALT-SHIFT-NUMPAD8
 /cast Ice Block
 
 [SLAUGHTE]
-@bind ALT-SHIFT-BUTTON19
+@bind CTRL-ALT-SHIFT-NUMPAD9
 /cast Slaughterhouse
 
 [DEATH SENTE]
-@bind ALT-SHIFT-BUTTON20
+@bind CTRL-ALT-SHIFT-NUMPAD0
 /cast Death Sentence
 
 [BATTL TRANC]
-@bind ALT-SHIFT-BUTTON21
+@bind CTRL-ALT-SHIFT-NUMPADPLUS
 /cast Battle Trance
 
 [BARBARIA]
-@bind ALT-SHIFT-BUTTON22
+@bind CTRL-ALT-SHIFT-NUMPADMINUS
 /cast Barbarian
 
 #general
 
 [GEN TARGETMO]
-@bind ALT-SHIFT-BUTTON23
+@bind CTRL-ALT-SHIFT-NUMPADMULTIPLY
 /target mouseover
 
 [GEN TARGETEN]
-@bind ALT-SHIFT-BUTTON24
+@bind CTRL-ALT-SHIFT-NUMPADDIVIDE
 /targetenemy
 
 [GEN TARGETLA]
-@bind ALT-SHIFT-BUTTON25
+@bind CTRL-ALT-SHIFT-NUMPADDECIMAL
 /targetlasttarget
 
 [GEN MACRO A1 TGT]
-@bind ALT-SHIFT-BUTTON26
+@bind ALT-SHIFT-INSERT
 /target arena1
 
 [GEN MACRO A2 TGT]
-@bind ALT-SHIFT-BUTTON27
+@bind ALT-SHIFT-DELETE
 /target arena2
 
 [GEN MACRO A3 TGT]
-@bind ALT-SHIFT-BUTTON28
+@bind ALT-SHIFT-HOME
 /target arena3
 
 [GEN MACRO A4 TGT]
-@bind ALT-SHIFT-BUTTON29
+@bind ALT-SHIFT-END
 /target arena4
 
 [GEN MACRO A5 TGT]
-@bind ALT-SHIFT-BUTTON30
+@bind ALT-SHIFT-PAGEUP
 /target arena5
 
 [GEN MACRO A1 FOC]
-@bind CTRL-SHIFT-BUTTON3
+@bind ALT-SHIFT-PAGEDOWN
 /focus arena1
 
 [GEN MACRO A2 FOC]
-@bind CTRL-SHIFT-BUTTON4
+@bind ALT-SHIFT-UP
 /focus arena2
 
 [GEN MACRO A3 FOC]
-@bind CTRL-SHIFT-BUTTON5
+@bind ALT-SHIFT-DOWN
 /focus arena3
 
 [GEN MACRO A4 FOC]
-@bind CTRL-SHIFT-BUTTON6
+@bind ALT-SHIFT-LEFT
 /focus arena4
 
 [GEN MACRO A5 FOC]
-@bind CTRL-SHIFT-BUTTON7
+@bind ALT-SHIFT-RIGHT
 /focus arena5
 
 [GEN PLAYER FOC]
-@bind CTRL-SHIFT-BUTTON8
+@bind ALT-SHIFT-TAB
 /focus player
 
 [GEN STOPCAST]
-@bind CTRL-SHIFT-BUTTON9
+@bind ALT-SHIFT-SPACE
 /stopcasting
 
 [GEN STARTATT]
-@bind CTRL-SHIFT-BUTTON10
+@bind ALT-SHIFT-ENTER
 /startattack [@mouseover,harm][@targettarget,harm][]
 /petattack [@mouseover,harm][]
 
 [GEN TRINKET1]
-@bind CTRL-SHIFT-BUTTON11
+@bind ALT-SHIFT-BACKSPACE
 /use 13
 
 [GEN TRINKET2]
-@bind CTRL-SHIFT-BUTTON12
+@bind ALT-SHIFT-CAPSLOCK
 /use 14
 
 [GEN HEALTHST]
-@bind CTRL-SHIFT-BUTTON13
+@bind ALT-SHIFT-MINUS
 /use Fel Healthstone
 /use Demonic Healthstone
 /use Master Healthstone
@@ -1060,7 +1060,7 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /use Minor Healthstone
 
 [GEN HEALINGP]
-@bind CTRL-SHIFT-BUTTON14
+@bind ALT-SHIFT-EQUALS
 /use item:244849
 /use item:244839
 /use item:244838
@@ -1079,10 +1079,10 @@ Note: When making this macro you'll need to replace one-hander, shield, and two-
 /use item:171267
 
 [GEN WHIPP ROOT]
-@bind CTRL-SHIFT-BUTTON15
+@bind ALT-SHIFT-LBRACKET
 /use item:11951
 
 [GEN SBA]
-@bind CTRL-SHIFT-BUTTON16
+@bind ALT-SHIFT-RBRACKET
 /cast Single-Button Assistant
 ]==]

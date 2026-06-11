@@ -74,153 +74,153 @@
 | SKULLSPL | `CTRL-SHIFT-X` | /cast Skullsplitter |
 | WARBR | `CTRL-SHIFT-Y` | /cast Warbreaker<br>/cast Colossus Smash |
 | DISARM | `CTRL-SHIFT-Z` | /stopcasting<br>/cast [@mouseover,harm][]Disarm |
-| DISARM A1 | `ALT-SHIFT-F1` | /stopcasting<br>/cast [@arena1]Disarm |
-| DISARM A2 | `ALT-SHIFT-F2` | /stopcasting<br>/cast [@arena2]Disarm |
-| DISARM A3 | `ALT-SHIFT-F3` | /stopcasting<br>/cast [@arena3]Disarm |
-| DISARM A4 | `ALT-SHIFT-F4` | /stopcasting<br>/cast [@arena4]Disarm |
-| DISARM A5 | `ALT-SHIFT-F5` | /stopcasting<br>/cast [@arena5]Disarm |
-| DUEL | `ALT-SHIFT-F6` | /startattack<br>/cast Duel |
-| DUEL A1 | `ALT-SHIFT-F7` | /cast [@arena1]Duel |
-| DUEL A2 | `ALT-SHIFT-F8` | /cast [@arena2]Duel |
-| DUEL A3 | `ALT-SHIFT-F9` | /cast [@arena3]Duel |
-| DUEL A4 | `ALT-SHIFT-F10` | /cast [@arena4]Duel |
-| DUEL A5 | `ALT-SHIFT-F11` | /cast [@arena5]Duel |
-| SHARP BLADE | `ALT-SHIFT-F12` | /startattack<br>/cast Sharpen Blade |
-| ROTATION | `ALT-SHIFT-F13` | /cast Rotation |
-| SECON ROTAT | `ALT-SHIFT-F14` | /cast Secondary Rotation |
-| TRINK ROTAT | `ALT-SHIFT-F15` | /cast Trinket Rotation |
-| ANTIF CC | `ALT-SHIFT-F16` | /cast AntiFake CC |
-| ANTIF CC FOC | `ALT-SHIFT-F17` | /cast AntiFake CC Focus |
-| ANTIF INTER | `ALT-SHIFT-F18` | /cast AntiFake Interrupt |
-| ANTIF INTER FOC | `ALT-SHIFT-F19` | /cast AntiFake Interrupt Focus |
-| ANTIF CC2 | `ALT-SHIFT-F20` | /cast AntiFake CC2 |
-| ANTIF CC2 FOC | `ALT-SHIFT-F21` | /cast AntiFake CC2 Focus |
-| POTION | `ALT-SHIFT-F22` | /cast Potion |
-| UNIVERSA | `ALT-SHIFT-F23` | /cast Universal1 |
-| UNIVERSA2 | `ALT-SHIFT-F24` | /cast Universal2 |
-| UNIVERSA3 | `CTRL-SHIFT-F1` | /cast Universal3 |
-| UNIVERSA4 | `CTRL-SHIFT-F2` | /cast Universal4 |
-| UNIVERSA5 | `CTRL-SHIFT-F3` | /cast Universal5 |
-| UNIVERSA6 | `CTRL-SHIFT-F4` | /cast Universal6 |
-| UNIVERSA7 | `CTRL-SHIFT-F5` | /cast Universal7 |
-| UNIVERSA8 | `CTRL-SHIFT-F6` | /cast Universal8 |
-| UNIVERSA9 | `CTRL-SHIFT-F7` | /cast Universal9 |
-| UNIVERSA10 | `CTRL-SHIFT-F8` | /cast Universal10 |
-| UNIVERSA U1 | `CTRL-SHIFT-F9` | /cast Universal1 Unit1 |
-| UNIVERSA U2 | `CTRL-SHIFT-F10` | /cast Universal1 Unit2 |
-| UNIVERSA U3 | `CTRL-SHIFT-F11` | /cast Universal1 Unit3 |
-| UNIVERSA U4 | `CTRL-SHIFT-F12` | /cast Universal1 Unit4 |
-| UNIVERSA U5 | `CTRL-SHIFT-F13` | /cast Universal1 Unit5 |
-| UNIVERSA U12 | `CTRL-SHIFT-F14` | /cast Universal2 Unit1 |
-| UNIVERSA U22 | `CTRL-SHIFT-F15` | /cast Universal2 Unit2 |
-| UNIVERSA U32 | `CTRL-SHIFT-F16` | /cast Universal2 Unit3 |
-| UNIVERSA U42 | `CTRL-SHIFT-F17` | /cast Universal2 Unit4 |
-| UNIVERSA U52 | `CTRL-SHIFT-F18` | /cast Universal2 Unit5 |
-| UNIVERSA U13 | `CTRL-SHIFT-F19` | /cast Universal3 Unit1 |
-| UNIVERSA U23 | `CTRL-SHIFT-F20` | /cast Universal3 Unit2 |
-| UNIVERSA U33 | `CTRL-SHIFT-F21` | /cast Universal3 Unit3 |
-| UNIVERSA U43 | `CTRL-SHIFT-F22` | /cast Universal3 Unit4 |
-| UNIVERSA U53 | `CTRL-SHIFT-F23` | /cast Universal3 Unit5 |
-| UNIVERSA U14 | `CTRL-SHIFT-F24` | /cast Universal4 Unit1 |
-| UNIVERSA U24 | `ALT-SHIFT-NUMPAD1` | /cast Universal4 Unit2 |
-| UNIVERSA U34 | `ALT-SHIFT-NUMPAD2` | /cast Universal4 Unit3 |
-| UNIVERSA U44 | `ALT-SHIFT-NUMPAD3` | /cast Universal4 Unit4 |
-| UNIVERSA U54 | `ALT-SHIFT-NUMPAD4` | /cast Universal4 Unit5 |
-| UNIVERSA U15 | `ALT-SHIFT-NUMPAD5` | /cast Universal5 Unit1 |
-| UNIVERSA U25 | `ALT-SHIFT-NUMPAD6` | /cast Universal5 Unit2 |
-| UNIVERSA U35 | `ALT-SHIFT-NUMPAD7` | /cast Universal5 Unit3 |
-| UNIVERSA U45 | `ALT-SHIFT-NUMPAD8` | /cast Universal5 Unit4 |
-| UNIVERSA U55 | `ALT-SHIFT-NUMPAD9` | /cast Universal5 Unit5 |
-| UNIVERSA U16 | `ALT-SHIFT-NUMPAD0` | /cast Universal6 Unit1 |
-| UNIVERSA U26 | `ALT-SHIFT-NUMPADPLUS` | /cast Universal6 Unit2 |
-| UNIVERSA U36 | `ALT-SHIFT-NUMPADMINUS` | /cast Universal6 Unit3 |
-| UNIVERSA U46 | `ALT-SHIFT-NUMPADMULTIPLY` | /cast Universal6 Unit4 |
-| UNIVERSA U56 | `ALT-SHIFT-NUMPADDIVIDE` | /cast Universal6 Unit5 |
-| UNIVERSA U17 | `ALT-SHIFT-NUMPADDECIMAL` | /cast Universal7 Unit1 |
-| UNIVERSA U27 | `CTRL-SHIFT-NUMPAD1` | /cast Universal7 Unit2 |
-| UNIVERSA U37 | `CTRL-SHIFT-NUMPAD2` | /cast Universal7 Unit3 |
-| UNIVERSA U47 | `CTRL-SHIFT-NUMPAD3` | /cast Universal7 Unit4 |
-| UNIVERSA U57 | `CTRL-SHIFT-NUMPAD4` | /cast Universal7 Unit5 |
-| UNIVERSA U18 | `CTRL-SHIFT-NUMPAD5` | /cast Universal8 Unit1 |
-| UNIVERSA U28 | `CTRL-SHIFT-NUMPAD6` | /cast Universal8 Unit2 |
-| UNIVERSA U38 | `CTRL-SHIFT-NUMPAD7` | /cast Universal8 Unit3 |
-| UNIVERSA U48 | `CTRL-SHIFT-NUMPAD8` | /cast Universal8 Unit4 |
-| UNIVERSA U58 | `CTRL-SHIFT-NUMPAD9` | /cast Universal8 Unit5 |
-| UNIVERSA U19 | `CTRL-SHIFT-NUMPAD0` | /cast Universal9 Unit1 |
-| UNIVERSA U29 | `CTRL-SHIFT-NUMPADPLUS` | /cast Universal9 Unit2 |
-| UNIVERSA U39 | `CTRL-SHIFT-NUMPADMINUS` | /cast Universal9 Unit3 |
-| UNIVERSA U49 | `CTRL-SHIFT-NUMPADMULTIPLY` | /cast Universal9 Unit4 |
-| UNIVERSA U59 | `CTRL-SHIFT-NUMPADDIVIDE` | /cast Universal9 Unit5 |
-| UNIVERSA U110 | `CTRL-SHIFT-NUMPADDECIMAL` | /cast Universal10 Unit1 |
-| UNIVERSA U210 | `ALT-SHIFT-INSERT` | /cast Universal10 Unit2 |
-| UNIVERSA U310 | `ALT-SHIFT-DELETE` | /cast Universal10 Unit3 |
-| UNIVERSA U410 | `ALT-SHIFT-HOME` | /cast Universal10 Unit4 |
-| UNIVERSA U510 | `ALT-SHIFT-END` | /cast Universal10 Unit5 |
-| EVERY MAN | `ALT-SHIFT-PAGEUP` | /cast Every Man for Himself |
-| DARK FLIGH | `ALT-SHIFT-PAGEDOWN` | /cast Dark Flight |
-| RAVAGER | `ALT-SHIFT-UP` | /cast Ravager |
-| WARBREAK | `ALT-SHIFT-DOWN` | /cast Warbreaker |
-| COLOSSUS | `ALT-SHIFT-LEFT` | /cast Colossus Smash |
-| TEST OF | `ALT-SHIFT-RIGHT` | /cast Test of Might |
-| BLADESTO | `ALT-SHIFT-TAB` | /cast Bladestorm |
-| TIDEO BLOOD | `ALT-SHIFT-SPACE` | /cast Tideof Blood |
-| BATTLELO | `ALT-SHIFT-ENTER` | /cast Battlelord |
-| UNHINGED | `ALT-SHIFT-BACKSPACE` | /cast Unhinged |
-| FERVO BATTL | `ALT-SHIFT-CAPSLOCK` | /cast Fervorof Battle |
-| HEROI STRIK | `ALT-SHIFT-MINUS` | /cast Heroic Strike |
-| IMPEN VICTO2 | `ALT-SHIFT-EQUALS` | /cast Impending Victory |
-| WRECK THROW2 | `ALT-SHIFT-LBRACKET` | /cast Wrecking Throw |
-| MASSACRE | `ALT-SHIFT-RBRACKET` | /cast Massacre |
-| SONIC BOOM | `ALT-SHIFT-BACKSLASH` | /cast Sonic Boom |
-| BLOOD THUND | `ALT-SHIFT-SEMICOLON` | /cast Bloodand Thunder |
-| BLADE TORME | `ALT-SHIFT-APOSTROPHE` | /cast Blademasters Torment |
-| STORM SWORD | `ALT-SHIFT-COMMA` | /cast Stormof Swords |
-| CRUSH FORCE | `ALT-SHIFT-PERIOD` | /cast Crushing Force |
-| WARLO TORME | `ALT-SHIFT-SLASH` | /cast Warlords Torment |
-| BLOODLET | `ALT-SHIFT-GRAVE` | /cast Bloodletting |
-| IMPRO SLAM | `CTRL-SHIFT-INSERT` | /cast Improved Slam |
-| MERCI BONEG | `CTRL-SHIFT-DELETE` | /cast Merciless Bonegrinder |
-| STREN ARMS | `CTRL-SHIFT-HOME` | /cast Strengthof Arms |
-| EXECU PRECI | `CTRL-SHIFT-END` | /cast Executioners Precision |
-| JUGGERNA | `CTRL-SHIFT-PAGEUP` | /cast Juggernaut |
-| FIERC FOLLO | `CTRL-SHIFT-PAGEDOWN` | /cast Fierce Followthrough |
-| SLAYE DOMIN | `CTRL-SHIFT-UP` | /cast Slayers Dominance |
-| PUMMEL | `CTRL-SHIFT-DOWN` | /cast Pummel |
-| SEETHE | `CTRL-SHIFT-LEFT` | /cast Seethe |
-| OVERWATC | `CTRL-SHIFT-RIGHT` | /cast Overwatch |
-| SHATT THROW | `CTRL-SHIFT-TAB` | /cast Shattering Throw |
-| ENDUR RAGE | `CTRL-SHIFT-SPACE` | /cast Enduring Rage |
-| BLOODRAG | `CTRL-SHIFT-ENTER` | /cast Bloodrage |
-| DEATH WISH | `CTRL-SHIFT-BACKSPACE` | /cast Death Wish |
-| DEMOLITI | `CTRL-SHIFT-CAPSLOCK` | /cast Demolition |
-| WAR BANNE | `CTRL-SHIFT-MINUS` | /cast War Banner |
-| DREADNAU | `CTRL-SHIFT-EQUALS` | /cast Dreadnaught |
-| ANGER MANAG | `CTRL-SHIFT-LBRACKET` | /cast Anger Management |
-| IMPRO SWEEP | `CTRL-SHIFT-RBRACKET` | /cast Improved Sweeping Strikes |
-| SHARP BLADE2 | `CTRL-SHIFT-BACKSLASH` | /cast Sharpened Blades |
-| BERSE RAGE | `CTRL-SHIFT-SEMICOLON` | /cast Berserker Rage |
-| VICTO RUSH | `CTRL-SHIFT-APOSTROPHE` | /cast Victory Rush |
-| FROZE BINDS | `CTRL-SHIFT-COMMA` | /cast Frozen Binds |
-| SANGUINE | `CTRL-SHIFT-PERIOD` | /cast Sanguine |
-| SATED | `CTRL-SHIFT-SLASH` | /cast Sated |
-| SBA | `CTRL-SHIFT-GRAVE` | /cast SBA |
-| BLESS OF | `ALT-SHIFT-BUTTON3` | /cast Blessing of Protection |
-| DARK PACT | `ALT-SHIFT-BUTTON4` | /cast Dark Pact |
-| COMBUSTI | `ALT-SHIFT-BUTTON5` | /cast Combustion |
-| ICY VEINS | `ALT-SHIFT-BUTTON6` | /cast Icy Veins |
-| ALTER TIME | `ALT-SHIFT-BUTTON7` | /cast Alter Time |
-| ARCAN POWER | `ALT-SHIFT-BUTTON8` | /cast Arcane Power |
-| DIVIN FAVOR | `ALT-SHIFT-BUTTON9` | /cast Divine Favor |
-| BLESS OF2 | `ALT-SHIFT-BUTTON10` | /cast Blessing of Freedom |
-| POWER INFUS | `ALT-SHIFT-BUTTON11` | /cast Power Infusion |
-| SURVI TACTI | `ALT-SHIFT-BUTTON12` | /cast Survival Tactics |
-| CLOAK OF | `ALT-SHIFT-BUTTON13` | /cast Cloak of Shadows |
-| REFLECT2 | `ALT-SHIFT-BUTTON14` | /cast Reflect |
-| DEVOU PLAGU | `ALT-SHIFT-BUTTON15` | /cast Devouring Plague |
-| ASPEC OF | `ALT-SHIFT-BUTTON16` | /cast Aspect of the Turtle |
-| DIVIN SHIEL | `ALT-SHIFT-BUTTON17` | /cast Divine Shield |
-| ICE BLOCK | `ALT-SHIFT-BUTTON18` | /cast Ice Block |
-| SLAUGHTE | `ALT-SHIFT-BUTTON19` | /cast Slaughterhouse |
-| DEATH SENTE | `ALT-SHIFT-BUTTON20` | /cast Death Sentence |
-| BATTL TRANC | `ALT-SHIFT-BUTTON21` | /cast Battle Trance |
-| BARBARIA | `ALT-SHIFT-BUTTON22` | /cast Barbarian |
+| DISARM A1 | `CTRL-ALT-SHIFT-1` | /stopcasting<br>/cast [@arena1]Disarm |
+| DISARM A2 | `CTRL-ALT-SHIFT-2` | /stopcasting<br>/cast [@arena2]Disarm |
+| DISARM A3 | `CTRL-ALT-SHIFT-3` | /stopcasting<br>/cast [@arena3]Disarm |
+| DISARM A4 | `CTRL-ALT-SHIFT-4` | /stopcasting<br>/cast [@arena4]Disarm |
+| DISARM A5 | `CTRL-ALT-SHIFT-5` | /stopcasting<br>/cast [@arena5]Disarm |
+| DUEL | `CTRL-ALT-SHIFT-6` | /startattack<br>/cast Duel |
+| DUEL A1 | `CTRL-ALT-SHIFT-7` | /cast [@arena1]Duel |
+| DUEL A2 | `CTRL-ALT-SHIFT-8` | /cast [@arena2]Duel |
+| DUEL A3 | `CTRL-ALT-SHIFT-9` | /cast [@arena3]Duel |
+| DUEL A4 | `CTRL-ALT-SHIFT-0` | /cast [@arena4]Duel |
+| DUEL A5 | `CTRL-ALT-SHIFT-A` | /cast [@arena5]Duel |
+| SHARP BLADE | `CTRL-ALT-SHIFT-B` | /startattack<br>/cast Sharpen Blade |
+| ROTATION | `CTRL-ALT-SHIFT-C` | /cast Rotation |
+| SECON ROTAT | `CTRL-ALT-SHIFT-D` | /cast Secondary Rotation |
+| TRINK ROTAT | `CTRL-ALT-SHIFT-E` | /cast Trinket Rotation |
+| ANTIF CC | `CTRL-ALT-SHIFT-F` | /cast AntiFake CC |
+| ANTIF CC FOC | `CTRL-ALT-SHIFT-G` | /cast AntiFake CC Focus |
+| ANTIF INTER | `CTRL-ALT-SHIFT-H` | /cast AntiFake Interrupt |
+| ANTIF INTER FOC | `CTRL-ALT-SHIFT-I` | /cast AntiFake Interrupt Focus |
+| ANTIF CC2 | `CTRL-ALT-SHIFT-J` | /cast AntiFake CC2 |
+| ANTIF CC2 FOC | `CTRL-ALT-SHIFT-K` | /cast AntiFake CC2 Focus |
+| POTION | `CTRL-ALT-SHIFT-L` | /cast Potion |
+| UNIVERSA | `CTRL-ALT-SHIFT-M` | /cast Universal1 |
+| UNIVERSA2 | `CTRL-ALT-SHIFT-N` | /cast Universal2 |
+| UNIVERSA3 | `CTRL-ALT-SHIFT-O` | /cast Universal3 |
+| UNIVERSA4 | `CTRL-ALT-SHIFT-P` | /cast Universal4 |
+| UNIVERSA5 | `CTRL-ALT-SHIFT-Q` | /cast Universal5 |
+| UNIVERSA6 | `CTRL-ALT-SHIFT-R` | /cast Universal6 |
+| UNIVERSA7 | `CTRL-ALT-SHIFT-S` | /cast Universal7 |
+| UNIVERSA8 | `CTRL-ALT-SHIFT-T` | /cast Universal8 |
+| UNIVERSA9 | `CTRL-ALT-SHIFT-U` | /cast Universal9 |
+| UNIVERSA10 | `CTRL-ALT-SHIFT-V` | /cast Universal10 |
+| UNIVERSA U1 | `CTRL-ALT-SHIFT-W` | /cast Universal1 Unit1 |
+| UNIVERSA U2 | `CTRL-ALT-SHIFT-X` | /cast Universal1 Unit2 |
+| UNIVERSA U3 | `CTRL-ALT-SHIFT-Y` | /cast Universal1 Unit3 |
+| UNIVERSA U4 | `CTRL-ALT-SHIFT-Z` | /cast Universal1 Unit4 |
+| UNIVERSA U5 | `ALT-SHIFT-F1` | /cast Universal1 Unit5 |
+| UNIVERSA U12 | `ALT-SHIFT-F2` | /cast Universal2 Unit1 |
+| UNIVERSA U22 | `ALT-SHIFT-F3` | /cast Universal2 Unit2 |
+| UNIVERSA U32 | `ALT-SHIFT-F4` | /cast Universal2 Unit3 |
+| UNIVERSA U42 | `ALT-SHIFT-F5` | /cast Universal2 Unit4 |
+| UNIVERSA U52 | `ALT-SHIFT-F6` | /cast Universal2 Unit5 |
+| UNIVERSA U13 | `ALT-SHIFT-F7` | /cast Universal3 Unit1 |
+| UNIVERSA U23 | `ALT-SHIFT-F8` | /cast Universal3 Unit2 |
+| UNIVERSA U33 | `ALT-SHIFT-F9` | /cast Universal3 Unit3 |
+| UNIVERSA U43 | `ALT-SHIFT-F10` | /cast Universal3 Unit4 |
+| UNIVERSA U53 | `ALT-SHIFT-F11` | /cast Universal3 Unit5 |
+| UNIVERSA U14 | `ALT-SHIFT-F12` | /cast Universal4 Unit1 |
+| UNIVERSA U24 | `ALT-SHIFT-F13` | /cast Universal4 Unit2 |
+| UNIVERSA U34 | `ALT-SHIFT-F14` | /cast Universal4 Unit3 |
+| UNIVERSA U44 | `ALT-SHIFT-F15` | /cast Universal4 Unit4 |
+| UNIVERSA U54 | `ALT-SHIFT-F16` | /cast Universal4 Unit5 |
+| UNIVERSA U15 | `ALT-SHIFT-F17` | /cast Universal5 Unit1 |
+| UNIVERSA U25 | `ALT-SHIFT-F18` | /cast Universal5 Unit2 |
+| UNIVERSA U35 | `ALT-SHIFT-F19` | /cast Universal5 Unit3 |
+| UNIVERSA U45 | `ALT-SHIFT-F20` | /cast Universal5 Unit4 |
+| UNIVERSA U55 | `ALT-SHIFT-F21` | /cast Universal5 Unit5 |
+| UNIVERSA U16 | `ALT-SHIFT-F22` | /cast Universal6 Unit1 |
+| UNIVERSA U26 | `ALT-SHIFT-F23` | /cast Universal6 Unit2 |
+| UNIVERSA U36 | `ALT-SHIFT-F24` | /cast Universal6 Unit3 |
+| UNIVERSA U46 | `CTRL-SHIFT-F1` | /cast Universal6 Unit4 |
+| UNIVERSA U56 | `CTRL-SHIFT-F2` | /cast Universal6 Unit5 |
+| UNIVERSA U17 | `CTRL-SHIFT-F3` | /cast Universal7 Unit1 |
+| UNIVERSA U27 | `CTRL-SHIFT-F4` | /cast Universal7 Unit2 |
+| UNIVERSA U37 | `CTRL-SHIFT-F5` | /cast Universal7 Unit3 |
+| UNIVERSA U47 | `CTRL-SHIFT-F6` | /cast Universal7 Unit4 |
+| UNIVERSA U57 | `CTRL-SHIFT-F7` | /cast Universal7 Unit5 |
+| UNIVERSA U18 | `CTRL-SHIFT-F8` | /cast Universal8 Unit1 |
+| UNIVERSA U28 | `CTRL-SHIFT-F9` | /cast Universal8 Unit2 |
+| UNIVERSA U38 | `CTRL-SHIFT-F10` | /cast Universal8 Unit3 |
+| UNIVERSA U48 | `CTRL-SHIFT-F11` | /cast Universal8 Unit4 |
+| UNIVERSA U58 | `CTRL-SHIFT-F12` | /cast Universal8 Unit5 |
+| UNIVERSA U19 | `CTRL-SHIFT-F13` | /cast Universal9 Unit1 |
+| UNIVERSA U29 | `CTRL-SHIFT-F14` | /cast Universal9 Unit2 |
+| UNIVERSA U39 | `CTRL-SHIFT-F15` | /cast Universal9 Unit3 |
+| UNIVERSA U49 | `CTRL-SHIFT-F16` | /cast Universal9 Unit4 |
+| UNIVERSA U59 | `CTRL-SHIFT-F17` | /cast Universal9 Unit5 |
+| UNIVERSA U110 | `CTRL-SHIFT-F18` | /cast Universal10 Unit1 |
+| UNIVERSA U210 | `CTRL-SHIFT-F19` | /cast Universal10 Unit2 |
+| UNIVERSA U310 | `CTRL-SHIFT-F20` | /cast Universal10 Unit3 |
+| UNIVERSA U410 | `CTRL-SHIFT-F21` | /cast Universal10 Unit4 |
+| UNIVERSA U510 | `CTRL-SHIFT-F22` | /cast Universal10 Unit5 |
+| EVERY MAN | `CTRL-SHIFT-F23` | /cast Every Man for Himself |
+| DARK FLIGH | `CTRL-SHIFT-F24` | /cast Dark Flight |
+| RAVAGER | `CTRL-ALT-SHIFT-F1` | /cast Ravager |
+| WARBREAK | `CTRL-ALT-SHIFT-F2` | /cast Warbreaker |
+| COLOSSUS | `CTRL-ALT-SHIFT-F3` | /cast Colossus Smash |
+| TEST OF | `CTRL-ALT-SHIFT-F4` | /cast Test of Might |
+| BLADESTO | `CTRL-ALT-SHIFT-F5` | /cast Bladestorm |
+| TIDEO BLOOD | `CTRL-ALT-SHIFT-F6` | /cast Tideof Blood |
+| BATTLELO | `CTRL-ALT-SHIFT-F7` | /cast Battlelord |
+| UNHINGED | `CTRL-ALT-SHIFT-F8` | /cast Unhinged |
+| FERVO BATTL | `CTRL-ALT-SHIFT-F9` | /cast Fervorof Battle |
+| HEROI STRIK | `CTRL-ALT-SHIFT-F10` | /cast Heroic Strike |
+| IMPEN VICTO2 | `CTRL-ALT-SHIFT-F11` | /cast Impending Victory |
+| WRECK THROW2 | `CTRL-ALT-SHIFT-F12` | /cast Wrecking Throw |
+| MASSACRE | `CTRL-ALT-SHIFT-F13` | /cast Massacre |
+| SONIC BOOM | `CTRL-ALT-SHIFT-F14` | /cast Sonic Boom |
+| BLOOD THUND | `CTRL-ALT-SHIFT-F15` | /cast Bloodand Thunder |
+| BLADE TORME | `CTRL-ALT-SHIFT-F16` | /cast Blademasters Torment |
+| STORM SWORD | `CTRL-ALT-SHIFT-F17` | /cast Stormof Swords |
+| CRUSH FORCE | `CTRL-ALT-SHIFT-F18` | /cast Crushing Force |
+| WARLO TORME | `CTRL-ALT-SHIFT-F19` | /cast Warlords Torment |
+| BLOODLET | `CTRL-ALT-SHIFT-F20` | /cast Bloodletting |
+| IMPRO SLAM | `CTRL-ALT-SHIFT-F21` | /cast Improved Slam |
+| MERCI BONEG | `CTRL-ALT-SHIFT-F22` | /cast Merciless Bonegrinder |
+| STREN ARMS | `CTRL-ALT-SHIFT-F23` | /cast Strengthof Arms |
+| EXECU PRECI | `CTRL-ALT-SHIFT-F24` | /cast Executioners Precision |
+| JUGGERNA | `ALT-SHIFT-NUMPAD1` | /cast Juggernaut |
+| FIERC FOLLO | `ALT-SHIFT-NUMPAD2` | /cast Fierce Followthrough |
+| SLAYE DOMIN | `ALT-SHIFT-NUMPAD3` | /cast Slayers Dominance |
+| PUMMEL | `ALT-SHIFT-NUMPAD4` | /cast Pummel |
+| SEETHE | `ALT-SHIFT-NUMPAD5` | /cast Seethe |
+| OVERWATC | `ALT-SHIFT-NUMPAD6` | /cast Overwatch |
+| SHATT THROW | `ALT-SHIFT-NUMPAD7` | /cast Shattering Throw |
+| ENDUR RAGE | `ALT-SHIFT-NUMPAD8` | /cast Enduring Rage |
+| BLOODRAG | `ALT-SHIFT-NUMPAD9` | /cast Bloodrage |
+| DEATH WISH | `ALT-SHIFT-NUMPAD0` | /cast Death Wish |
+| DEMOLITI | `ALT-SHIFT-NUMPADPLUS` | /cast Demolition |
+| WAR BANNE | `ALT-SHIFT-NUMPADMINUS` | /cast War Banner |
+| DREADNAU | `ALT-SHIFT-NUMPADMULTIPLY` | /cast Dreadnaught |
+| ANGER MANAG | `ALT-SHIFT-NUMPADDIVIDE` | /cast Anger Management |
+| IMPRO SWEEP | `ALT-SHIFT-NUMPADDECIMAL` | /cast Improved Sweeping Strikes |
+| SHARP BLADE2 | `CTRL-SHIFT-NUMPAD1` | /cast Sharpened Blades |
+| BERSE RAGE | `CTRL-SHIFT-NUMPAD2` | /cast Berserker Rage |
+| VICTO RUSH | `CTRL-SHIFT-NUMPAD3` | /cast Victory Rush |
+| FROZE BINDS | `CTRL-SHIFT-NUMPAD4` | /cast Frozen Binds |
+| SANGUINE | `CTRL-SHIFT-NUMPAD5` | /cast Sanguine |
+| SATED | `CTRL-SHIFT-NUMPAD6` | /cast Sated |
+| SBA | `CTRL-SHIFT-NUMPAD7` | /cast SBA |
+| BLESS OF | `CTRL-SHIFT-NUMPAD8` | /cast Blessing of Protection |
+| DARK PACT | `CTRL-SHIFT-NUMPAD9` | /cast Dark Pact |
+| COMBUSTI | `CTRL-SHIFT-NUMPAD0` | /cast Combustion |
+| ICY VEINS | `CTRL-SHIFT-NUMPADPLUS` | /cast Icy Veins |
+| ALTER TIME | `CTRL-SHIFT-NUMPADMINUS` | /cast Alter Time |
+| ARCAN POWER | `CTRL-SHIFT-NUMPADMULTIPLY` | /cast Arcane Power |
+| DIVIN FAVOR | `CTRL-SHIFT-NUMPADDIVIDE` | /cast Divine Favor |
+| BLESS OF2 | `CTRL-SHIFT-NUMPADDECIMAL` | /cast Blessing of Freedom |
+| POWER INFUS | `CTRL-ALT-SHIFT-NUMPAD1` | /cast Power Infusion |
+| SURVI TACTI | `CTRL-ALT-SHIFT-NUMPAD2` | /cast Survival Tactics |
+| CLOAK OF | `CTRL-ALT-SHIFT-NUMPAD3` | /cast Cloak of Shadows |
+| REFLECT2 | `CTRL-ALT-SHIFT-NUMPAD4` | /cast Reflect |
+| DEVOU PLAGU | `CTRL-ALT-SHIFT-NUMPAD5` | /cast Devouring Plague |
+| ASPEC OF | `CTRL-ALT-SHIFT-NUMPAD6` | /cast Aspect of the Turtle |
+| DIVIN SHIEL | `CTRL-ALT-SHIFT-NUMPAD7` | /cast Divine Shield |
+| ICE BLOCK | `CTRL-ALT-SHIFT-NUMPAD8` | /cast Ice Block |
+| SLAUGHTE | `CTRL-ALT-SHIFT-NUMPAD9` | /cast Slaughterhouse |
+| DEATH SENTE | `CTRL-ALT-SHIFT-NUMPAD0` | /cast Death Sentence |
+| BATTL TRANC | `CTRL-ALT-SHIFT-NUMPADPLUS` | /cast Battle Trance |
+| BARBARIA | `CTRL-ALT-SHIFT-NUMPADMINUS` | /cast Barbarian |

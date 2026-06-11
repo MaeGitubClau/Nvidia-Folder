@@ -22,6 +22,7 @@ Key order per section:
 
 1. `ALT-SHIFT` over the key pool
 2. `CTRL-SHIFT` over the key pool
+3. `CTRL-ALT-SHIFT` over the key pool
 
 The key pool starts with `1-0` and `A-Z`, then uses F-keys, numpad keys, extra keyboard keys, and mouse buttons as needed.
 

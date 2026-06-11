@@ -4,7 +4,7 @@ Status: **PASS**
 
 ## Rules
 
-- Modifier groups: `ALT-SHIFT`, `CTRL-SHIFT`
+- Modifier groups: `ALT-SHIFT`, `CTRL-SHIFT`, `CTRL-ALT-SHIFT`
 - BindPad Warrior Arms entries are ordered first so Warrior keys match the GGL Warrior section.
 - Skips: `race`/`racial`, target/party/member rows, and `Make this key FREE` rows
 
@@ -24,11 +24,11 @@ Status: **PASS**
 
 - blank bindable GGL binds: 0
 - empty non-free GGL descriptions: 0
-- non ALT-SHIFT/CTRL-SHIFT GGL binds: 0
+- non allowed-modifier GGL binds: 0
 - skipped rows still bound: 0
 - duplicate BindPad names: 0
 - duplicate BindPad binds: 0
-- non ALT-SHIFT/CTRL-SHIFT BindPad binds: 0
+- non allowed-modifier BindPad binds: 0
 
 ## Warrior Key Parity
 
