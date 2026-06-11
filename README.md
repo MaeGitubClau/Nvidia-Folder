@@ -4,6 +4,7 @@ Generated on 2026-06-11 from the supplied GGL `Config.ini`.
 
 This package contains:
 
+- `BACKUP.md` - how to back up the original BindPad/keybind files first.
 - `generated/Config.remade.ini` - edited GGL config, UTF-16 like the original.
 - `generated/Config.remade.utf8.ini` - same config in UTF-8 for reviewing on GitHub.
 - `generated/bindpad-import-warrior-arms.txt` - review text for General + Warrior Arms.
@@ -30,11 +31,12 @@ Key order per section:
 
 ## Install Edited GGL Config
 
-1. Close GGL.
-2. Make a backup copy of your current `Config.ini`.
-3. Copy `generated/Config.remade.ini`.
-4. Replace your GGL `Config.ini` with that file.
-5. Open GGL and verify the binds are visible.
+1. Follow `BACKUP.md` first.
+2. Close GGL.
+3. Make a backup copy of your current `Config.ini`.
+4. Copy `generated/Config.remade.ini`.
+5. Replace your GGL `Config.ini` with that file.
+6. Open GGL and verify the binds are visible.
 
 Use `Config.remade.ini` for the actual program. The UTF-8 file is only for easier reading.
 
