@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import argparse
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -126,12 +126,83 @@ def macro_text_for(key: str, value_after_semicolon: str) -> str:
     return f"/cast {key}"
 
 
+def abbreviate_bindpad_key(key: str) -> str:
+    text = key.strip()
+    suffixes: list[str] = []
+
+    suffix_patterns = [
+        (r"\bArena([1-5])\b", "A{}"),
+        (r"\bParty([1-5])\b", "P{}"),
+        (r"\bMember([1-5])\b", "M{}"),
+        (r"\bUnit([0-9]+)\b", "U{}"),
+    ]
+    for pattern, template in suffix_patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            suffixes.append(template.format(match.group(1)))
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE).strip()
+
+    word_suffixes = {
+        "Focus": "FOC",
+        "Mouseover": "MO",
+        "Target": "TGT",
+        "Cursor": "CUR",
+        "Pet": "PET",
+        "Pets": "PETS",
+    }
+    for word, suffix in word_suffixes.items():
+        if re.search(rf"\b{word}\b", text, flags=re.IGNORECASE):
+            suffixes.append(suffix)
+            text = re.sub(rf"\b{word}\b", "", text, flags=re.IGNORECASE).strip()
+
+    text = re.sub(r"\s+", " ", text).strip()
+    upper = text.upper()
+    special = [
+        ("MORTAL STRIKE", "MORTAL"),
+        ("HAMSTRING", "HAM"),
+        ("EXECUTE", "EXE"),
+        ("INTERRUPT", "INT"),
+        ("SHIELD SLAM", "SHIELD"),
+        ("SLAM", "SLAM"),
+        ("CHARGE", "CHARGE"),
+        ("STORM BOLT", "STORM"),
+        ("INTIMIDATING SHOUT", "INTIM"),
+        ("SPELL REFLECTION", "REFLECT"),
+        ("SPELL REFLECT", "REFLECT"),
+        ("WHIRLWIND", "WHIRL"),
+        ("OVERPOWER", "OVER"),
+        ("COLOSSUS SMASH", "COLOSSUS"),
+        ("AVATAR", "AVATAR"),
+        ("REND", "REND"),
+        ("TAUNT", "TAUNT"),
+        ("PUMMEL", "PUMMEL"),
+    ]
+    base = ""
+    for prefix, abbreviation in special:
+        if upper.startswith(prefix):
+            base = abbreviation
+            break
+
+    if not base:
+        words = upper.split()
+        if not words:
+            base = "MACRO"
+        elif len(words) == 1:
+            base = words[0][:8]
+        else:
+            base = " ".join(word[:5] for word in words[:2])
+
+    parts = [base] + suffixes
+    name = " ".join(part for part in parts if part)
+    name = re.sub(r"[^A-Z0-9 _-]", "", name)
+    name = re.sub(r"\s+", " ", name).strip()
+    return (name or "MACRO")[:32]
+
+
 def bindpad_macro_name(section: str, key: str) -> str:
     if section == "General":
-        return key
-    if " - " in section:
-        section = section.rsplit(" - ", 1)[1]
-    return f"{section} - {key}"
+        return ("GEN " + abbreviate_bindpad_key(key))[:32]
+    return abbreviate_bindpad_key(key)
 
 
 def parse_and_generate(lines: list[str], suffix: str):
@@ -196,6 +267,7 @@ def select_bindpad_entries(
 ) -> list[dict[str, str]]:
     selected: list[dict[str, str]] = []
     pool = make_pool("") if unique_binds else []
+    used_names: Counter[str] = Counter()
 
     for entry in entries:
         if section_filter and entry["section"] not in {"General", section_filter}:
@@ -206,6 +278,14 @@ def select_bindpad_entries(
             if len(selected) >= len(pool):
                 raise RuntimeError("not enough unique BindPad keys for selected import")
             selected_entry["bind"] = pool[len(selected)][0]
+
+        base_name = selected_entry["name"][:32]
+        used_names[base_name] += 1
+        if used_names[base_name] > 1:
+            suffix = str(used_names[base_name])
+            selected_entry["name"] = f"{base_name[:31 - len(suffix)]}{suffix}"
+        else:
+            selected_entry["name"] = base_name
         selected.append(selected_entry)
 
     return selected

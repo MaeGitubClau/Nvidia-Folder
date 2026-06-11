@@ -32,29 +32,31 @@ Status: **PASS**
 - plain BindPad letter/number binds: 0
 - addon import escaped/truncated name collisions: 0
 
-## Blank-Description Examples
+## Short BindPad Name Examples
 
-| Row | GGL description | BindPad name | BindPad macro |
-|---|---|---:|---:|
-| Execute | `/cast Execute` | True | True |
-| Hamstring | `/cast Hamstring` | True | True |
-| Slam | `/cast Slam` | True | True |
-| Shield Slam | `/cast Shield Slam` | True | True |
+| Original | BindPad name | GGL description | BindPad text | Addon data |
+|---|---|---|---:|---:|
+| Hamstring | `HAM` | `/cast Hamstring` | True | True |
+| Mortal Strike | `MORTAL` | `/cast Mortal Strike` | True | True |
+| Execute | `EXE` | `/cast Execute` | True | True |
+| Charge Arena1 | `CHARGE A1` | `/cast [@arena1]Charge` | True | True |
+| Interrupt Arena1 | `INT A1` | `/stopcasting§/cast [@arena1]Pummel§/cast [@arena1]Hamstring§/cast [@arena1]Titanic Throw§/cast [@arena1]Heroic Throw` | True | True |
+| Slam | `SLAM` | `/cast Slam` | True | True |
 
 ## Arena Rows
 
-| Row | Config | BindPad text | Addon data | Packaged zip |
-|---|---:|---:|---:|---:|
-| Charge Arena1 | True | True | True | True |
-| Charge Arena2 | True | True | True | True |
-| Charge Arena3 | True | True | True | True |
-| Charge Arena4 | True | True | True | True |
-| Charge Arena5 | True | True | True | True |
-| Interrupt Arena1 | True | True | True | True |
-| Interrupt Arena2 | True | True | True | True |
-| Interrupt Arena3 | True | True | True | True |
-| Interrupt Arena4 | True | True | True | True |
-| Interrupt Arena5 | True | True | True | True |
+| Row | Short name | Config | BindPad text | Addon data | Packaged zip |
+|---|---|---:|---:|---:|---:|
+| Charge Arena1 | `CHARGE A1` | True | True | True | True |
+| Charge Arena2 | `CHARGE A2` | True | True | True | True |
+| Charge Arena3 | `CHARGE A3` | True | True | True | True |
+| Charge Arena4 | `CHARGE A4` | True | True | True | True |
+| Charge Arena5 | `CHARGE A5` | True | True | True | True |
+| Interrupt Arena1 | `INT A1` | True | True | True | True |
+| Interrupt Arena2 | `INT A2` | True | True | True | True |
+| Interrupt Arena3 | `INT A3` | True | True | True | True |
+| Interrupt Arena4 | `INT A4` | True | True | True | True |
+| Interrupt Arena5 | `INT A5` | True | True | True | True |
 
 ## Zip File Match
 
