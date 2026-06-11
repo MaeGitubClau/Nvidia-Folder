@@ -1170,321 +1170,321 @@ Note: Don't use CTRL to bind this key!
 /cast Universal8 Unit3
 
 [Warrior - Arms - Universal8 Unit4]
-@bind SHIFT-1
+@bind CTRL-F1
 /cast Universal8 Unit4
 
 [Warrior - Arms - Universal8 Unit5]
-@bind SHIFT-2
+@bind CTRL-F2
 /cast Universal8 Unit5
 
 [Warrior - Arms - Universal9 Unit1]
-@bind SHIFT-3
+@bind CTRL-F3
 /cast Universal9 Unit1
 
 [Warrior - Arms - Universal9 Unit2]
-@bind SHIFT-4
+@bind CTRL-F4
 /cast Universal9 Unit2
 
 [Warrior - Arms - Universal9 Unit3]
-@bind SHIFT-5
+@bind CTRL-F5
 /cast Universal9 Unit3
 
 [Warrior - Arms - Universal9 Unit4]
-@bind SHIFT-6
+@bind CTRL-F6
 /cast Universal9 Unit4
 
 [Warrior - Arms - Universal9 Unit5]
-@bind SHIFT-7
+@bind CTRL-F7
 /cast Universal9 Unit5
 
 [Warrior - Arms - Universal10 Unit1]
-@bind SHIFT-8
+@bind CTRL-F8
 /cast Universal10 Unit1
 
 [Warrior - Arms - Universal10 Unit2]
-@bind SHIFT-9
+@bind CTRL-F9
 /cast Universal10 Unit2
 
 [Warrior - Arms - Universal10 Unit3]
-@bind SHIFT-0
+@bind CTRL-F10
 /cast Universal10 Unit3
 
 [Warrior - Arms - Universal10 Unit4]
-@bind SHIFT-A
+@bind CTRL-F11
 /cast Universal10 Unit4
 
 [Warrior - Arms - Universal10 Unit5]
-@bind SHIFT-B
+@bind CTRL-F12
 /cast Universal10 Unit5
 
 [Warrior - Arms - Every Man for Himself]
-@bind SHIFT-C
+@bind ALT-F1
 /cast Every Man for Himself
 
 [Warrior - Arms - Dark Flight]
-@bind SHIFT-D
+@bind ALT-F2
 /cast Dark Flight
 
 [Warrior - Arms - Ravager]
-@bind SHIFT-E
+@bind ALT-F3
 /cast Ravager
 
 [Warrior - Arms - Warbreaker]
-@bind SHIFT-F
+@bind ALT-F4
 /cast Warbreaker
 
 [Warrior - Arms - Colossus Smash]
-@bind SHIFT-G
+@bind ALT-F5
 /cast Colossus Smash
 
 [Warrior - Arms - Test of Might]
-@bind SHIFT-H
+@bind ALT-F6
 /cast Test of Might
 
 [Warrior - Arms - Bladestorm]
-@bind SHIFT-I
+@bind ALT-F7
 /cast Bladestorm
 
 [Warrior - Arms - Tideof Blood]
-@bind SHIFT-J
+@bind ALT-F8
 /cast Tideof Blood
 
 [Warrior - Arms - Battlelord]
-@bind SHIFT-K
+@bind ALT-F9
 /cast Battlelord
 
 [Warrior - Arms - Unhinged]
-@bind SHIFT-L
+@bind ALT-F10
 /cast Unhinged
 
 [Warrior - Arms - Fervorof Battle]
-@bind SHIFT-M
+@bind ALT-F11
 /cast Fervorof Battle
 
 [Warrior - Arms - Heroic Strike]
-@bind SHIFT-N
+@bind ALT-F12
 /cast Heroic Strike
 
 [Warrior - Arms - Impending Victory]
-@bind SHIFT-O
+@bind CTRL-ALT-F1
 /cast Impending Victory
 
 [Warrior - Arms - Wrecking Throw]
-@bind SHIFT-P
+@bind CTRL-ALT-F2
 /cast Wrecking Throw
 
 [Warrior - Arms - Massacre]
-@bind SHIFT-Q
+@bind CTRL-ALT-F3
 /cast Massacre
 
 [Warrior - Arms - Sonic Boom]
-@bind SHIFT-R
+@bind CTRL-ALT-F4
 /cast Sonic Boom
 
 [Warrior - Arms - Bloodand Thunder]
-@bind SHIFT-S
+@bind CTRL-ALT-F5
 /cast Bloodand Thunder
 
 [Warrior - Arms - Blademasters Torment]
-@bind SHIFT-T
+@bind CTRL-ALT-F6
 /cast Blademasters Torment
 
 [Warrior - Arms - Stormof Swords]
-@bind SHIFT-U
+@bind CTRL-ALT-F7
 /cast Stormof Swords
 
 [Warrior - Arms - Crushing Force]
-@bind SHIFT-V
+@bind CTRL-ALT-F8
 /cast Crushing Force
 
 [Warrior - Arms - Warlords Torment]
-@bind SHIFT-W
+@bind CTRL-ALT-F9
 /cast Warlords Torment
 
 [Warrior - Arms - Bloodletting]
-@bind SHIFT-X
+@bind CTRL-ALT-F10
 /cast Bloodletting
 
 [Warrior - Arms - Improved Slam]
-@bind SHIFT-Y
+@bind CTRL-ALT-F11
 /cast Improved Slam
 
 [Warrior - Arms - Merciless Bonegrinder]
-@bind SHIFT-Z
+@bind CTRL-ALT-F12
 /cast Merciless Bonegrinder
 
 [Warrior - Arms - Strengthof Arms]
-@bind CTRL-F1
+@bind CTRL-SHIFT-F1
 /cast Strengthof Arms
 
 [Warrior - Arms - Executioners Precision]
-@bind CTRL-F2
+@bind CTRL-SHIFT-F2
 /cast Executioners Precision
 
 [Warrior - Arms - Juggernaut]
-@bind CTRL-F3
+@bind CTRL-SHIFT-F3
 /cast Juggernaut
 
 [Warrior - Arms - Fierce Followthrough]
-@bind CTRL-F4
+@bind CTRL-SHIFT-F4
 /cast Fierce Followthrough
 
 [Warrior - Arms - Slayers Dominance]
-@bind CTRL-F5
+@bind CTRL-SHIFT-F5
 /cast Slayers Dominance
 
 [Warrior - Arms - Pummel]
-@bind CTRL-F6
+@bind CTRL-SHIFT-F6
 /cast Pummel
 
 [Warrior - Arms - Seethe]
-@bind CTRL-F7
+@bind CTRL-SHIFT-F7
 /cast Seethe
 
 [Warrior - Arms - Overwatch]
-@bind CTRL-F8
+@bind CTRL-SHIFT-F8
 /cast Overwatch
 
 [Warrior - Arms - Shattering Throw]
-@bind CTRL-F9
+@bind CTRL-SHIFT-F9
 /cast Shattering Throw
 
 [Warrior - Arms - Enduring Rage]
-@bind CTRL-F10
+@bind CTRL-SHIFT-F10
 /cast Enduring Rage
 
 [Warrior - Arms - Bloodrage]
-@bind CTRL-F11
+@bind CTRL-SHIFT-F11
 /cast Bloodrage
 
 [Warrior - Arms - Death Wish]
-@bind CTRL-F12
+@bind CTRL-SHIFT-F12
 /cast Death Wish
 
 [Warrior - Arms - Demolition]
-@bind ALT-F1
+@bind ALT-SHIFT-F1
 /cast Demolition
 
 [Warrior - Arms - War Banner]
-@bind ALT-F2
+@bind ALT-SHIFT-F2
 /cast War Banner
 
 [Warrior - Arms - Dreadnaught]
-@bind ALT-F3
+@bind ALT-SHIFT-F3
 /cast Dreadnaught
 
 [Warrior - Arms - Anger Management]
-@bind ALT-F4
+@bind ALT-SHIFT-F4
 /cast Anger Management
 
 [Warrior - Arms - Improved Sweeping Strikes]
-@bind ALT-F5
+@bind ALT-SHIFT-F5
 /cast Improved Sweeping Strikes
 
 [Warrior - Arms - Sharpened Blades]
-@bind ALT-F6
+@bind ALT-SHIFT-F6
 /cast Sharpened Blades
 
 [Warrior - Arms - Berserker Rage]
-@bind ALT-F7
+@bind ALT-SHIFT-F7
 /cast Berserker Rage
 
 [Warrior - Arms - Victory Rush]
-@bind ALT-F8
+@bind ALT-SHIFT-F8
 /cast Victory Rush
 
 [Warrior - Arms - Frozen Binds]
-@bind ALT-F9
+@bind ALT-SHIFT-F9
 /cast Frozen Binds
 
 [Warrior - Arms - Sanguine]
-@bind ALT-F10
+@bind ALT-SHIFT-F10
 /cast Sanguine
 
 [Warrior - Arms - Sated]
-@bind ALT-F11
+@bind ALT-SHIFT-F11
 /cast Sated
 
 [Warrior - Arms - SBA]
-@bind ALT-F12
+@bind ALT-SHIFT-F12
 /cast SBA
 
 [Warrior - Arms - Blessing of Protection]
-@bind CTRL-ALT-F1
+@bind CTRL-ALT-SHIFT-F1
 /cast Blessing of Protection
 
 [Warrior - Arms - Dark Pact]
-@bind CTRL-ALT-F2
+@bind CTRL-ALT-SHIFT-F2
 /cast Dark Pact
 
 [Warrior - Arms - Combustion]
-@bind CTRL-ALT-F3
+@bind CTRL-ALT-SHIFT-F3
 /cast Combustion
 
 [Warrior - Arms - Icy Veins]
-@bind CTRL-ALT-F4
+@bind CTRL-ALT-SHIFT-F4
 /cast Icy Veins
 
 [Warrior - Arms - Alter Time]
-@bind CTRL-ALT-F5
+@bind CTRL-ALT-SHIFT-F5
 /cast Alter Time
 
 [Warrior - Arms - Arcane Power]
-@bind CTRL-ALT-F6
+@bind CTRL-ALT-SHIFT-F6
 /cast Arcane Power
 
 [Warrior - Arms - Divine Favor]
-@bind CTRL-ALT-F7
+@bind CTRL-ALT-SHIFT-F7
 /cast Divine Favor
 
 [Warrior - Arms - Blessing of Freedom]
-@bind CTRL-ALT-F8
+@bind CTRL-ALT-SHIFT-F8
 /cast Blessing of Freedom
 
 [Warrior - Arms - Power Infusion]
-@bind CTRL-ALT-F9
+@bind CTRL-ALT-SHIFT-F9
 /cast Power Infusion
 
 [Warrior - Arms - Survival Tactics]
-@bind CTRL-ALT-F10
+@bind CTRL-ALT-SHIFT-F10
 /cast Survival Tactics
 
 [Warrior - Arms - Cloak of Shadows]
-@bind CTRL-ALT-F11
+@bind CTRL-ALT-SHIFT-F11
 /cast Cloak of Shadows
 
 [Warrior - Arms - Reflect]
-@bind CTRL-ALT-F12
+@bind CTRL-ALT-SHIFT-F12
 /cast Reflect
 
 [Warrior - Arms - Devouring Plague]
-@bind CTRL-SHIFT-F1
+@bind CTRL-NUMPAD1
 /cast Devouring Plague
 
 [Warrior - Arms - Aspect of the Turtle]
-@bind CTRL-SHIFT-F2
+@bind CTRL-NUMPAD2
 /cast Aspect of the Turtle
 
 [Warrior - Arms - Divine Shield]
-@bind CTRL-SHIFT-F3
+@bind CTRL-NUMPAD3
 /cast Divine Shield
 
 [Warrior - Arms - Ice Block]
-@bind CTRL-SHIFT-F4
+@bind CTRL-NUMPAD4
 /cast Ice Block
 
 [Warrior - Arms - Slaughterhouse]
-@bind CTRL-SHIFT-F5
+@bind CTRL-NUMPAD5
 /cast Slaughterhouse
 
 [Warrior - Arms - Death Sentence]
-@bind CTRL-SHIFT-F6
+@bind CTRL-NUMPAD6
 /cast Death Sentence
 
 [Warrior - Arms - Battle Trance]
-@bind CTRL-SHIFT-F7
+@bind CTRL-NUMPAD7
 /cast Battle Trance
 
 [Warrior - Arms - Barbarian]
-@bind CTRL-SHIFT-F8
+@bind CTRL-NUMPAD8
 /cast Barbarian

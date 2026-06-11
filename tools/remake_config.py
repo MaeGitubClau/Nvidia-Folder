@@ -67,12 +67,12 @@ GGL_MODS = [
     ("CTRL-SHIFT", "^+"),
     ("ALT-SHIFT", "!+"),
     ("CTRL-ALT-SHIFT", "^!+"),
-    ("SHIFT", "+"),
 ]
 
 PRIMARY_KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 PRIMARY_KEYS += list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 FALLBACK_KEYS = [f"F{i}" for i in range(1, 13)]
+NUMPAD_KEYS = [f"NUMPAD{i}" for i in range(1, 10)] + ["NUMPAD0"]
 
 
 def is_bindable_section(section: str) -> bool:
@@ -99,6 +99,12 @@ def make_pool(suffix: str) -> list[tuple[str, str]]:
 
     for wow_mod, ggl_mod in GGL_MODS:
         for key in FALLBACK_KEYS:
+            bind = "-".join(part for part in [wow_mod, key] if part)
+            ggl = f"{ggl_mod}{key}"
+            pool.append((bind, ggl))
+
+    for wow_mod, ggl_mod in GGL_MODS:
+        for key in NUMPAD_KEYS:
             bind = "-".join(part for part in [wow_mod, key] if part)
             ggl = f"{ggl_mod}{key}"
             pool.append((bind, ggl))
@@ -196,6 +202,18 @@ def build_bindpad_text(entries: list[dict[str, str]], section_filter: str | None
     return "\n".join(lines).rstrip() + "\n"
 
 
+def build_section_markdown(entries: list[dict[str, str]], section: str) -> str:
+    lines = [f"# {section} Keybinds", ""]
+    lines.append("| Name | Bind | Macro |")
+    lines.append("|---|---|---|")
+    for entry in entries:
+        if entry["section"] != section:
+            continue
+        macro = entry["macro"].replace("\n", "<br>")
+        lines.append(f"| {entry['name']} | `{entry['bind']}` | {macro} |")
+    return "\n".join(lines) + "\n"
+
+
 def lua_long_string(text: str) -> str:
     return "BindPadBulkImporterDataText = [==[\n" + text + "]==]\n"
 
@@ -228,6 +246,10 @@ def main() -> int:
 
     addon_text = build_bindpad_text(entries, args.addon_section)
     (out_dir / "bindpad-import-warrior-arms.txt").write_text(addon_text, encoding="utf-8")
+    (out_dir / "warrior-arms-keybinds.md").write_text(
+        build_section_markdown(entries, args.addon_section),
+        encoding="utf-8",
+    )
     (addon_dir / "ImportData.lua").write_text(
         "-- Generated from remade GGL config.\n" + lua_long_string(addon_text),
         encoding="utf-8",

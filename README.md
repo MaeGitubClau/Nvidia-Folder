@@ -26,10 +26,10 @@ Key order per section:
 4. `CTRL-SHIFT` + `1-0`, then `A-Z`
 5. `ALT-SHIFT` + `1-0`, then `A-Z`
 6. `CTRL-ALT-SHIFT` + `1-0`, then `A-Z`
-7. `SHIFT` + `1-0`, then `A-Z` only if the first six modifier groups run out
-8. Modified `F1-F12` fallbacks only after the letter/number pool is exhausted
+7. Same modifier groups with `F1-F12` only if the letter/number pool is exhausted
+8. Same modifier groups with `NUMPAD1-NUMPAD0` only if more keys are still needed
 
-The generator does not use plain unmodified movement keys like `W`, `A`, `S`, `D`, or `SPACE`.
+The generator does not use plain unmodified movement keys like `W`, `A`, `S`, `D`, or `SPACE`. It also does not use `SHIFT`-only letters or numbers.
 
 Rows are skipped only when their note starts with `Make this key FREE`, because those are control/free-key rows that should stay unbound.
 
