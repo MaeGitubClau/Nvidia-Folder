@@ -374,7 +374,7 @@ local function ClearBindPad()
     Print("cleared " .. clearedEntries .. " BindPad entries and " .. clearedBinds .. " BindPad keybinds for this character/profile. Reload UI before importing again.")
 end
 
-local function ImportToBindPad(entries)
+local function ImportToBindPad(entries, forceBindings)
     if InCombatLockdown and InCombatLockdown() then
         Print("leave combat before importing.")
         return
@@ -383,6 +383,7 @@ local function ImportToBindPad(entries)
     local generalTab, characterTab = EnsureBindPadTables()
     local bound = 0
     local skippedExisting = 0
+    local overwrittenExisting = 0
     local bindingSet = GetCurrentBindingSet and GetCurrentBindingSet() or 1
 
     for _, entry in ipairs(entries) do
@@ -402,12 +403,15 @@ local function ImportToBindPad(entries)
 
         if entry.bind and SetBinding then
             local existingAction = GetBindingAction and GetBindingAction(entry.bind) or ""
-            if existingAction ~= "" and not IsBindPadAction(existingAction) then
+            if existingAction ~= "" and not IsBindPadAction(existingAction) and not forceBindings then
                 skippedExisting = skippedExisting + 1
             else
                 local ok = SetBinding(entry.bind, action)
                 if ok then
                     bound = bound + 1
+                    if existingAction ~= "" and not IsBindPadAction(existingAction) then
+                        overwrittenExisting = overwrittenExisting + 1
+                    end
                 else
                     Print("could not bind " .. entry.bind .. " for " .. name .. ".")
                 end
@@ -419,7 +423,7 @@ local function ImportToBindPad(entries)
         SaveBindings(bindingSet)
     end
 
-    Print("imported " .. #entries .. " macros into BindPad" .. (bound > 0 and (" and applied " .. bound .. " safe binds") or "") .. (skippedExisting > 0 and ("; skipped " .. skippedExisting .. " existing WoW binds") or "") .. ". Reload UI, then open BindPad to review.")
+    Print("imported " .. #entries .. " macros into BindPad" .. (bound > 0 and (" and applied " .. bound .. (forceBindings and " forced binds" or " safe binds")) or "") .. (overwrittenExisting > 0 and ("; overwrote " .. overwrittenExisting .. " existing WoW binds") or "") .. (skippedExisting > 0 and ("; skipped " .. skippedExisting .. " existing WoW binds") or "") .. ". Reload UI, then open BindPad to review.")
 end
 
 local function FindMacro(name, isCharacter)
@@ -494,7 +498,25 @@ local function RequestClearBindPad()
     StaticPopup_Show("BINDPAD_BULK_IMPORTER_CLEAR")
 end
 
-local function ImportWith(mode)
+local ImportWith
+
+StaticPopupDialogs["BINDPAD_BULK_IMPORTER_FORCE"] = {
+    text = "Force import and overwrite existing WoW keybinds used by this BindPad package?",
+    button1 = "Force Import",
+    button2 = CANCEL,
+    OnAccept = function()
+        ImportWith("bindpad-force")
+    end,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+}
+
+local function RequestForceImport()
+    StaticPopup_Show("BINDPAD_BULK_IMPORTER_FORCE")
+end
+
+function ImportWith(mode)
     local entries = ParseMacros(GetEditorText())
     if #entries == 0 then
         Print("no macros found. Use [Macro Name] then macro body, or paste Action/Hotkey/Description rows.")
@@ -504,7 +526,9 @@ local function ImportWith(mode)
     if mode == "wow" then
         ImportToWoWMacros(entries)
     elseif mode == "bindpad" then
-        ImportToBindPad(entries)
+        ImportToBindPad(entries, false)
+    elseif mode == "bindpad-force" then
+        ImportToBindPad(entries, true)
     elseif mode == "review" then
         importerFrame.editBox:SetText(EntriesToReviewText(entries))
         importerFrame.editBox:SetCursorPosition(0)
@@ -522,7 +546,7 @@ end
 
 local function CreateImporterFrame()
     local frame = CreateFrame("Frame", "BindPadBulkImporterFrame", UIParent, "BasicFrameTemplateWithInset")
-    frame:SetSize(640, 500)
+    frame:SetSize(780, 500)
     frame:SetPoint("CENTER")
     frame:SetMovable(true)
     frame:EnableMouse(true)
@@ -539,7 +563,7 @@ local function CreateImporterFrame()
     instructions:SetPoint("TOPLEFT", 16, -36)
     instructions:SetPoint("RIGHT", -16, 0)
     instructions:SetJustifyH("LEFT")
-    instructions:SetText("GGL import data is preloaded when included. Import BindPad adds macros and will not overwrite existing WoW keybinds.")
+    instructions:SetText("Import BindPad is safe. Force Import overwrites existing binds used by this package.")
 
     local scrollFrame = CreateFrame("ScrollFrame", nil, frame, "UIPanelScrollFrameTemplate")
     scrollFrame:SetPoint("TOPLEFT", 16, -62)
@@ -549,7 +573,7 @@ local function CreateImporterFrame()
     editBox:SetMultiLine(true)
     editBox:SetAutoFocus(false)
     editBox:SetFontObject(ChatFontNormal)
-    editBox:SetWidth(560)
+    editBox:SetWidth(700)
     editBox:SetText(GetInitialText())
     editBox:SetCursorPosition(0)
     scrollFrame:SetScrollChild(editBox)
@@ -567,8 +591,9 @@ local function CreateImporterFrame()
     button("Check", 16, function() ImportWith("check") end)
     button("Build Review", 140, function() ImportWith("review") end)
     button("Import BindPad", 264, function() ImportWith("bindpad") end)
-    button("Clear BindPad", 388, RequestClearBindPad)
-    button("Close", 512, function() frame:Hide() end)
+    button("Force Import", 388, RequestForceImport)
+    button("Clear BindPad", 512, RequestClearBindPad)
+    button("Close", 636, function() frame:Hide() end)
 
     return frame
 end

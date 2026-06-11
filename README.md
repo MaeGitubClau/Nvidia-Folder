@@ -89,6 +89,8 @@ The importer adds BindPad macros and only applies a key when that key is free or
 
 For the preloaded BindPad import, General + Warrior Arms use one continuous unique key pool so one imported BindPad key does not overwrite another.
 
+If a macro appears in BindPad but its key does not cast in game, the safe import probably skipped that key because WoW already had something bound there. Use `Force Import` in `/bpimport` to overwrite only the keys used by this package.
+
 ### Clear Old BindPad Entries
 
 The `/bpimport` window includes a `Clear BindPad` button. It asks for confirmation, then clears the current General and character BindPad tabs plus BindPad macro keybinds. It does not clear normal Blizzard movement/action-bar keybinds.
