@@ -20,16 +20,12 @@ The generator remakes bindable rows in the GGL config using a deterministic key 
 
 Key order per section:
 
-1. `CTRL` + `1-0`, then `A-Z`
-2. `ALT` + `1-0`, then `A-Z`
-3. `CTRL-ALT` + `1-0`, then `A-Z`
-4. `CTRL-SHIFT` + `1-0`, then `A-Z`
-5. `ALT-SHIFT` + `1-0`, then `A-Z`
-6. `CTRL-ALT-SHIFT` + `1-0`, then `A-Z`
-7. Same modifier groups with `F1-F12` only if the letter/number pool is exhausted
-8. Same modifier groups with `NUMPAD1-NUMPAD0` only if more keys are still needed
+1. `ALT-SHIFT` over the key pool
+2. `CTRL-SHIFT` over the key pool
 
-The generator does not use plain unmodified movement keys like `W`, `A`, `S`, `D`, or `SPACE`. It also does not use `SHIFT`-only letters or numbers.
+The key pool starts with `1-0` and `A-Z`, then uses F-keys, numpad keys, extra keyboard keys, and mouse buttons as needed.
+
+The generator skips rows that say `race`/`racial`, rows that target party/member slots, and rows whose note starts with `Make this key FREE`.
 
 Rows are skipped only when their note starts with `Make this key FREE`, because those are control/free-key rows that should stay unbound.
 

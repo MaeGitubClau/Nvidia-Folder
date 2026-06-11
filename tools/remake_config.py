@@ -61,18 +61,50 @@ KEY_TO_SC = {
 }
 
 GGL_MODS = [
-    ("CTRL", "^"),
-    ("ALT", "!"),
-    ("CTRL-ALT", "^!"),
-    ("CTRL-SHIFT", "^+"),
     ("ALT-SHIFT", "!+"),
-    ("CTRL-ALT-SHIFT", "^!+"),
+    ("CTRL-SHIFT", "^+"),
 ]
 
 PRIMARY_KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 PRIMARY_KEYS += list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-FALLBACK_KEYS = [f"F{i}" for i in range(1, 13)]
-NUMPAD_KEYS = [f"NUMPAD{i}" for i in range(1, 10)] + ["NUMPAD0"]
+FALLBACK_KEYS = [f"F{i}" for i in range(1, 25)]
+NUMPAD_KEYS = [f"NUMPAD{i}" for i in range(1, 10)] + [
+    "NUMPAD0",
+    "NUMPADPLUS",
+    "NUMPADMINUS",
+    "NUMPADMULTIPLY",
+    "NUMPADDIVIDE",
+    "NUMPADDECIMAL",
+]
+EXTRA_KEYS = [
+    "INSERT",
+    "DELETE",
+    "HOME",
+    "END",
+    "PAGEUP",
+    "PAGEDOWN",
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "TAB",
+    "SPACE",
+    "ENTER",
+    "BACKSPACE",
+    "CAPSLOCK",
+    "MINUS",
+    "EQUALS",
+    "LBRACKET",
+    "RBRACKET",
+    "BACKSLASH",
+    "SEMICOLON",
+    "APOSTROPHE",
+    "COMMA",
+    "PERIOD",
+    "SLASH",
+    "GRAVE",
+]
+MOUSE_KEYS = [f"BUTTON{i}" for i in range(3, 31)]
 
 
 def is_bindable_section(section: str) -> bool:
@@ -87,6 +119,17 @@ def is_bindable_key(section: str, value: str) -> bool:
     if after_semicolon.lower().startswith("make this key free"):
         return False
     return True
+
+
+def skip_reason(key: str, description: str) -> str:
+    haystack = f"{key} {description}".lower()
+    if "race" in haystack or "racial" in haystack:
+        return "race"
+    if "target party member" in haystack:
+        return "target_party_member"
+    if re.search(r"\b(member|party)\d*\b", haystack):
+        return "target_party_member"
+    return ""
 
 
 def make_pool(suffix: str) -> list[tuple[str, str]]:
@@ -105,6 +148,18 @@ def make_pool(suffix: str) -> list[tuple[str, str]]:
 
     for wow_mod, ggl_mod in GGL_MODS:
         for key in NUMPAD_KEYS:
+            bind = "-".join(part for part in [wow_mod, key] if part)
+            ggl = f"{ggl_mod}{key}"
+            pool.append((bind, ggl))
+
+    for wow_mod, ggl_mod in GGL_MODS:
+        for key in EXTRA_KEYS:
+            bind = "-".join(part for part in [wow_mod, key] if part)
+            ggl = f"{ggl_mod}{key}"
+            pool.append((bind, ggl))
+
+    for wow_mod, ggl_mod in GGL_MODS:
+        for key in MOUSE_KEYS:
             bind = "-".join(part for part in [wow_mod, key] if part)
             ggl = f"{ggl_mod}{key}"
             pool.append((bind, ggl))
@@ -212,6 +267,7 @@ def parse_and_generate(lines: list[str], suffix: str):
     updated: list[str] = []
     bindpad_entries: list[dict[str, str]] = []
     counts: dict[str, int] = defaultdict(int)
+    overflow: dict[str, int] = defaultdict(int)
     skipped: dict[str, int] = defaultdict(int)
 
     for raw in lines:
@@ -233,17 +289,23 @@ def parse_and_generate(lines: list[str], suffix: str):
             updated.append(stripped)
             continue
 
+        after_semicolon = value.split(";", 1)[1] if ";" in value else ""
+        reason = skip_reason(key, after_semicolon)
+        if reason:
+            skipped[reason] += 1
+            updated.append(f"{key}=;{after_semicolon}")
+            continue
+
         pool = pools[current_section]
         index = used[current_section]
         if index >= len(pool):
-            skipped[current_section] += 1
+            overflow[current_section] += 1
             updated.append(stripped)
             continue
 
         wow_bind, ggl_bind = pool[index]
         used[current_section] += 1
 
-        after_semicolon = value.split(";", 1)[1] if ";" in value else ""
         config_description = after_semicolon if after_semicolon.strip() else f" /cast {key}"
         updated.append(f"{key}={ggl_bind};{config_description}")
 
@@ -257,7 +319,7 @@ def parse_and_generate(lines: list[str], suffix: str):
         )
         counts[current_section] += 1
 
-    return updated, bindpad_entries, counts, skipped
+    return updated, bindpad_entries, counts, overflow, skipped
 
 
 def select_bindpad_entries(
@@ -268,8 +330,13 @@ def select_bindpad_entries(
     selected: list[dict[str, str]] = []
     pool = make_pool("") if unique_binds else []
     used_names: Counter[str] = Counter()
+    source_entries = entries
 
-    for entry in entries:
+    if section_filter:
+        source_entries = [entry for entry in entries if entry["section"] == section_filter]
+        source_entries += [entry for entry in entries if entry["section"] == "General"]
+
+    for entry in source_entries:
         if section_filter and entry["section"] not in {"General", section_filter}:
             continue
 
@@ -340,7 +407,7 @@ def main() -> int:
     original = config_path.read_text(encoding="utf-16")
     source_lines = original.splitlines()
     suffix = find_suffix(source_lines)
-    updated_lines, entries, counts, skipped = parse_and_generate(source_lines, suffix)
+    updated_lines, entries, counts, overflow, skipped = parse_and_generate(source_lines, suffix)
 
     edited_text = "\n".join(updated_lines) + "\n"
     (out_dir / "Config.remade.ini").write_text(edited_text, encoding="utf-16")
@@ -362,17 +429,28 @@ def main() -> int:
     )
 
     summary_lines = ["# Generation Summary", "", f"GGL suffix: `{suffix}`", ""]
+    summary_lines.append("## Sections")
+    summary_lines.append("")
     summary_lines.append("| Section | Generated binds | Skipped overflow |")
     summary_lines.append("|---|---:|---:|")
     for section in sorted(counts):
-        summary_lines.append(f"| {section} | {counts[section]} | {skipped.get(section, 0)} |")
+        summary_lines.append(f"| {section} | {counts[section]} | {overflow.get(section, 0)} |")
+    summary_lines.append("")
+    summary_lines.append("## Intentional Skips")
+    summary_lines.append("")
+    summary_lines.append("| Reason | Rows skipped |")
+    summary_lines.append("|---|---:|")
+    for reason in sorted(skipped):
+        summary_lines.append(f"| {reason} | {skipped[reason]} |")
     (out_dir / "SUMMARY.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
 
     print(f"generated {sum(counts.values())} config binds across {len(counts)} sections")
     print(f"addon section: {args.addon_section}")
     print(f"addon import entries: {addon_text.count('@bind ')}")
+    if any(overflow.values()):
+        print("warning: skipped overflow entries:", dict(overflow))
     if any(skipped.values()):
-        print("warning: skipped overflow entries:", dict(skipped))
+        print("intentional skips:", dict(skipped))
     return 0
 
 
