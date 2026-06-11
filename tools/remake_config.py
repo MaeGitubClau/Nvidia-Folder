@@ -61,14 +61,13 @@ KEY_TO_SC = {
 }
 
 GGL_MODS = [
-    ("ALT-SHIFT", "!+"),
-    ("CTRL-SHIFT", "^+"),
-    ("CTRL-ALT-SHIFT", "^!+"),
-    ("ALT", "!"),
     ("CTRL", "^"),
-    ("SHIFT", "+"),
+    ("ALT", "!"),
     ("CTRL-ALT", "^!"),
-    ("", ""),
+    ("CTRL-SHIFT", "^+"),
+    ("ALT-SHIFT", "!+"),
+    ("CTRL-ALT-SHIFT", "^!+"),
+    ("SHIFT", "+"),
 ]
 
 PRIMARY_KEYS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]

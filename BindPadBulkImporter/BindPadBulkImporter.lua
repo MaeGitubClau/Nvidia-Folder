@@ -318,6 +318,10 @@ local function FirstFreeSlot(tab)
     return i
 end
 
+local function IsBindPadAction(action)
+    return type(action) == "string" and action:match("^CLICK%s+BindPadMacro:")
+end
+
 local function ImportToBindPad(entries)
     if InCombatLockdown and InCombatLockdown() then
         Print("leave combat before importing.")
@@ -326,6 +330,7 @@ local function ImportToBindPad(entries)
 
     local generalTab, characterTab = EnsureBindPadTables()
     local bound = 0
+    local skippedExisting = 0
     local bindingSet = GetCurrentBindingSet and GetCurrentBindingSet() or 1
 
     for _, entry in ipairs(entries) do
@@ -344,11 +349,16 @@ local function ImportToBindPad(entries)
         targetTab.numSlot = math.max(targetTab.numSlot or 49, slot)
 
         if entry.bind and SetBinding then
-            local ok = SetBinding(entry.bind, action)
-            if ok then
-                bound = bound + 1
+            local existingAction = GetBindingAction and GetBindingAction(entry.bind) or ""
+            if existingAction ~= "" and not IsBindPadAction(existingAction) then
+                skippedExisting = skippedExisting + 1
             else
-                Print("could not bind " .. entry.bind .. " for " .. name .. ".")
+                local ok = SetBinding(entry.bind, action)
+                if ok then
+                    bound = bound + 1
+                else
+                    Print("could not bind " .. entry.bind .. " for " .. name .. ".")
+                end
             end
         end
     end
@@ -357,7 +367,7 @@ local function ImportToBindPad(entries)
         SaveBindings(bindingSet)
     end
 
-    Print("imported " .. #entries .. " macros into BindPad" .. (bound > 0 and (" and applied " .. bound .. " binds") or "") .. ". Reload UI, then open BindPad to review.")
+    Print("imported " .. #entries .. " macros into BindPad" .. (bound > 0 and (" and applied " .. bound .. " safe binds") or "") .. (skippedExisting > 0 and ("; skipped " .. skippedExisting .. " existing WoW binds") or "") .. ". Reload UI, then open BindPad to review.")
 end
 
 local function FindMacro(name, isCharacter)
@@ -463,7 +473,7 @@ local function CreateImporterFrame()
     instructions:SetPoint("TOPLEFT", 16, -36)
     instructions:SetPoint("RIGHT", -16, 0)
     instructions:SetJustifyH("LEFT")
-    instructions:SetText("GGL import data is preloaded when included. Review @bind lines, then click Import BindPad out of combat.")
+    instructions:SetText("GGL import data is preloaded when included. Import BindPad adds macros and will not overwrite existing WoW keybinds.")
 
     local scrollFrame = CreateFrame("ScrollFrame", nil, frame, "UIPanelScrollFrameTemplate")
     scrollFrame:SetPoint("TOPLEFT", 16, -62)

@@ -18,15 +18,16 @@ The generator remakes bindable rows in the GGL config using a deterministic key 
 
 Key order per section:
 
-1. `ALT-SHIFT` + `1-0`, then `A-Z`
-2. `CTRL-SHIFT` + `1-0`, then `A-Z`
-3. `CTRL-ALT-SHIFT` + `1-0`, then `A-Z`
-4. `ALT` + keys
-5. `CTRL` + keys
-6. `SHIFT` + keys
-7. `CTRL-ALT` + keys
-8. plain keys
-9. `F1-F12` fallbacks only after the letter/number pool is exhausted
+1. `CTRL` + `1-0`, then `A-Z`
+2. `ALT` + `1-0`, then `A-Z`
+3. `CTRL-ALT` + `1-0`, then `A-Z`
+4. `CTRL-SHIFT` + `1-0`, then `A-Z`
+5. `ALT-SHIFT` + `1-0`, then `A-Z`
+6. `CTRL-ALT-SHIFT` + `1-0`, then `A-Z`
+7. `SHIFT` + `1-0`, then `A-Z` only if the first six modifier groups run out
+8. Modified `F1-F12` fallbacks only after the letter/number pool is exhausted
+
+The generator does not use plain unmodified movement keys like `W`, `A`, `S`, `D`, or `SPACE`.
 
 Rows are skipped only when their note starts with `Make this key FREE`, because those are control/free-key rows that should stay unbound.
 
@@ -66,6 +67,8 @@ Use `Config.remade.ini` for the actual program. The UTF-8 file is only for easie
    ```
 
 8. Open BindPad and verify the imported macros and binds.
+
+The importer adds BindPad macros and only applies a key when that key is free or already points at a BindPad macro. It skips existing Blizzard/WoW bindings instead of overwriting them.
 
 ## Notes
 
