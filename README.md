@@ -87,6 +87,8 @@ The installer backs up `WTF/Account`, backs up/replaces the old `BindPadBulkImpo
 
 The importer adds BindPad macros and only applies a key when that key is free or already points at a BindPad macro. It skips existing Blizzard/WoW bindings instead of overwriting them.
 
+For the preloaded BindPad import, General + Warrior Arms use one continuous unique key pool so one imported BindPad key does not overwrite another.
+
 ### Clear Old BindPad Entries
 
 The `/bpimport` window includes a `Clear BindPad` button. It asks for confirmation, then clears the current General and character BindPad tabs plus BindPad macro keybinds. It does not clear normal Blizzard movement/action-bar keybinds.

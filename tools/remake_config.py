@@ -184,12 +184,32 @@ def parse_and_generate(lines: list[str], suffix: str):
     return updated, bindpad_entries, counts, skipped
 
 
-def build_bindpad_text(entries: list[dict[str, str]], section_filter: str | None = None) -> str:
-    lines = ["#bindpad"]
-    current_tab = ""
+def select_bindpad_entries(
+    entries: list[dict[str, str]],
+    section_filter: str | None = None,
+    unique_binds: bool = False,
+) -> list[dict[str, str]]:
+    selected: list[dict[str, str]] = []
+    pool = make_pool("") if unique_binds else []
+
     for entry in entries:
         if section_filter and entry["section"] not in {"General", section_filter}:
             continue
+
+        selected_entry = dict(entry)
+        if unique_binds:
+            if len(selected) >= len(pool):
+                raise RuntimeError("not enough unique BindPad keys for selected import")
+            selected_entry["bind"] = pool[len(selected)][0]
+        selected.append(selected_entry)
+
+    return selected
+
+
+def build_bindpad_text(entries: list[dict[str, str]]) -> str:
+    lines = ["#bindpad"]
+    current_tab = ""
+    for entry in entries:
         tab = "#general" if entry["section"] == "General" else "#character"
         if tab != current_tab:
             lines.append("")
@@ -241,13 +261,14 @@ def main() -> int:
     (out_dir / "Config.remade.ini").write_text(edited_text, encoding="utf-16")
     (out_dir / "Config.remade.utf8.ini").write_text(edited_text, encoding="utf-8")
 
-    all_text = build_bindpad_text(entries)
+    all_text = build_bindpad_text(select_bindpad_entries(entries))
     (out_dir / "bindpad-import-all.txt").write_text(all_text, encoding="utf-8")
 
-    addon_text = build_bindpad_text(entries, args.addon_section)
+    addon_entries = select_bindpad_entries(entries, args.addon_section, unique_binds=True)
+    addon_text = build_bindpad_text(addon_entries)
     (out_dir / "bindpad-import-warrior-arms.txt").write_text(addon_text, encoding="utf-8")
     (out_dir / "warrior-arms-keybinds.md").write_text(
-        build_section_markdown(entries, args.addon_section),
+        build_section_markdown(addon_entries, args.addon_section),
         encoding="utf-8",
     )
     (addon_dir / "ImportData.lua").write_text(
