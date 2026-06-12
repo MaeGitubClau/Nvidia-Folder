@@ -1,0 +1,6 @@
+## Interface: 110007
+## Title: Modifier Bind Cleaner
+## Notes: Slash-command tool to remove CTRL/ALT keybinds after confirmation.
+## Author: Clawd
+## Version: 1.0.0
+ModifierBindCleaner.lua

@@ -10,6 +10,7 @@ This package contains:
 - `generated/bindpad-import-warrior-arms.txt` - review text for General + Warrior Arms.
 - `generated/bindpad-import-all.txt` - review text for every generated section.
 - `BindPadBulkImporter/` - WoW addon preloaded with General + Warrior Arms.
+- `ModifierBindCleaner/` - optional WoW addon to remove CTRL/ALT keybinds after `/unbindmods confirm`.
 - `Run-Nvidia-Folder-Installer.bat` - double-click Windows installer.
 - `tools/install_nvidia_folder.ps1` - installer script used by the launcher.
 - `tools/remake_config.py` - generator used to rebuild the files.
@@ -93,6 +94,24 @@ If a macro appears in BindPad but its key does not cast in game, the safe import
 The `/bpimport` window includes a `Clear BindPad` button. It asks for confirmation, then clears the current General and character BindPad tabs plus BindPad macro keybinds. It does not clear normal Blizzard movement/action-bar keybinds.
 
 Use it only after backing up `WTF/Account`.
+
+## Optional: Clear CTRL/ALT Binds
+
+Copy `ModifierBindCleaner` into:
+
+```text
+World of Warcraft/_retail_/Interface/AddOns/
+```
+
+In game:
+
+```text
+/unbindmods check
+/unbindmods confirm
+/reload
+```
+
+The addon does not remove anything on load. It only removes CTRL/ALT keybinds after the explicit `confirm` command.
 
 ## Notes
 

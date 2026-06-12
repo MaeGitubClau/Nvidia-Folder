@@ -85,10 +85,15 @@ function Copy-CleanFolder {
 
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 $addonSource = Join-Path $repoRoot "BindPadBulkImporter"
+$cleanerSource = Join-Path $repoRoot "ModifierBindCleaner"
 $configSource = Join-Path $repoRoot "generated\Config.remade.ini"
 
 if (-not (Test-Path $addonSource)) {
     throw "Missing BindPadBulkImporter folder. Run this from the extracted Nvidia-Folder package."
+}
+
+if (-not (Test-Path $cleanerSource)) {
+    throw "Missing ModifierBindCleaner folder. Run this from the extracted Nvidia-Folder package."
 }
 
 if (-not (Test-Path $configSource)) {
@@ -122,6 +127,11 @@ Copy-CleanFolder $addonSource $addonDestination $timestamp
 Write-Host "Addon installed:"
 Write-Host $addonDestination -ForegroundColor Green
 
+$cleanerDestination = Join-Path $addonsPath "ModifierBindCleaner"
+Copy-CleanFolder $cleanerSource $cleanerDestination $timestamp
+Write-Host "Cleaner addon installed:"
+Write-Host $cleanerDestination -ForegroundColor Green
+
 Write-Step "Backing up and replacing GGL config"
 $gglBackup = "$gglConfig.backup-$timestamp"
 Copy-Item $gglConfig $gglBackup -Force
@@ -135,9 +145,10 @@ Write-Step "Done"
 Write-Host "Next steps:"
 Write-Host "1. Start WoW."
 Write-Host "2. Enable BindPad and BindPad Bulk Importer at the AddOns screen."
-Write-Host "3. Log into your Warrior."
-Write-Host "4. Type /bpimport."
-Write-Host "5. Click Import BindPad."
-Write-Host "6. Type /reload."
+Write-Host "3. Enable Modifier Bind Cleaner if you want /unbindmods."
+Write-Host "4. Log into your Warrior."
+Write-Host "5. Type /bpimport."
+Write-Host "6. Click Import BindPad or Force Import."
+Write-Host "7. Type /reload."
 Write-Host ""
 Write-Host "The new importer skips existing WoW keybinds instead of overwriting them." -ForegroundColor Green
